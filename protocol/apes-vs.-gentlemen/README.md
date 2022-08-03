@@ -25,3 +25,8 @@ A=R-\frac{T}{p}.
 $$
 
 Important to notice that, in the absence of deposits or withdrawals, $$R$$ and $$T$$ are fixed, but the price $$p$$ will oscillate.
+
+### APE's Leverage Ratio
+
+### TEA's Collateralization Factor
+
