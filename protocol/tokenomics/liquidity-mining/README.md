@@ -1,0 +1,3 @@
+# Liquidity Mining
+
+Constant emission
