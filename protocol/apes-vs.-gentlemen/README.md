@@ -25,3 +25,16 @@ A=R-\frac{T}{p}.
 $$
 
 Important to notice that, in the absence of deposits or withdrawals, $$R$$ and $$T$$ are fixed, but the price $$p$$ will oscillate.
+
+### TEA's Collateralization Factor
+
+
+### APE's Leverage Ratio
+
+The apes' reserve's expression is exactly equivalent to a margin position with a loan of $$T$$ \[DBT] and initial margin $$A_0=R-T/p_0$$ \[COL] where $$p_0$$ is the starting price. If price increases then $A>A_0$, and if price decreases $A<A_0$. Thus, according to (1) in [ape-token-basics.md](../../introduction/safer-leverage/ape-token-basics.md "mention"), the leverage ratio of this position is
+
+$$
+\begin{equation}
+l_\text{eff}=\frac{R}{A}=1+\frac{T}{pA}.
+\end{equation}
+$$
