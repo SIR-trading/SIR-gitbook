@@ -4,7 +4,7 @@ description: Liquidity providers perform an essentially duty for the stability o
 
 # ⚖ Pool Rebalancing
 
-Expressing the formulas for the collateralization factor and leverage ratio [in the previous section](../apes-vs.-gentlemen/) as a function of the price
+Expressing the formulas for the collateralization factor and leverage ratio [in the previous section](../apes-vs.-gentlemen.md) as a function of the price
 
 $$
 \begin{align} r_\text{eff}&=\frac{R}{T/p} \\
@@ -14,7 +14,7 @@ $$
 
 we find out that if the price increases 📈, the collateralization factor increases 📈 and the leverage decreases 📉; and vice-versa. This is where the **liquidity providers (LPers)** step in to save the day.
 
-#### Leverage In Sync
+### Leverage In Sync
 
 We say that _the leverage is in sync_ when $$l_\text{eff}=l$$ (or equivalently $$r_\text{eff}=r$$). OUTLINE W\ COLOR THIS ON VS.
 

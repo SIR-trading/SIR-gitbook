@@ -1,2 +1,0 @@
-# Trustless Oracle
-

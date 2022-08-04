@@ -1,6 +1,6 @@
 # ↔ Price Stability Range
 
-If the price lies within the Price Stability Range (PSR), bounded below by $$p_\text{low}$$ and above by $$p_\text{high}$$, then the leverage is in sync, i.e., $$l_\text{eff}=l$$. The purpose of the LPers is to keep the price within the PSR and outside the two other possible zones of operation shown in the drawing below.
+If the price lies within the Price Stability Range (PSR), bounded below by $$p_\text{low}$$ and above by $$p_\text{high}$$, then **the leverage is in sync**, i.e., $$l_\text{eff}=l$$. The purpose of the LPers is to keep the price within the PSR and outside the two other possible zones of operation shown in the drawing below.
 
 <img src="../../.gitbook/assets/file.drawing (5).svg" alt="" class="gitbook-drawing">
 
@@ -9,13 +9,13 @@ The 3 distinct price zones informally labelled as _heaven_, _limbo_ and _hell._ 
 | Price Region                                                | Price                                | Leverage & Collateralization                                                                                                      | LPers                |
 | ----------------------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
 | <mark style="background-color:yellow;">"upper limbo"</mark> | $$p > p_\text{high}$$                | $$l_\text{eff}<l$$, $$r_\text{eff}>r$$                                                                                            | 100% APE             |
-| PSR <mark style="background-color:blue;">"heaven"</mark>    | $$p\in[p_\text{low},p_\text{high}]$$ | <p><strong>Leverage in sync</strong></p><p><span class="math">l_\text{eff}=l</span>, <span class="math">r_\text{eff}=r</span></p> | LTEA & APE           |
+| PSR <mark style="background-color:blue;">"heaven"</mark>    | $$p\in[p_\text{low},p_\text{high}]$$ | <p><strong>Leverage in sync</strong></p><p><span class="math">l_\text{eff}=l</span>, <span class="math">r_\text{eff}=r</span></p> | TEA & APE            |
 | <mark style="background-color:yellow;">"lower limbo"</mark> | $$p\in[p_\text{liq},p_\text{low})$$  | $$l_\text{eff}>l$$, $$r_\text{eff}<r$$                                                                                            | 100% TEA             |
 | <mark style="background-color:red;">"hell"</mark>           | $$p <p_\text{liq}$$                  | $$r_\text{eff}<1$$                                                                                                                | :warning: Liquidated |
 
 __
 
-While the price remains in the PSR, the APE token price enjoys the ideal convex payout equation described in [ape-token-basics.md](../../introduction/safer-leverage/ape-token-basics.md "mention").  Also the TEA token remains fully overcollateralized. This is the optimal mode of operation. We say the **leverage is in sync** because the actual leverage matches the pool's targeted leverage. Mathematically, $$p\in [p_\text{low},p_\text{high}]  \Longleftrightarrow l_\text{eff} = l$$.
+While the price remains in the PSR, the APE token price enjoys the ideal convex payout equation described in [ape-token-basics.md](../../introduction/safer-leverage/ape-token-basics.md "mention").  Also the TEA token remains fully overcollateralized. This is the optimal mode of operation. Mathematically, $$p\in [p_\text{low},p_\text{high}]  \Longleftrightarrow l_\text{eff} = l$$.
 
 When price falls below or shoots above the PSR, there is insufficient liquidity to maintain a proper reserve ratio between gentlemen and apes, and the leverage starts to fluctuate. Precisely, the leverage ratio increases below the PSR and decreases above the PSR. While APE fails to maintain a constant leverage, it still remains leveraged. **The APE payout curve becomes linear as that of a margin trade.** TEA still remains fully collateralized.
 
@@ -28,16 +28,14 @@ For readability we do not include the proofs of these formulas.
 $$
 \begin{align}
 p_\text{high} &= p_\text{low} \left(\frac{R}{l \left.A\right|_{p=p_\text{low}}}\right)^{r-1} \\
-p_\text{low} &= rT/R   \\
+p_\text{low} &= \frac{rT}{R}   \\
 p_\text{liq} &= \frac{p_\text{low}}{r} \\
 \end{align}
 $$
 
-EXPLAIN SOME VARS HERE
+### The Role of LPers
 
-### LPers and PSR
-
-Without LPers, the PSR reduces to a single point $$p_\text{low}=p_\text{high}=(r-1)T/A$$ which is essentially the price at which the gentlemen and apes' reserves have a $$1$$-to-$$(r-1)$$ ratio. Because price will fluctuate, it is practically impossible that the leverage can remain in sync without LPers. If LP liquidity is added, the ratio $$p_\text{high}/p_\text{low}$$ increases; and vice-versa.
+Without LPers, the PSR reduces to a single point $$p_\text{low}=p_\text{high}=(r-1)T/A$$, which is essentially the price at which the gentlemen and apes' reserves are in equilibrium and the leverage is in sync. Because price will fluctuate, it is practically impossible that the leverage can remain in sync without LPers. If LP liquidity is added, the ratio $$p_\text{high}/p_\text{low}$$ increases; and vice-versa.
 
 Let $$\Delta L$$ be the increment or decrement in LP liquidity after minting or burning MAAM, respectively. The following table shows the effect of changes in LP liquidity.
 

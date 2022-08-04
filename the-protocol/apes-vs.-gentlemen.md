@@ -4,7 +4,7 @@ description: Apes and gentlemen live in a symbiotic relation where they need eac
 
 # ⚔ Apes vs. Gentlemen
 
-Let $$R$$ be the total amount of collateral deposited in the pool, which we call **the reserve**. [The apes and the gentlemen](../protocol-intro.md#two-types-of-users) "compete" for the collateral in the reserve. Let $$A$$ be the collateral in the reserve allocated to APE, and let $$G$$ be the collateral in the reserve allocated to TEA; then
+Let $$R$$ be the total amount of collateral deposited in the pool, which we call **the reserve**. [The apes and the gentlemen](protocol-intro.md#two-types-of-users) "compete" for the collateral in the reserve. Let $$A$$ be the collateral in the reserve allocated to APE, and let $$G$$ be the collateral in the reserve allocated to TEA; then
 
 $$
 \begin{equation} R=A+G. \end{equation}
@@ -24,7 +24,7 @@ $$
 
 Important to notice that, in the absence of deposits or withdrawals, $$R$$ and $$T$$ are fixed, but the price $$p$$ will oscillate.
 
-#### TEA's Collateralization Factor
+### TEA's Collateralization Factor
 
 Gentlemen's have a claim on $$G$$, a smaller piece of the reserve $$R$$. The fact that the total reserve is larger than the gentlemen's reserve ($$R>G$$) allows the TEA token to withstand fluctuations in the price of the collateral. The real-time collateralization factor is simply
 
@@ -34,9 +34,9 @@ $$
 
 It fluctuates with the state of the pool, and is different from the targeted prescribed pool collateralization factor, $$r$$.
 
-#### APE's Leverage Ratio
+### APE's Leverage Ratio
 
-The apes' reserve expression (3) is exactly equivalent to a margin position with a loan of $$T$$ \[DBT] and initial margin $$A_0=R-T/p_0$$ \[COL] where $$p_0$$ is the starting price. If price increases then $$A>A_0$$, and if price decreases $$A<A_0$$. Thus, according to (1) in [ape-token-basics.md](../../introduction/safer-leverage/ape-token-basics.md "mention"), the real-time leverage ratio of this position is
+The apes' reserve expression (3) is exactly equivalent to a margin position with a loan of $$T$$ \[DBT] and initial margin $$A_0=R-T/p_0$$ \[COL] where $$p_0$$ is the starting price. If price increases then $$A>A_0$$, and if price decreases $$A<A_0$$. Thus, according to (1) in [ape-token-basics.md](../introduction/safer-leverage/ape-token-basics.md "mention"), the real-time leverage ratio of this position is
 
 $$
 \begin{equation} l_\text{eff}=\frac{R}{A}=1+\frac{T}{pA}, \end{equation}

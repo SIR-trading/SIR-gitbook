@@ -8,22 +8,19 @@
 * [Trustless Stablecoins](introduction/trustless-stablecoins/README.md)
   * [🍵 TEA Token Basics](introduction/trustless-stablecoins/tea-token-basics.md)
 
-## Protocol
+## The Protocol
 
-* [⚙ Protocol Intro](protocol/protocol-intro.md)
-* [⚔ Apes vs. Gentlemen](protocol/apes-vs.-gentlemen/README.md)
-* [⚖ Pool Rebalancing](protocol/leverage-rebalancing/README.md)
-  * [↔ Price Stability Range](protocol/leverage-rebalancing/price-stability-range.md)
-* [🤑 Tokenomics](protocol/tokenomics/README.md)
-  * [Liquidity Mining](protocol/tokenomics/liquidity-mining/README.md)
-    * [Alignment of Incentives](protocol/tokenomics/liquidity-mining/alignment-of-incentives.md)
-* [🥣 The Fungible Vault](protocol/the-fungible-vault.md)
-* [Trustless Oracle](protocol/trustless-oracle.md)
-* [Governance](protocol/governance/README.md)
-  * [SIR : the DAO Token](protocol/governance/sir-the-dao-token.md)
-* [Protocol Owned Liquidity](protocol/protocol-owned-liquidity.md)
-
-## Smart Contracts
-
-* [Core](smart-contracts/core.md)
-* [Periphery](smart-contracts/periphery.md)
+* [⚙ Protocol Intro](the-protocol/protocol-intro.md)
+* [⚔ Apes vs. Gentlemen](the-protocol/apes-vs.-gentlemen.md)
+* [⚖ Pool Rebalancing](the-protocol/leverage-rebalancing/README.md)
+  * [↔ Price Stability Range](the-protocol/leverage-rebalancing/price-stability-range.md)
+  * [🚰 Protocol Owned Liquidity](the-protocol/leverage-rebalancing/protocol-owned-liquidity.md)
+* [🥣 The Fungible Vault Analogy](the-protocol/the-fungible-vault.md)
+* [🤑 Tokenomics](the-protocol/tokenomics/README.md)
+  * [SIR : the Token](the-protocol/tokenomics/sir-the-dao-token.md)
+  * [Token Issuance](the-protocol/tokenomics/liquidity-mining.md)
+  * [Alignment of Incentives](the-protocol/tokenomics/alignment-of-incentives.md)
+  * [Liquidity Provision](the-protocol/tokenomics/liquidity-provision.md)
+* [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
+* [Governance](the-protocol/governance/README.md)
+  * [In Construction](the-protocol/governance/in-construction.md)
