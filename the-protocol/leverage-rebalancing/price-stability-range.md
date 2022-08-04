@@ -1,4 +1,4 @@
-# ↔ Price Stability Range
+# ↔ The Price Stability Range
 
 If the price lies within the Price Stability Range (PSR), bounded below by $$p_\text{low}$$ and above by $$p_\text{high}$$, then **the leverage is in sync**, i.e., $$l_\text{eff}=l$$. The purpose of the LPers is to keep the price within the PSR and outside the two other possible zones of operation shown in the drawing below.
 
@@ -50,3 +50,7 @@ From the table, we can infer that what matters is the amount of liquidity added/
 {% hint style="info" %}
 It is easier for pools with a lower leverage ratio to stay in sync because their PSR is larger for the same amount of liquidity.&#x20;
 {% endhint %}
+
+### Protocol Owned Liquidity
+
+Most of the fees are paid to LPers who after all perform the important task of synching the leverage ratio, such that. But 5% of all fees collected are diverged to the protocol which then acts as an LPer. The advantage of **protocol owned liquidity** over regular LPers**,** is that it **will never be withdrawn**. As the pool continues to exist we an only hope that protocol owned liquidity will grow as well increasing the stability of the pool.
