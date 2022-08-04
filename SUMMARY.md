@@ -14,7 +14,7 @@
 * [⚔ Apes vs. Gentlemen](the-protocol/apes-vs.-gentlemen.md)
 * [⚖ Pool Rebalancing](the-protocol/leverage-rebalancing/README.md)
   * [↔ Price Stability Range](the-protocol/leverage-rebalancing/price-stability-range.md)
-  * [🚰 Protocol Owned Liquidity](the-protocol/leverage-rebalancing/protocol-owned-liquidity.md)
+<!---  * [🚰 Protocol Owned Liquidity](the-protocol/leverage-rebalancing/protocol-owned-liquidity.md)
 * [🥣 The Fungible Vault Analogy](the-protocol/the-fungible-vault.md)
 * [🤑 Tokenomics](the-protocol/tokenomics/README.md)
   * [SIR : the Token](the-protocol/tokenomics/sir-the-dao-token.md)
@@ -22,9 +22,12 @@
   * [Alignment of Incentives](the-protocol/tokenomics/alignment-of-incentives.md)
   * [Liquidity Provision](the-protocol/tokenomics/liquidity-provision.md)
 * [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
+* [Governance](the-protocol/governance/README.md)
+  * [In Construction](the-protocol/governance/in-construction.md) 
 
 ## Smart Contracts
 
 * [Core](smart-contracts/core.md)
 * [Periphery](smart-contracts/periphery.md)
 * [Governance](smart-contracts/governance.md)
+--->
