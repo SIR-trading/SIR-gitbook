@@ -51,3 +51,18 @@ $$
 (r_\text{eff}-1)(l_\text{eff}-1)=1.
 \end{equation}
 $$
+
+{% hint style="warning" %}
+The collateralization factor and leverage ratio will fluctuate with the price, and therefore they will diverge from the pool's target values if left untouched.
+{% endhint %}
+
+Combining the previous equations we get the following insightful relations:
+
+$$
+\begin{align}
+R &= l_\text{eff} A \\
+R &= r_\text{eff} G \\
+A &= (r_\text{eff}-1)G \\
+G &= (l_\text{eff}-1)A
+\end{align}
+$$
