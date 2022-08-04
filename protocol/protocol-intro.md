@@ -57,7 +57,7 @@ The properties of the pool defined in the previous section determine the propert
 * TEA is pegged to DBT and backed by a COL reserve with collateralization factor $$r$$
 
 {% hint style="info" %}
-The leverage ratio of the APE token ($$l$$) and the collateralization factor of the TEA token ($$r$$) are connected by the formula in [leverage-and-collateralization.md](apes-vs.-gentlemen/leverage-and-collateralization.md "mention").
+The leverage ratio of the APE token ($$l$$) and the collateralization factor of the TEA token ($$r$$) are connected by the formula in [Broken link](broken-reference "mention").
 {% endhint %}
 
 To summarize,
