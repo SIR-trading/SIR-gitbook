@@ -1,3 +1,7 @@
+---
+description: Apes and gentlemen live in a symbiotic relation where they need each other.
+---
+
 # ⚔ Apes vs. Gentlemen
 
 Let $$R$$ be the total amount of collateral deposited in the pool, which we call **the reserve**. [The apes and the gentlemen](../protocol-intro.md#two-types-of-users) "compete" for the collateral in the reserve. Let $$A$$ be the collateral in the reserve allocated to APE, and let $$G$$ be the collateral in the reserve allocated to TEA; then
@@ -25,9 +29,7 @@ Important to notice that, in the absence of deposits or withdrawals, $$R$$ and $
 Gentlemen's have a claim on $$G$$, a smaller piece of the reserve $$R$$. The fact that the total reserve is larger than the gentlemen's reserve ($$R>G$$) allows the TEA token to withstand fluctuations in the price of the collateral. The real-time collateralization factor is simply
 
 $$
-\begin{equation} 
-r_\text{eff}=\frac{R}{G}=1+\frac{Ap}{T}.
-\end{equation}
+\begin{equation} r_\text{eff}=\frac{R}{G}=1+\frac{Ap}{T}. \end{equation}
 $$
 
 It fluctuates with the state of the pool, and is different from the targeted prescribed pool collateralization factor, $$r$$.
@@ -47,9 +49,7 @@ which fluctuates with the state of the pool, and is different from the targeted 
 From the expressions above it is clear that the collateralization factor and the leverage ratio are two sides of the same coin:
 
 $$
-\begin{equation} 
-(r_\text{eff}-1)(l_\text{eff}-1)=1.
-\end{equation}
+\begin{equation} (r_\text{eff}-1)(l_\text{eff}-1)=1. \end{equation}
 $$
 
 {% hint style="warning" %}
@@ -59,10 +59,5 @@ The collateralization factor and leverage ratio will fluctuate with the price, a
 Combining the previous equations we get the following insightful relations:
 
 $$
-\begin{align}
-R &= l_\text{eff} A \\
-R &= r_\text{eff} G \\
-A &= (r_\text{eff}-1)G \\
-G &= (l_\text{eff}-1)A
-\end{align}
+\begin{align} R &= l_\text{eff} A \\ R &= r_\text{eff} G \\ A &= (r_\text{eff}-1)G \\ G &= (l_\text{eff}-1)A \end{align}
 $$
