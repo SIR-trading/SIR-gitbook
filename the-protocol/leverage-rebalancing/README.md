@@ -16,7 +16,7 @@ we find out that if the price increases 📈, the collateralization factor incre
 
 ### Leverage In Sync
 
-<mark style="background-color:blue;">We say that _the leverage is in sync_ when $$l_\text{eff}=l$$ (or equivalently $$r_\text{eff}=r$$).</mark> 
+We say that _the leverage is in sync_ when $$l_\text{eff}=l$$ (or equivalently $$r_\text{eff}=r$$).
 
 {% hint style="info" %}
 LPers are in charge of buying/selling TEA and APE  in order to keep the leverage synched.
