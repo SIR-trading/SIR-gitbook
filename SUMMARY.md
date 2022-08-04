@@ -12,7 +12,6 @@
 
 * [⚙ Protocol Intro](protocol/protocol-intro.md)
 * [⚔ Apes vs. Gentlemen](protocol/apes-vs.-gentlemen/README.md)
-  * [💳 Apes' Leverage Ratio](protocol/apes-vs.-gentlemen/apes-leverage-ratio.md)
 * [⚖ Leverage Rebalancing](protocol/leverage-rebalancing/README.md)
   * [↔ Price Stability Range](protocol/leverage-rebalancing/price-stability-range.md)
 * [🤑 Tokenomics](protocol/tokenomics/README.md)
