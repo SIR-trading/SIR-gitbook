@@ -14,3 +14,7 @@
 * [⚔ Apes vs. Gentlemen](the-protocol/apes-vs.-gentlemen.md)
 * [⚖ Pool Rebalancing](the-protocol/leverage-rebalancing/README.md)
   * [↔ The Price Stability Range](the-protocol/leverage-rebalancing/price-stability-range.md)
+
+***
+
+* [🔮 Trustless Oracle](trustless-oracle.md)
