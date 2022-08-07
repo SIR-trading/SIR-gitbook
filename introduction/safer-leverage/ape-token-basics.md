@@ -36,7 +36,7 @@ For example, [ETH2X-FLI](https://www.indexcoop.com/ethfli) tracks ETH/USD with 2
 
 #### How to Instantly Rebalance?
 
-Instead of operating on large time intervals for rebalancing, <mark style="background-color:green;">APE tokens</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**rebalance instantly**</mark> upon any price fluctuation. It turns out that if the leverage is always constant. From (1) the theoretical advantages of constant-leverage tokens, such as APE, are that
+Instead of operating on large time intervals for rebalancing, <mark style="background-color:green;">APE tokens</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**rebalance instantly**</mark> upon any price fluctuation. It turns out that if the leverage is always constant, such as is the case of APE, then theoretically from (1)
 
 1. they cannot go to 0 (i.e., be liquidated) because $$q=0$$ only if $$p=0$$, and
 2. the payout grows polynomially as the price increases.
@@ -47,4 +47,4 @@ By mitigating the risk of liquidation and removing the funding fees, APE tokens 
 
 While APE effectively behaves as an instantly rebalanced leveraged token, internally it works different to other leverage derivatives which need to continuously take on debt or pay it off by interacting with a lending platform like [Aave](https://aave.com/).
 
-In SIR, the pool contract uses its own reserve of collateral to increase or decrease the value of the APE token according to formula (1). Liquidity is moved internally (without emitting actual transactions) between the different users in the pool: holders of TEA, holders of APE and liquidity providers (LPers). The pool can do it because the holders of TEA are effectively counter-trading the holders of APE; and the LPers are essentially holding a mixed bag of TEA and APE managed by the pool itself in exchange for protocol fees. More technical details in [leverage-rebalancing](../../the-protocol/leverage-rebalancing/ "mention").
+In SIR, the pool contract uses its own reserve of collateral to increase or decrease the value of the APE token according to formula (1). Liquidity is moved internally (without emitting actual transactions) between holders of TEA, holders of APE and liquidity providers (LPers). The pool can do it because the holders of TEA are effectively counter-trading the holders of APE; and the LPers are essentially holding a mixed bag of TEA and APE managed by the pool itself in exchange for protocol fees. More technical details in [leverage-rebalancing](../../the-protocol/leverage-rebalancing/ "mention").
