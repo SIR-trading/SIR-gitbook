@@ -14,7 +14,7 @@
 * [⚔ Apes vs. Gentlemen](the-protocol/apes-vs.-gentlemen.md)
 * [⚖ Pool Rebalancing](the-protocol/leverage-rebalancing/README.md)
   * [↔ The Price Stability Range](the-protocol/leverage-rebalancing/price-stability-range.md)
-
-***
-
-* [🔮 Trustless Oracle](trustless-oracle.md)
+  * [👒 MAAM Token](the-protocol/leverage-rebalancing/maam-token.md)
+* [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
+* [🧾 Fees Structure](the-protocol/fees-structure.md)
+* [🎩 SIR Token](the-protocol/sir-token.md)

@@ -1,0 +1,5 @@
+# 👒 MAAM Token
+
+PURPOSE
+
+REBASING
