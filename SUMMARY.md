@@ -4,9 +4,9 @@
 
 * [What is SIR?](README.md)
 * [Safer Leverage](introduction/safer-leverage/README.md)
-  * [🦍 APE Token Basics](introduction/safer-leverage/ape-token-basics.md)
+  * [🦍 APE Token](introduction/safer-leverage/ape-token-basics.md)
 * [Trustless Stablecoins](introduction/trustless-stablecoins/README.md)
-  * [🍵 TEA Token Basics](introduction/trustless-stablecoins/tea-token-basics.md)
+  * [🍵 TEA Token](introduction/trustless-stablecoins/tea-token-basics.md)
 
 ## The Protocol
 
