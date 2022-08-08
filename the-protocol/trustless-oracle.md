@@ -6,7 +6,7 @@ As stated [by Chainlink](https://chain.link/education/blockchain-oracles),
 
 To [rebalance each pool](leverage-rebalancing/), the SIR protocols needs the price between the collateral token and debt token.&#x20;
 
-#### The Uniswap V3 Oracle
+### The Uniswap V3 Oracle
 
 SIR's hypothesis is that **any protocol can only be as trustless as its underlying layers of technology**. For this reason SIR uses the Uniswap v3 oracle which is, in our opinion, the most trustless on-chain price oracle for the following reasons:
 
@@ -28,7 +28,7 @@ The above shortcoming is whatsoever not a problem for SIR because a TWAP provide
 Arguably, the biggest shortcoming of Uniswap v3 is that **it can only report prices of ERC20 tokens that exist on-chain**.
 {% endhint %}
 
-#### Weighted Geometric Price Mean&#x20;
+### Weighted Geometric Price Mean&#x20;
 
 Contrarily to standard TWAP where the average across time is a simple arithmetic mean, Uniswap v3 ouputs the [time-weighted-**geometric**-mean](https://twitter.com/danrobinson/status/1455237045568348163?lang=en) (gmTWAP). This is more of a technical consideration and for all practical purposes is very similar to standard TWAP.
 

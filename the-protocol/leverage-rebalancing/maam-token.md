@@ -5,6 +5,6 @@ As explained in the previous sections, LPers hold a mix bag of TEA & APE managed
 1. MAAM <mark style="background-color:red;">can be burnt</mark> to obtain collateral from the pool's reserve
 2. MAAM <mark style="background-color:green;">can be minted</mark> by depositing collateral in the pool
 
-#### Rebasing Token
+### Rebasing Token
 
 In exchange for depositing collateral, LPers get MAAM. Ideally, in the long-run LPers should outperform a pure collateral position  thanks to the fees taxed on the gentlemen and apes. For this reason MAAM is a rebasing token pegged to the collateral, i.e., 1 MAAM = 1 COL.
