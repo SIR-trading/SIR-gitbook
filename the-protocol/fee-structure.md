@@ -1,12 +1,6 @@
 # 🧾 Fee Structure
 
-A core value of SIR is that [**no funding fees**](../introduction/safer-leverage/#a-new-defi-primitive) are charged for holding TEA or APE. This is not the case of perpetual futures which charge a [funding rate](https://www.binance.com/en/blog/futures/a-beginners-guide-to-funding-rates-421499824684900382) which can easily erode anyone's position over the long-term. Instead, we implement a mechanism more akin to spot exchanges where a fee may be charged only when executing the trade. So in the case of SIR, **a fee may be charged upon minting or burning TEA/APE**.
-
-#### Distribution
-
-Fees are the lubricant of the SIR protocol. Fees are taken from gentlemen and apes and paid mainly to LPers. Without fees, LPers would have no incentives to provide liquidity and the leverage would become [out of sync](leverage-rebalancing/price-stability-range.md).
-
-GO INTO MORE DETAILS
+A core value of SIR is that [**no funding fees**](../introduction/safer-leverage/#a-new-defi-primitive) are charged for holding TEA or APE. This is not the case of any other leveraged derivative. For instance, exchanges with [perpetual futures](https://en.wikipedia.org/wiki/Perpetual\_futures) charge a [funding rate](https://www.binance.com/en/blog/futures/a-beginners-guide-to-funding-rates-421499824684900382) which can easily erode anyone's position over the long-term. Instead, we implement a mechanism more akin to spot exchanges where a fee may be charged only when executing the trade. So in the case of SIR, **a fee is charged upon minting or burning TEA/APE**.
 
 #### Free Passes
 
@@ -31,6 +25,24 @@ f_\text{tea} &= (r-1)f_\text{base}
 $$
 
 where $$f_\text{base}$$ is the base fee and it is fixed. For example, for a user minting or burning APE by depositing or withdrawing $$x$$ collateral, he must pay a fee of $$f_\text{ape}\, x$$.
+
+#### Distribution
+
+Fees are the lubricant of any money lego and SIR is no exception. The main recipient of the protocol fees are <mark style="background-color:purple;">LPers</mark> because they perform the critical task of [syncing the leverage](leverage-rebalancing/price-stability-range.md). However, depending on the pool, there are up to two other recipients.
+
+| Fee Recipient            | Allocation for Pool w\o Liquidity Mining | Allocation for Pool with Liquidity Mining |
+| ------------------------ | ---------------------------------------- | ----------------------------------------- |
+| LPers                    | $$95\%$$                                 | $$(100-x)\%$$                             |
+| Protocol Owned Liquidity | $$5\%$$                                  | $$5\%$$                                   |
+| DAO                      | $$0\%$$                                  | $$x\%$$ where $$x\in(0,5]$$               |
+
+Protocol owned liquidity (<mark style="background-color:orange;">POL</mark>) is virtually an LPer that is not controlled by anyone. Because it is not controlled by anyone POL will is like an extremely loyal LPer who will never withdraw its collateral.
+
+Lastly, some selected pools will distribute a small variable part of their fees to the <mark style="background-color:green;">DAO</mark>. As a compensation for the loss of fees, those pools will be issued SIR token, making it some form of liquidity mining. More on this topic in [sir-token.md](sir-token.md "mention").
+
+{% hint style="info" %}
+LPers receive only the fees collected by the pool they are in. This naturally incentivizes LPers to move the pools with the most activity.
+{% endhint %}
 
 #### Beta Period
 

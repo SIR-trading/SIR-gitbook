@@ -15,6 +15,7 @@
 * [⚖ Pool Rebalancing](the-protocol/leverage-rebalancing/README.md)
   * [↔ The Price Stability Range](the-protocol/leverage-rebalancing/price-stability-range.md)
   * [👒 MAAM Token](the-protocol/leverage-rebalancing/maam-token.md)
+  * [🚰 Protocol Owned Liquidity](the-protocol/leverage-rebalancing/protocol-owned-liquidity.md)
 * [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
 * [🧾 Fee Structure](the-protocol/fee-structure.md)
 * [🎩 SIR Token](the-protocol/sir-token.md)
