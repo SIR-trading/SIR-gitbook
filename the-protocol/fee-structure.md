@@ -14,7 +14,7 @@ Fees are the lubricant of the SIR protocol. Fees are taken from gentlemen and ap
 
 To keep the leverage in sync implies that we must have a perfect ratio between the apes' reserve ($$A$$) and the gentlemen reserve ($$G$$) exactly equal to $$G/A=l-1$$. In this perfect scenario, the LPers are in fact not needed. The larger the divergence, the more LP liquidity that is needed to keep the leverage in sync. Therefore, we would want the protocol to get as close as possible to the ideal ratio. To this end when $$G/A<l-1$$ no fees are charged for minting TEA (to encourage $$G$$ increases) and no fees are charged for burning APE (to encourage$$A$$ decreases); and similarly, when $$G/A>l-1$$ no fees are charged for burning TEA and minting APE. In summary,
 
-<table><thead><tr><th></th><th data-type="select">Mint</th><th>Burn</th></tr></thead><tbody><tr><td>TEA <span data-gb-custom-inline data-tag="emoji" data-code="1f375">🍵</span></td><td></td><td><span class="math">G/A \leq l-1</span> ⇔ fee<br><span class="math">G/A>l-1</span> ⇔ no fee</td></tr><tr><td>APE <span data-gb-custom-inline data-tag="emoji" data-code="1f9a7">🦧</span></td><td></td><td>⇔ no fee<br> ⇔ fee</td></tr></tbody></table>
+<table><thead><tr><th></th><th>Mint <span class="math">G/A \leq l-1</span> </th><th>Burn</th></tr></thead><tbody><tr><td>TEA <span data-gb-custom-inline data-tag="emoji" data-code="1f375">🍵</span></td><td></td><td><span class="math">G/A \leq l-1</span> ⇔ fee<br><span class="math">G/A>l-1</span> ⇔ no fee</td></tr><tr><td>APE <span data-gb-custom-inline data-tag="emoji" data-code="1f9a7">🦧</span></td><td></td><td>⇔ no fee<br> ⇔ fee</td></tr></tbody></table>
 
 #### Fee Amount
 
