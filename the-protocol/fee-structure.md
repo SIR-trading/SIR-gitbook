@@ -8,17 +8,20 @@ A core value of SIR is that [no funding fees](../introduction/safer-leverage/#a-
 
 #### LP Incentives
 
-Fees are the lubricant of the SIR protocol. Fees are taken from gentlemen and apes and paid to LPers. Without fees, LPers would have no incentives to provide liquidity and the leverage would become [out of sync](leverage-rebalancing/price-stability-range.md).&#x20;
+Fees are the lubricant of the SIR protocol. Fees are taken from gentlemen and apes and paid to LPers. Without fees, LPers would have no incentives to provide liquidity and the leverage would become [out of sync](leverage-rebalancing/price-stability-range.md).
 
 #### Free Pass
 
 To keep the leverage in sync implies that we must have a perfect ratio between the apes' reserve ($$A$$) and the gentlemen reserve ($$G$$) exactly equal to $$G/A=l-1$$. In this perfect scenario, the LPers are in fact not needed. The larger the divergence, the more LP liquidity that is needed to keep the leverage in sync. Therefore, we would want the protocol to get as close as possible to the ideal ratio. To this end when $$G/A<l-1$$ no fees are charged for minting TEA (to encourage $$G$$ increases) and no fees are charged for burning APE (to encourage$$A$$ decreases); and similarly, when $$G/A>l-1$$ no fees are charged for burning TEA and minting APE. In summary,
 
-<table><thead><tr><th></th><th>Mint <span class="math">G/A \leq l-1</span> </th><th>Burn</th></tr></thead><tbody><tr><td>TEA <span data-gb-custom-inline data-tag="emoji" data-code="1f375">🍵</span></td><td></td><td><span class="math">G/A \leq l-1</span> ⇔ fee<br><span class="math">G/A>l-1</span> ⇔ no fee</td></tr><tr><td>APE <span data-gb-custom-inline data-tag="emoji" data-code="1f9a7">🦧</span></td><td></td><td>⇔ no fee<br> ⇔ fee</td></tr></tbody></table>
+|                                                             | $$G/A < l-1$$                                       | $$G/A > l-1$$                                       |
+| ----------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| <mark style="color:green;">Mint</mark> 🪄 TEA :tea:         | <mark style="background-color:green;">no fee</mark> | <mark style="background-color:red;">fee</mark>      |
+| <mark style="color:red;">Burn</mark> :fire: TEA :tea:       | <mark style="background-color:red;">fee</mark>      | <mark style="background-color:green;">no fee</mark> |
+| <mark style="color:green;">Mint</mark> 🪄 APE :orangutan:   | <mark style="background-color:green;">no fee</mark> | <mark style="background-color:red;">fee</mark>      |
+| <mark style="color:red;">Burn</mark> :fire: APE :orangutan: | <mark style="background-color:red;">fee</mark>      | <mark style="background-color:green;">no fee</mark> |
 
 #### Fee Amount
-
-
 
 To finely adjust, the fees will be left as a tunable parameter during the beta testing of SIR.
 
