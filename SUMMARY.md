@@ -16,5 +16,5 @@
   * [↔ The Price Stability Range](the-protocol/leverage-rebalancing/price-stability-range.md)
   * [👒 MAAM Token](the-protocol/leverage-rebalancing/maam-token.md)
 * [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
-* [🧾 Fees Structure](the-protocol/fees-structure.md)
+* [🧾 Fee Structure](the-protocol/fee-structure.md)
 * [🎩 SIR Token](the-protocol/sir-token.md)
