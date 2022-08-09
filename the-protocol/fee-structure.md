@@ -43,7 +43,3 @@ Lastly, some selected pools will distribute a small variable part of their fees 
 {% hint style="info" %}
 LPers receive only the fees collected by the pool they are in. So naturally LPers will want to move to the pools with the most activity.
 {% endhint %}
-
-### Beta Period
-
-Fees are a critical part of any money lego. For instance, [Uniswap v3 only overtook Curve as primary DEX for stablecoin trading once it enable it's 0.01% fee tier](https://twitter.com/RyanWatkins\_/status/1483640421502885888). That is because LPers barely suffer from [impermanent loss](https://medium.com/coinmonks/understanding-impermanent-loss-9ac6795e5baa) in stablecoin-to-stablecoin pairs, and so they can accept much smaller trading comissions for their liquidity. However, it is clear that a 0% fee tier would not work because LPers would have no incentives. Choosing the right fee structure is a sensitive choice for any project. On the one hand, too large fees may discourage users, and on the other hand, too little fees may discourage LPers. So to finely adjust the fee value charged to users, the base fee value ($$f_\text{base}$$) will be tuned during the beta testing of SIR.

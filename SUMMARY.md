@@ -19,3 +19,4 @@
 * [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
 * [🧾 Fee Structure](the-protocol/fee-structure.md)
 * [🎩 SIR Token](the-protocol/sir-token.md)
+* [🧪 Beta Period](the-protocol/beta-period.md)
