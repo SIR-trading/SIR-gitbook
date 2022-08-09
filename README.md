@@ -7,7 +7,7 @@ coverY: 543.5684647302904
 
 Synthetics Implemented Right (SIR) is a new DeFi primitive for the issuance of 2 type of synthetic tokens:
 
-1. <mark style="background-color:blue;">constant-leverage tokens,</mark> suitable for **long-term investing**,&#x20;
+1. <mark style="background-color:blue;">constant-leverage tokens,</mark> suitable for **long-term investing**,
 2. <mark style="background-color:green;">pegged tokens</mark>, including **trustless stablecoins**
 
 We built SIR from first principles with the following quote ([ETH is irreplacable ](https://newsletter.banklesshq.com/p/eth-is-irreplaceable#%C2%A7eyes-on-the-prize)by Ryan S. Adams) in mind:
@@ -21,6 +21,6 @@ So SIR is...
 |      immutable | <p>Non-upgradeable smart contracts.<br>No tunable parameters.*</p>                                                                                                                     |
 |         atomic | It a self-contained protocol whose only external dependency is the [Uniswap v3](https://uniswap.org/) oracle. Uniswap v3 is also permissionless/immutable/atomic, i.e., **trustless**. |
 
----
+***
 
-\* During the beta period a multisig formed by developers and advisors will have the permission to freeze minting. so that in case of a critical bug users can be stopped from minting and depositing more capital. Withdrawals can never be halted.
+\* During the [beta period](the-protocol/beta-period.md) a multisig formed by developers and advisors will have the permission to freeze minting. So that in case of a critical bug, users can be stopped from minting and depositing more capital. Withdrawals can never be halted.

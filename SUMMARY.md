@@ -18,5 +18,6 @@
   * [🚰 Protocol Owned Liquidity](the-protocol/leverage-rebalancing/protocol-owned-liquidity.md)
 * [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
 * [🧾 Fee Structure](the-protocol/fee-structure.md)
-* [🎩 SIR Token](the-protocol/sir-token.md)
+* [🎩 SIR Token](the-protocol/sir-token/README.md)
+  * [📐 Optimum Pool Selection](the-protocol/sir-token/sir-token.md)
 * [🧪 Beta Period](the-protocol/beta-period.md)

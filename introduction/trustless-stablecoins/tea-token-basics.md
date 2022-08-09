@@ -1,4 +1,4 @@
-# 🍵 TEA Token Basics
+# 🍵 TEA Token
 
 TEA tokens are pegged to other tokens/assets, i.e., they track their price. A prominent example are stablecoins which are usually pegged to USD, such as USDC, USDT or DAI. Another good example are [Synths](https://synthetix.io/synths) pegged to other coins. Each TEA token is managed by a pool contract. At the creation of the pool, the creator specifies 3 parameters that define TEA:
 
@@ -24,5 +24,5 @@ Anyone can create a TEA token with any choice of parameters, but most likely, on
 Some possible applications of TEA are
 
 1. trustless decentralized stablecoins
-2. exposure to the price of other tokens without their smart contract logic flaws (e.g. Circle freezing USDC balances at will)
+2. exposure to the price of other tokens without their smart contract logic flaws (e.g. [Circle freezing Tornado Cash USDC balances](https://cointelegraph.com/news/circle-freezes-blacklisted-tornado-cash-smart-contract-addresses))
 {% endhint %}
