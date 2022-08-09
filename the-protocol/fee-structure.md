@@ -38,7 +38,7 @@ Fees are the lubricant of any money lego and SIR is no exception. The main recip
 
 [Protocol owned liquidity](leverage-rebalancing/protocol-owned-liquidity.md) (<mark style="background-color:orange;">POL</mark>) is virtually an LPer that is not controlled by anyone. Because it is not controlled by anyone POL will is like an extremely loyal LPer who will never withdraw its collateral.
 
-Lastly, some selected pools will distribute a small variable part of their fees to the <mark style="background-color:green;">DAO</mark>. As a compensation for the loss of fees, those pools will be issued SIR token, making it some form of liquidity mining. More on this topic in [sir-token](sir-token/ "mention").
+Lastly, some selected pools will distribute a small variable part of their fees to the <mark style="background-color:green;">DAO</mark>. As a compensation for the loss of fees, those pools will be issued SIR token, making it some form of liquidity mining. More on this topic in [sir-token.md](sir-token.md "mention").
 
 {% hint style="info" %}
 LPers receive only the fees collected by the pool they are in. So naturally LPers will want to move to the pools with the most activity.

@@ -25,13 +25,13 @@ The DAO is in charge of selecting the pools receiving the SIR tokens. The select
 100% of SIR token emissions go to LPers&#x20;
 {% endhint %}
 
-The term "liquidity mining" usually refers to the concept that LPers are rewarded with some internal token in exchange for their liquidity. The main idea is that liquidity in the protocol can be further boosted by adding extra rewards in addition to the collected fees. This helps boost the following **positive feedback loop**: (1) As LP liquidity increases, [the pool's leverage ratio becomes more stable](../leverage-rebalancing/price-stability-range.md), which attracts mores users in search for safe leverage and trustless stablecoins. More usage increases the collected fees, which subsequently attracts more LPers, increasing LP liquidity, etcetera.
+The term "liquidity mining" usually refers to the concept that LPers are rewarded with some internal token in exchange for their liquidity. The main idea is that liquidity in the protocol can be further boosted by adding extra rewards in addition to the collected fees. This helps boost the following **positive feedback loop**: (1) As LP liquidity increases, [the pool's leverage ratio becomes more stable](leverage-rebalancing/price-stability-range.md), which attracts mores users in search for safe leverage and trustless stablecoins. More usage increases the collected fees, which subsequently attracts more LPers, increasing LP liquidity, etcetera.
 
-DRAW POSITIVE FEEDBACK LOOP
+<img src="../.gitbook/assets/file.drawing.svg" alt="The positive feedback loop of a money lego" class="gitbook-drawing">
 
 ### Treasury Fund
 
-The DAO treasury fund feeds from fees collected from the protocol. The token holders have the power to spend such funds as they see fit. However, not all pools contribute to the DAO treasury. In order for a pool to give some of its fees to the DAO, it must receive a piece of the SIR token emissions in return. More details in [sir-token.md](sir-token.md "mention").
+The DAO treasury fund feeds from fees collected from the protocol. The token holders have the power to spend such funds as they see fit. However, not all pools contribute to the DAO treasury. In order for a pool to give some of its fees to the DAO, it must receive a piece of the SIR token emissions in return. More details in [sir-token.md](sir-token/sir-token.md "mention").
 
 ### Issuance
 
