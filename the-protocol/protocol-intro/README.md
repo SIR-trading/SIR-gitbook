@@ -41,3 +41,15 @@ To summarize,
 {% hint style="info" %}
 There is a 3rd type of user 🤵‍♀️, the liquidity providers (or LPers for short). Their token is called MAAM. More on it in [maam-token.md](../leverage-rebalancing/maam-token.md "mention").
 {% endhint %}
+
+### Minting / Burning
+
+<mark style="background-color:green;">Minting</mark> :magic\_wand:: A user deposits the collateral token of the pool an gets TEA, APE or MAAM depending on what he wants.
+
+<mark style="background-color:red;">Burning</mark> :fire:: A user burns TEA, APE or MAAM and instantly gets its value worth in collateral from the pool.
+
+{% hint style="info" %}
+The SIR protocol will always offer instant liquidity.
+{% endhint %}
+
+All three types of tokens, TEA, APE and MAAM, can be minted or burnt at any time. There are no bottlenecks that slow down withdrawals or deposits, or other-like functionalities like freezing.
