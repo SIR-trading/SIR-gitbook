@@ -32,7 +32,7 @@ Next, we analyze two different implementations of the proposed [rewards allocati
 
 ### Smart-Contract-Based Rewards Allocation
 
-The naïve approach would be to hard code the rewards allocation into the smart contract. The problems are twofold:
+The naïve approach would be to hard code the rewards allocation into the smart contract. The problems with this approach are twofold:
 
 1. It could be gamified/manipulated by a small group of LPers to maximize their own rewards
 2. It is difficult to calculate $$v_i$$ for every pool because they use different collateral tokens
@@ -51,7 +51,7 @@ Evaluating every pool's fee revenue is hard because each pool has its own collat
 
 As outlined in the previous section, a smart contract solution for achieving (1) is hard. Instead, we rely on a solution based on human discretion and economic incentives.&#x20;
 
-We show next that by enforcing at the smart contract that the fees taxed from each pool are subject to
+We show next that by enforcing via smart contract that the fees taxed from each pool are subject to
 
 $$
 \begin{equation}
@@ -59,7 +59,7 @@ $$
 \end{equation}
 $$
 
-the DAO will be economically incentivized to allocate according to (1).
+the DAO will be economically incentivized to allocate rewards as in (1).
 
 #### Proof
 
@@ -79,8 +79,8 @@ c_i= \gamma\,v_i \;\forall i
 \end{equation}
 $$
 
-where $$\gamma = 5 (v_1^2+\cdots+v_N^2)^{-1/2}$$ is a constant. Combining (3)  and (2), we get (1).
+where $$\gamma = 5 (v_1^2+\cdots+v_N^2)^{-1/2}$$ is a constant. Combining (3) and (2), we get (1).
 
 {% hint style="info" %}
-In summary, thanks to constraint (1), the DAO is economically incentivized to reward pools with an amount of SIR token proportional to their fee volume.
+In summary, thanks to the constraint on the pool taxes in [#rewards-allocation](sir-token.md#rewards-allocation "mention"), the DAO is economically incentivized to reward pools with an amount of SIR token proportional to their fee revenue.
 {% endhint %}
