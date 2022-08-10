@@ -21,6 +21,8 @@ So SIR is...
 |      immutable | <p>Non-upgradeable smart contracts.<br>No tunable parameters.*</p>                                                                                                                     |
 |         atomic | It a self-contained protocol whose only external dependency is the [Uniswap v3](https://uniswap.org/) oracle. Uniswap v3 is also permissionless/immutable/atomic, i.e., **trustless**. |
 
+{% hint style="info" %}
 ***
+{% endhint %}
 
 \* During the [beta period](the-protocol/beta-period.md) a multisig formed by developers and advisors will have the permission to freeze minting. So that in case of a critical bug, users can be stopped from minting and depositing more capital. Withdrawals can never be halted.

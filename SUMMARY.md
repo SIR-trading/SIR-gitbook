@@ -19,5 +19,5 @@
 * [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
 * [🧾 Fee Structure](the-protocol/fee-structure.md)
 * [🎩 SIR Token](the-protocol/sir-token.md)
-  * [📐 Optimum Pool Selection](the-protocol/sir-token/sir-token.md)
+  * [⛏ Liquidity Mining at the Protocol Level](the-protocol/sir-token/sir-token.md)
 * [🧪 Beta Period](the-protocol/beta-period.md)
