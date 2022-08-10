@@ -6,15 +6,15 @@ Contrary to [previous projects' liquidity mining](https://101blockchains.com/liq
 
 #### Rewards Allocation
 
-Assume pools are enumerated from $$1$$ to $$N$$. Let $$v_i \text{ [USD/day]}$$ be the revenue in fees made by pool $$i$$. Furthermore, let $$r_i \text{ [SIR/day]}$$ be the rewards received by pool $$i$$. <mark style="background-color:green;">Our goal is that each pool receives an amount of SIR tokens proportional to its revenue in fees</mark>:
+Assume pools are enumerated from $$1$$ to $$N$$. Let $$v_i \text{ [USD/day]}$$ be the revenue in fees made by pool $$i$$. Furthermore, let $$R\text{ [SIR/day]}$$ be the SIR token issuance, and let $$r_i \text{ [SIR/day]}$$ be the rewards received by pool $$i$$ such that $$r_1+\cdots+r_N=R$$. <mark style="background-color:green;">Our goal is that each pool receives an amount of SIR tokens proportional to its revenue in fees</mark>:
 
 $$
 \begin{equation}
-r_i = \beta\, v_i \;\forall i
+r_i = \alpha\, v_i \;\forall i
 \end{equation}
 $$
 
-for some constant $$\beta$$.
+where $$\alpha = R / (v_1+\cdots+v_N)$$ is a normalization constant. As explained in [the next section](sir-token.md#the-drawbacks-of-algorithmic-liquidity-mining) **this condition **<mark style="color:red;">**cannot**</mark>** be easily implemented via smart contract.**
 
 #### Fair Tax
 
@@ -22,11 +22,11 @@ Let $$c_i$$ be the % of fees taken by the DAO from pool $$i$$. For example if $$
 
 $$
 \begin{equation}
-c_i = \alpha\, r_i \;\forall i
+c_i = \beta\, r_i \;\forall i
 \end{equation}
 $$
 
-for some constant $$\alpha$$. **This condition can be easily implemented via smart contract.**
+for some constant $$\beta$$. **This condition can be **<mark style="color:green;">**easily**</mark>** implemented via smart contract.**
 
 Next, we analyze two different implementations of the proposed [rewards allocation](sir-token.md#rewards-allocation).
 
@@ -45,15 +45,13 @@ In another example, the LPers could also open a pool with a collateral token who
 
 #### Heterogenous Tokens
 
-Because pools can use arbitrary collateral tokens, which is the token the fees are paid on, it may be difficult to assest the fee
-
 Evaluating every pool's fee revenue is hard because each pool has its own collateral token (the fees are paid in collateral token). To assess the fee revenue precisely would require some price conversion between all these tokens to a common token. However, this opens another can of worms.  How to get the price between any two tokens in a trustless manner? Uniswap does not have exchange pairs for every pair of tokens. What if the price is unreliable because it is obtained from a highly illiquid pool? The problems quickly stack up. &#x20;
 
 ### Incentive-Driven Rewards Allocation
 
-As outlined in the previous section, a purely algorithmic solution is hard. Instead, we rely on a solution based on human discretion and economic incentives. The idea is simple, we let the DAO decide on the amount of fees subtracted from each pool.&#x20;
+As outlined in the previous section, a smart contract solution for achieving (1) is hard. Instead, we rely on a solution based on human discretion and economic incentives.&#x20;
 
-The only condition enforced by the protocol is that
+We show next that by enforcing at the smart contract that the fees taxed from each pool are subject to
 
 $$
 \begin{equation}
@@ -61,7 +59,11 @@ $$
 \end{equation}
 $$
 
-Because the fee allocation must be voted by the DAO, it is harder for a group of holders with a small stake to manipulate the outcome. From the DAO perspective, to maximize the treasury and consequently the SIR token price, the best strategy is to take fees from the pools generating the highest fees. In other words, the DAO is economically incentivized to
+the DAO will be economically incentivized to allocate according to (1).
+
+#### Proof
+
+The DAO's best interest is to maximize the treasury which will indirectly boost the SIR token price. Consequently, the DAO's optimum strategy is to tax the pools generating the highest fees. In other words, the DAO is economically incentivized to
 
 $$
 \begin{equation}
@@ -69,13 +71,15 @@ $$
 \end{equation}
 $$
 
-where $$v_i$$ are the fees generated over some time period by the $$i$$-th pool (all denominated in the same currency). It turns out that the optimum solution to (2) subject to (1) is
+where $$v_i$$ is the fee revenue of pool $$i$$. It turns out that the optimum solution to (3) subject to (2) is
 
 $$
-f_i= \beta \,v_i \;\forall i
+\begin{equation}
+c_i= \gamma\,v_i \;\forall i
+\end{equation}
 $$
 
-where $$\beta$$ is a constant.
+where $$\gamma = 5 (v_1^2+\cdots+v_N^2)^{-1/2}$$ is a constant. Combining (3)  and (2), we get (1).
 
 {% hint style="info" %}
 In summary, thanks to constraint (1), the DAO is economically incentivized to reward pools with an amount of SIR token proportional to their fee volume.
