@@ -19,25 +19,32 @@ Another problem with any automated strategy is that it will need to evaluate man
 
 ### Solution: Incentive-Driven Liquidity Mining
 
-As outlined in the previous section, a purely automated, via smart contract, solution is practically impossible. Instead, we rely on a solution based on human discretion and economic incentives. The idea is simple, we let the DAO decide on the fee assigned to each pool. Let $$f_i$$ be the fee assigned to pool $$i$$, and assume the pools are enumerated from $$1$$ to $$N$$. The only condition enforced by the protocol is that
+As outlined in the previous section, a purely automated, via smart contract, solution is practically impossible. Instead, we rely on a solution based on human discretion and economic incentives. The idea is simple, we let the DAO decide on the amount of fees subtracted from each pool.&#x20;
+
+MENTION REWARDS PROPORTIONAL TO CUT
+
+Let $$f_i$$ be the fee assigned to pool $$i$$, and assume pools are enumerated from $$1$$ to $$N$$. The only condition enforced by the protocol is that
 
 $$
-\sqrt{f_1^2+\ldots+f_N^2}=5 \;[\%].
+\begin{equation}
+\sqrt{f_1^2+\cdots+f_N^2} \leq 5 \;[\%].
+\end{equation}
 $$
 
-where $$\$$
-
-Let $$R$$ \[tokens/day] be the token emission , and let $$r$$ \[tokens/day] be the rate of tokens received by a specific pool. Then, this specific pool's contribution to the DAO is
+Because the fee allocation must be voted by the DAO, it is harder for a group of holders with a small stake to manipulate the outcome. From the DAO perspective, to maximize the treasury and consequently the SIR token price, the best strategy is to take fees from the pools generating the highest fees. In other words, the DAO is economically incentivized to
 
 $$
-\text{Fees given to the DAO per pool} = 5\% \frac{r}{R}.
+\begin{equation}
+\max f_1v_1+\cdots+f_Nv_N
+\end{equation}
 $$
 
+where $$v_i$$ are the fees generated over some time period by the $$i$$-th pool (all denominated in the same currency). It turns out that the optimum solution to (2) subject to (1) is
 
+$$
+f_i=\frac{5}{\sqrt{v_1^2+\cdots+v_N^2} }v_i \propto v_i.
+$$
 
-EXPLAIN HOW THIS METHOD ALIGNS TOKEN HOLDERS WITH THE PROTOCOLS BEST INTEREST.
-
-
-
-INCENTIVES ALIGNMENT. IT IS IN THE BEST INTEREST OF TOKEN HOLDERS TO POINT THE LIQUIDITY MINING PROGRAM TO THE MOST PROFITABLE POOLS, WHICH IN TURN HELPS THEM STABILIZE FURTHER, MAKING THEM EVEN BETTER IN A POSITIVE FEEDBACK LOOP
-
+{% hint style="info" %}
+In summary, thanks to constraint (1), the DAO is economically incentivized to reward pools with an amount of SIR token proportional to their fee volume.
+{% endhint %}

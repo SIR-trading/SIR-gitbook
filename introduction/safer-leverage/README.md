@@ -26,7 +26,7 @@ Another related type of financial product are leveraged ETFs. In TradFi, leverag
 
 The difference between leveraged ETFs and margin trading is that the debt is rebalanced periodically (usually daily) to keep the leverage quasi-constant. As price goes up, the ETF takes on more debt; and as price declines it pays-off some of its debt. This creates and seemingly great product for the trader because for the same amount of leverage the possible pay-off is much larger, and it mitigates the risk of liquidation since the debt is paid-off before as price goes down.
 
-<img src="../../.gitbook/assets/file.drawing (1) (1).svg" alt="Made up example of the effects of volatility decay on leveraged ETFs" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.drawing.svg" alt="Made up example of the effects of volatility decay on leveraged ETFs" class="gitbook-drawing">
 
 However, leveraged ETFs are not as popular as one would expect because of a chronic shortcoming. When price trades in a range and the leverage is rebalanced up and down at the end of every day, the ETF suffers from [volatility decay](https://www.coingecko.com/buzz/part-1-introduction-to-crypto-leveraged-etf), slowly bleeding their money away. Coarsely speaking, what happens is that the leverage is decreased when price is about to rebound up, and increased when price is about to drop, which is **exactly the wrong strategy when using leverage**. See [Erina Azmi’s part 2 on leverage ETFs](https://www.coingecko.com/buzz/part-2-deep-dive-into-decentralized-leveraged-etfs) for a performance comparison of such products.
 
