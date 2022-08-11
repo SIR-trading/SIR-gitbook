@@ -10,7 +10,7 @@ Analogously to Uniswap, the Factory contract allows anyone to instantiate new po
 There cannot exist two pools with the same set of parameters.
 {% endhint %}
 
-Each pool spawns a [TEA token](../../introduction/trustless-stablecoins/tea-token-basics.md) and an [APE token](../../introduction/safer-leverage/ape-token-basics.md) that are also unique and managed by the pool. However, strictly speaking not any pair of tokens and leverage ratio can be selected for a pool.
+Each pool spawns a [TEA token](../../introduction/trustless-stablecoins/tea-token-basics.md) and an [APE token](../../introduction/safer-leverage/ape-token-basics.md) that are also unique and managed by the pool.&#x20;
 
 ### Two Types of Users
 
@@ -49,7 +49,7 @@ There is a 3rd type of user 🤵‍♀️, the liquidity providers (or LPers for
 <mark style="background-color:red;">Burning</mark> :fire:: A user burns TEA, APE or MAAM and instantly gets its value worth in collateral from the pool.
 
 {% hint style="info" %}
-The SIR protocol will always offer instant liquidity.
+The SIR protocol will always offer **instant liquidity**.
 {% endhint %}
 
 All three types of tokens, TEA, APE and MAAM, can be minted or burnt at any time. There are no bottlenecks that slow down withdrawals or deposits, or other-like functionalities like freezing.

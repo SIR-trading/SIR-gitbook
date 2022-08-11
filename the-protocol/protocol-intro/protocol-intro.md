@@ -1,5 +1,7 @@
 # 🚧 Constraints on Pool Parameters
 
+In the previous section, we said that a pool could have any pair of tokens and any leverage ratio. This is not completely accurate.
+
 #### Token Constraints
 
 The collateral and debt tokens must satisfy some mild constraints:
