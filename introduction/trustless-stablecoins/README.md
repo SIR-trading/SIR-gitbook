@@ -37,11 +37,11 @@ Regardless, truly trustless stablecoins must consequently employ fully decentral
 
 By liquidity we can mean the global liquidity of the collateral. For instance, cash is extremely liquid. But it also can refer to the maximum amount of stablecoin that is redeemedable in a period of time for collateral, i.e., existence of a bottleneck for _cashing out_ the stablecoin.
 
-An interesting case example is Fei which is backed by DAI. While technically DAI is very liquid because it can be redeemed at any time for collateral. On the other hand [Fei has implemented _bottlenecks_ at the protocol level](https://docs.tribedao.xyz/docs/protocol/Mechanism/PegStabilityModule) to discourage redeeming Fei for DAI in large amounts. For instance, they can charge a fee for redeeming effectively lowering the price of Fei or simply freeze conversion.
+An interesting case example is Fei which is backed by DAI. DAI is very liquid because it can be redeemed at any time for collateral. However [Fei has implemented _bottlenecks_ at the protocol level](https://docs.tribedao.xyz/docs/protocol/Mechanism/PegStabilityModule) to discourage redeeming Fei for DAI in large amounts. For instance, they can charge a redemption fee effectively lowering the price of Fei or simply freeze conversion.
 
 ### Oracle
 
-Stablecoins backed by collateral types different than fiat/fiat-derivatives need an oracle that informs them of the price between the stablecoin unit and the collateral. For example, in MakerDAO  (the protocol generating DAI) if the collateral price falls below the liquidation price, the collateral is auctioned in exchange for DAI. Passing information from the real world to the blockchain in a trustless manner is known as [the oracle problem](https://cointelegraph.com/magazine/2021/12/30/can-blockchain-solve-its-oracle-problem) and remains unsolved.
+Stablecoins backed by collateral types different to fiat/fiat-derivatives need an oracle that informs them of the price between the stablecoin unit and the collateral. For example, in MakerDAO  (the protocol generating DAI) if the collateral price falls below the liquidation price, the collateral is auctioned in exchange for DAI. Passing information from the real world to the blockchain in a trustless manner is known as [the oracle problem](https://cointelegraph.com/magazine/2021/12/30/can-blockchain-solve-its-oracle-problem) and remains unsolved.
 
 For the particular case of passing prices, Uniswap v2 and v3 can actually be considered trustless oracles because they have no off-chain components. But they have a couple of shortcomings: (1) they can only inform about prices of tokens that exist on-chain, and (2) they are not suitable for instant market prices because they can be easily manipulated.
 
@@ -53,11 +53,11 @@ For instance, USDT and USDC have admin control over their smart contracts unders
 
 ### Peg
 
-The quality of a stablecoin is also defined by its stability, obviously. For example, [RAI](https://reflexer.finance/) is a an interesting "stablecoin" design in the sense that it is trustless by many of the properties described above. But it is not pegged hardly to the USD and, instead, it tries to even supply and demand by changing its _redemption price_, which can lead to substantial price oscillations with respect to USD.
+The quality of a stablecoin is also defined by its stability, obviously. For example, [RAI](https://reflexer.finance/) is a an interesting "stablecoin" design in the sense that it is trustless by many of the properties described above. But it is not hard pegged to the USD and, instead, it tries to even supply and demand by changing its _redemption price_, which can lead to substantial price oscillations with respect to USD.
 
 ## Permissionless Creation of Pegged Tokens
 
-Just like Uniswap unleashed a new wave of trading pairs in 2020 thanks to its permissionless nature. SIR seeks to unleash a new wave of pegged tokens, which are denominated with the symbol TEA.&#x20;
+Uniswap unleashed a new wave of trading pairs in 2020 thanks to its permissionless nature. SIR also seeks to unleash a new wave of pegged tokens, which are denominated with the symbol TEA.&#x20;
 
 Anyone can spin a stable token (1) pegged to _any_ digital asset and, (2) backed by some collateral of choice (3) with a user-defined collateralization ratio. We call minters of TEA tokens, gentlemen, because gentlemen love stability.
 

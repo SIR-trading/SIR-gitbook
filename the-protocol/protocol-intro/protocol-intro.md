@@ -18,7 +18,7 @@ COL and DBT must be traded directly in one Uniswap v3 pool. When the tokens trad
 
 #### Leverage Ratio Discrete Set
 
-To avoid the fractionalization of liquidity across pools, the leverage ratio can also not just be any real number. Imagine there were was a pool with leverage ratio 1.5 and another pool with all parameters equal but leverage ratio 1.51, they would effectively be the same pool and split the liquidity.
+To avoid the fractionalization of liquidity across pools, the leverage ratio can also not just be any real number. Imagine there was a pool with leverage ratio 1.5 and another pool with all parameters equal but leverage ratio 1.51, they would effectively be the same pool and split the liquidity.
 
 {% hint style="success" %}
 The leverage ratio is artificially constrained by the SIR protocol to a set of discrete points: $$\begin{equation}  l\in\left\{1+2^k : k\in \mathbb{Z}\right\} \end{equation}$$.
