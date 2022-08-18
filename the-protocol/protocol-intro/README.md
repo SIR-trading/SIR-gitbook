@@ -25,7 +25,7 @@ The properties of the pool defined in the previous section determine the propert
 * TEA is pegged to DBT and backed by a COL reserve with collateralization factor $$r$$
 
 {% hint style="info" %}
-The leverage ratio of the APE token ($$l$$) and the collateralization factor of the TEA token ($$r$$) are connected by the formula in [Broken link](broken-reference "mention").
+The leverage ratio of the APE token ($$l$$) and the collateralization factor of the TEA token ($$r$$) are connected by the formula in [the white paper](https://github.com/SIR-trading/SIR-white_paper/blob/main/Whitepaper.pdf "mention").
 {% endhint %}
 
 To summarize,
@@ -44,7 +44,7 @@ There is a 3rd type of user 🤵‍♀️, the liquidity providers (or LPers for
 
 ### Minting / Burning
 
-<mark style="background-color:green;">Minting</mark> :magic\_wand:: A user deposits the collateral token of the pool an gets TEA, APE or MAAM depending on what he wants.
+<mark style="background-color:green;">Minting</mark> :magic\_wand:: A user deposits the collateral token of the pool and gets TEA, APE or MAAM depending on what he wants.
 
 <mark style="background-color:red;">Burning</mark> :fire:: A user burns TEA, APE or MAAM and instantly gets its value worth in collateral from the pool.
 
