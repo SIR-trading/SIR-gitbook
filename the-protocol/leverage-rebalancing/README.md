@@ -17,7 +17,7 @@ we find out that if the price increases 📈, the collateralization factor incre
 We say that _the leverage is in sync_ when $$l_\text{eff}=l$$ (or equivalently $$r_\text{eff}=r$$).
 
 {% hint style="info" %}
-LPers are in charge of buying/selling TEA and APE in order to keep the leverage synched.
+LPers are in charge of buying/selling TEA and APE in order to keep the leverage synced.
 
 In exchange for their services, **LPers get protocol fees**.
 {% endhint %}
@@ -37,7 +37,7 @@ LPers do not actually buy/sell APE/TEA. It is taken cared automatically by the p
 LPers do not actually hold APE & TEA themselves, instead **LPers hold a token called MAAM**. The protocol handles the rebalancing internally without the need for transactions.
 {% endhint %}
 
-LPers an sync the leverage down/up to a certain price point. If the price falls below or exceed the price stability range (PSR), then the leverage goes out of sync. [More about the PSR in the next section.](price-stability-range.md)
+LPers sync the leverage down/up to a certain price point. If the price falls below or exceed the price stability range (PSR), then the leverage goes out of sync. [More about the PSR in the next section.](price-stability-range.md)
 
 #### Example
 
