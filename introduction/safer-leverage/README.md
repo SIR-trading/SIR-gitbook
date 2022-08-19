@@ -6,7 +6,7 @@ In a nutshell, leverage trading consists of taking on debt to purchase more of a
 
 ### Liquidation Risk
 
-In margin trading and futures trading, a trader borrows some asset (usually USD) against his margin (e.g., ETH) to buy more of the same asset he is long. For instance, with 2x leverage on ETH/USD, a user borrows as much USD as his ETH is worth and buys more ETH, starting with twice as much ETH than he had.
+In margin trading and futures trading, a trader borrows some asset (usually USD) against his margin (e.g., ETH) to buy more of the same asset he is long. For instance, with 2x leverage on ETH/USD, a user borrows as much USD as his ETH is worth and buys more ETH, starting with twice as much ETH as he had.
 
 On the one hand, if ETH price goes to infinity, he can basically pay his debt for free and ends up with 2x his initial capital in ETH. On the other hand if the ETH price is halved, his capital is worth exactly what he owes, and he is liquidated, i.e., he is forced to sell his ETH to pay back his debt, resulting in a **complete loss of his capital**.  In fact it is estimated that [95% of the traders lose money](https://cointelegraph.com/news/day-trading-bitcoin-why-95-of-traders-lose-money-and-fail).
 
