@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📸 TL;DR](README.md)
+* [📸 TL;DR – The Ultrashort Summary](README.md)
 
 ## Introduction
 
