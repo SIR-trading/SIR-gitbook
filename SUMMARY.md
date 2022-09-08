@@ -1,8 +1,10 @@
 # Table of contents
 
+* [📸 TL;DR](README.md)
+
 ## Introduction
 
-* [What is SIR?](README.md)
+* [What is SIR?](<README (1).md>)
 * [Safer Leverage](introduction/safer-leverage/README.md)
   * [🦍 APE Token](introduction/safer-leverage/ape-token-basics.md)
 * [Trustless Stablecoins](introduction/trustless-stablecoins/README.md)

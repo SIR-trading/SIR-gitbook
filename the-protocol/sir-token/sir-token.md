@@ -2,7 +2,7 @@
 
 ### Liquidity Mining Design
 
-Contrary to [previous projects' liquidity mining](https://101blockchains.com/liquidity-mining/), **SIR's liquidity mining is part of the core protocol** and designed to last forever. The main reason is that we see it as a stabilizing force for the protocol, and not as a once-in-a-time ad-hoc program to benefit a few users for a short period of time. In addition, we want the SIR token to be as the SIR protocol: [immutable and trustless](../../).
+Contrary to [previous projects' liquidity mining](https://101blockchains.com/liquidity-mining/), **SIR's liquidity mining is part of the core protocol** and designed to last forever. The main reason is that we see it as a stabilizing force for the protocol, and not as a once-in-a-time ad-hoc program to benefit a few users for a short period of time. In addition, we want the SIR token to be as the SIR protocol: [immutable and trustless](<../../README (1).md>).
 
 #### Rewards Allocation
 

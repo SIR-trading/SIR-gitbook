@@ -1,26 +1,34 @@
----
-cover: .gitbook/assets/Logan_6000x2000.bmp
-coverY: 543.5684647302904
----
+# 📸 TL;DR
 
-# What is SIR?
 
-Synthetics Implemented Right (SIR) is a new DeFi primitive for the issuance of 2 type of synthetic tokens:
 
-1. <mark style="background-color:blue;">constant-leverage tokens,</mark> suitable for **long-term investing**,
-2. <mark style="background-color:green;">pegged tokens</mark>, including **trustless stablecoins**
+Did you ever <mark style="background-color:purple;">**want to take on leverage**</mark> because you were bullish on an asset?
 
-We built SIR from first principles with the following quote ([ETH is irreplacable ](https://newsletter.banklesshq.com/p/eth-is-irreplaceable#%C2%A7eyes-on-the-prize)by Ryan S. Adams) in mind:
+But you did not leverage up because of <mark style="background-color:red;">**all the associated risks**</mark> <mark style="background-color:red;"></mark><mark style="background-color:red;">☠️</mark>?
 
-> Trustless economic bandwidth is **trust-minimized** fuel for an open economy. Combine this with **permissionless money protocols** and it’s an unstoppable force for money and finance at large.
+This is a common problem among crypto plebs, degens and even pros.[ I mean Su Zhu got liquidated for god's sake!](https://nymag.com/intelligencer/article/three-arrows-capital-kyle-davies-su-zhu-crash.html) 😱
 
-So SIR is...
+If price moves against you, your position can get liquidated, meaning your assets are kaput, gone, vanished.
 
-| permissionless | Anyone with a wallet can mint & burn.                                                                                                                                                  |
-| -------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|      immutable | <p>Non-upgradeable smart contracts.<br>No tunable parameters.</p>                                                                                                                      |
-|         atomic | It a self-contained protocol whose only external dependency is the [Uniswap v3](https://uniswap.org/) oracle. Uniswap v3 is also permissionless/immutable/atomic, i.e., **trustless**. |
+Instead, in SIR, <mark style="background-color:green;">**the borrowed capital is adjusted as price fluctuates**</mark>.&#x20;
+
+Price of your asset goes up :chart\_with\_upwards\_trend:, take on more debt and invest more!
+
+Price goes down :chart\_with\_downwards\_trend:, better sell some assets and pay off some of your debt to avoid getting liquidated.
+
+You may say... but this is no different than leveraged ETFs such as [ETH2X-FLI](https://indexcoop.com/ethereum-flexible-leverage-index-eth2xfli) or [Squeeth](https://squeeth.opyn.co/).
+
+<mark style="color:red;">**THE PROBLEM**</mark> with all these leveraged ETFs is that the your portfolio will go down over the long-term if the underlying remains flat!
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>On May the price of ETH was the same than in the beginning of the chart, but Squeeth had already lost a fair chunk of value. 😥</p></figcaption></figure>
+
+Thanks to a new design, <mark style="background-color:orange;">**SIR has no volatility decay because it rebalances instantly**</mark> and charges <mark style="background-color:blue;">**no fee while holding a position**</mark>.
+
+Now you can **hold your leveraged position for as long as you wish** and your money will not dissipate away.
+
+Happy investing. [🎉](https://emojipedia.org/party-popper/)
 
 {% hint style="info" %}
-***
+A side product of our new protocol are **trustless stablecoins**.
 {% endhint %}
+
