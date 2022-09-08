@@ -24,7 +24,7 @@ You may say... but this is no different than leveraged ETFs such as [ETH2X-FLI](
 
 Thanks to a new design, <mark style="background-color:orange;">**SIR has no volatility decay because it rebalances instantly**</mark> and charges <mark style="background-color:blue;">**no fee while holding a position**</mark>.
 
-Now you can **hold your leveraged position for as long as you wish** and your money will not dissipate away.
+Now you can <mark style="background-color:purple;">**hold your leveraged position for as long as you wish**</mark> and your money will not dissipate away.
 
 Happy investing. [🎉](https://emojipedia.org/party-popper/)
 
