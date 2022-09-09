@@ -21,9 +21,13 @@ Instead, in SIR, <mark style="background-color:green;">**the borrowed capital is
 
 You may say... but this is no different than leveraged ETFs such as [ETH2X-FLI](https://indexcoop.com/ethereum-flexible-leverage-index-eth2xfli).
 
-<mark style="color:red;">**THE PROBLEM**</mark> with all these leveraged ETFs is that the your portfolio will go down over the long-term if the underlying remains flat!
+{% hint style="danger" %}
+<mark style="color:red;">**THE PROBLEM**</mark> with all these leveraged ETFs is that the **your portfolio will go down** over the long-term if the underlying remains flat!
+{% endhint %}
 
-{% embed url="https://www.afrugaldoctor.com/home/volatility-decay-dont-hold-leveraged-etfs-long-term" %}
+I'm not saying it, see the [frugal doctor's advice](https://www.afrugaldoctor.com/home/volatility-decay-dont-hold-leveraged-etfs-long-term):
+
+> Leveraged ETFs are designed for short-term trading. Due to a phenomenon called volatility decay, **holding a leveraged ETF long-term can be very dangerous**.
 
 See [Squeeth](https://squeeth.opyn.co/) as an example:
 
@@ -33,7 +37,7 @@ See [Squeeth](https://squeeth.opyn.co/) as an example:
 
 Thanks to a our new design,
 
-* [x] <mark style="background-color:orange;">**SIR rebalances instantly,**</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">removing the pernicious volatility decay</mark>
+* [x] <mark style="background-color:orange;">**SIR rebalances its debt instantly**</mark><mark style="background-color:orange;">, and as a result the pernicious volatility decay is removed</mark>
 * [x] and charges <mark style="background-color:blue;">**no fee while holding a position**</mark>.
 
 Compound your gains with perfect leverage and avoid liquidation.
