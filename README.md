@@ -4,7 +4,7 @@ Did you ever <mark style="background-color:purple;">**want to take on leverage**
 
 But you did not leverage up <img src=".gitbook/assets/super-saiyan-transformation.gif" alt="" data-size="line">because of <mark style="background-color:red;">**all the associated risks**</mark>** ** ☠️?
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 This is a common problem among crypto plebs, degens and even pros.[ I mean Su Zhu got liquidated for god's sake!](https://nymag.com/intelligencer/article/three-arrows-capital-kyle-davies-su-zhu-crash.html) 😱
 {% endhint %}
 
@@ -25,7 +25,7 @@ You may say... but this is no different than leveraged ETFs such as [ETH2X-FLI](
 <mark style="color:red;">**THE PROBLEM**</mark> with all these leveraged ETFs is that the **your portfolio will go down** over the long-term if the underlying remains flat!
 {% endhint %}
 
-I'm not saying it, see the [frugal doctor's advice](https://www.afrugaldoctor.com/home/volatility-decay-dont-hold-leveraged-etfs-long-term):
+I'm not saying it, see [frugal doctor's advice](https://www.afrugaldoctor.com/home/volatility-decay-dont-hold-leveraged-etfs-long-term):
 
 > Leveraged ETFs are designed for short-term trading. Due to a phenomenon called volatility decay, **holding a leveraged ETF long-term can be very dangerous**.
 
