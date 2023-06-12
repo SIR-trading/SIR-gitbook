@@ -1,55 +1,46 @@
-# ⚙ Protocol Intro
+# ⚙ Protocol Design
 
-Analogously to Uniswap, the Factory contract allows anyone to instantiate new pools in the protocol. Each pool is identified by the following unique set of properties:
+Analogously to Uniswap, the Factory contract allows anyone to instantiate new pools in the protocol. Each pool has three unique features:
 
-1. <mark style="background-color:blue;">Collateral token</mark> (COL) address
-2. <mark style="background-color:green;">Debt token</mark> (DBT) address
-3. <mark style="background-color:orange;">Leverage ratio</mark> ($$l$$)
+1. It uses a specific token as <mark style="background-color:blue;">collateral</mark> (COL)
+2. Its debts is denominated in <mark style="background-color:green;">debt token</mark> (DBT)
+3. It operates at a specific <mark style="background-color:orange;">leverage ratio</mark> ($$l$$)
 
 {% hint style="danger" %}
-There cannot exist two pools with the same set of parameters.
+There do not exist two pools with the same set of parameters.
 {% endhint %}
 
-Each pool spawns a [TEA token](../../introduction/trustless-stablecoins/tea-token-basics.md) and an [APE token](../../introduction/safer-leverage/ape-token-basics.md) that are also unique and managed by the pool.&#x20;
+COL and DBT can be any ERC-20 tokens that are traded in a Uniswap v3 pair. In addition each pool produces two unique tokens: [TEA ](../../introduction/trustless-stablecoins/tea-token-basics.md)and [APE](../../introduction/safer-leverage/ape-token-basics.md).
 
-### Two Types of Users
+## Three Different Types of Users
 
-Definitions:
+Now, let's meet the users of our system:
 
-* We call holders of APE, **apes**, because apes never back off from a leveraged trade.
-* We call holders of TEA , **gentlemen**, because gentlemen love stability.
+* **Apes** - These are people who hold APE tokens. They are risk-takers who aren't scared of a little leverage. APE tokens' value follows the price of COL/DBT at a constant leverage ratio and is backed by COL.
+* **Gentlemen** - These are the holders of TEA tokens. They enjoy stability. TEA is pegged to the value of DBT, and it's backed by a reserve of COL.
+* **Liquidity Providers** - They're a special breed of users who contribute to the pool and get a unique token, called MAAM, in return.&#x20;
 
-The properties of the pool defined in the previous section determine the properties of the APE and TEA tokens associated with each pool.
+So, how do users get these tokens? It's a process called minting and burning.
+
+:magic\_wand: <mark style="background-color:green;">Minting</mark> is like making a deposit. A user deposits the collateral token (COL) into the pool, and in return, they receive TEA, APE, or MAAM tokens.
+
+:fire: <mark style="background-color:red;">Burning</mark> is like making a withdrawal. A user gives back their TEA, APE, or MAAM tokens, and in return, they receive the equivalent value in collateral (COL) from the pool.
+
+{% hint style="info" %}
+The SIR protocol promises **instant liquidity**, meaning you can mint or burn tokens anytime you want. There's no wait time for withdrawals or deposits, or other functionalities like freezing.
+{% endhint %}
+
+### Comparison Between APE and TEA
 
 * <mark style="background-color:yellow;">APE tracks the price of COL/DBT with constant leverage ratio</mark> $$l$$​
 * TEA is pegged to DBT and backed by a COL reserve with collateralization factor $$r$$
 
 {% hint style="info" %}
-The leverage ratio of the APE token ($$l$$) and the collateralization factor of the TEA token ($$r$$) are connected by the formula in [the white paper](https://github.com/SIR-trading/SIR-white_paper/blob/main/Whitepaper.pdf "mention").
+The leverage ratio of the APE token ($$l$$) and the collateralization factor of the TEA token ($$r$$) are connected by the formula in [https://github.com/SIR-trading/SIR-white\_paper/blob/main/Whitepaper.pdf](https://github.com/SIR-trading/SIR-white\_paper/blob/main/Whitepaper.pdf "mention").
 {% endhint %}
 
 To summarize,
 
-|                   | APE 🦍   | TEA 🍵    |
-| ----------------- | -------- | --------- |
-| User label        | Ape      | Gentleman |
-| Price             | COL/DBT  | DBT       |
-| Leverage ratio    | $$l>1$$​ | 1 (none)  |
-| Backed by         | COL      | COL       |
-| Collateralization | N/A      | $$r>1$$​  |
+<table><thead><tr><th width="197.33333333333331"></th><th>APE 🦍</th><th>TEA 🍵</th></tr></thead><tbody><tr><td>User label</td><td>Ape</td><td>Gentleman</td></tr><tr><td>Price</td><td>COL/DBT</td><td>DBT</td></tr><tr><td>Leverage ratio</td><td><span class="math">l>1</span>​</td><td>1 (none)</td></tr><tr><td>Backed by</td><td>COL</td><td>COL</td></tr><tr><td>Collateralization</td><td>N/A</td><td><span class="math">r>1</span>​</td></tr></tbody></table>
 
-{% hint style="info" %}
-There is a 3rd type of user 🤵‍♀️, the liquidity providers (or LPers for short). Their token is called MAAM. More on it in [maam-token.md](../leverage-rebalancing/maam-token.md "mention").
-{% endhint %}
-
-### Minting / Burning
-
-<mark style="background-color:green;">Minting</mark> :magic\_wand:: A user deposits the collateral token of the pool and gets TEA, APE or MAAM depending on what he wants.
-
-<mark style="background-color:red;">Burning</mark> :fire:: A user burns TEA, APE or MAAM and instantly gets its value worth in collateral from the pool.
-
-{% hint style="info" %}
-The SIR protocol will always offer **instant liquidity**.
-{% endhint %}
-
-All three types of tokens, TEA, APE and MAAM, can be minted or burnt at any time. There are no bottlenecks that slow down withdrawals or deposits, or other-like functionalities like freezing.
+###

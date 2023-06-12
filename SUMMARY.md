@@ -12,7 +12,7 @@
 
 ## The Protocol
 
-* [⚙ Protocol Intro](the-protocol/protocol-intro/README.md)
+* [⚙ Protocol Design](the-protocol/protocol-intro/README.md)
   * [🚧 Constraints on Pool Parameters](the-protocol/protocol-intro/protocol-intro.md)
 * [⚔ Apes vs. Gentlemen](the-protocol/apes-vs.-gentlemen.md)
 * [⚖ Pool Rebalancing](the-protocol/leverage-rebalancing/README.md)
