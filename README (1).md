@@ -21,5 +21,5 @@ In addition, SIR is
 <table data-header-hidden><thead><tr><th width="161" align="right"></th><th></th></tr></thead><tbody><tr><td align="right">permissionless</td><td>Anyone with a wallet can mint &#x26; burn.</td></tr><tr><td align="right">immutable</td><td>Non-upgradeable smart contracts.<br>No tunable parameters.</td></tr><tr><td align="right">atomic</td><td>It a self-contained protocol whose only external dependency is the <a href="https://uniswap.org/">Uniswap v3</a> oracle. Uniswap v3 is also permissionless/immutable/atomic, i.e., <strong>trustless</strong>.</td></tr></tbody></table>
 
 {% hint style="info" %}
-***
+SIR combines aspects from leverage trading and aspects from AMM, to create something special, that did not exist before. Learn more about the specifics starting at [protocol-intro](the-protocol/protocol-intro/ "mention").
 {% endhint %}
