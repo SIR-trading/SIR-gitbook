@@ -3,13 +3,11 @@
 ## Protocol Overview
 
 * [Introducing SIR](README.md)
-
-***
-
-* [📸 Introducing SIR](introducing-sir.md)
+* [Gentlemen vs. Apes](protocol-overview/gentlemen-vs.-apes.md)
 
 ## Introduction
 
+* [📸 Introducing SIR](introduction/introducing-sir.md)
 * [What is SIR?](<README (1).md>)
 * [Safer Leverage](introduction/safer-leverage/README.md)
   * [🦍 APE Token](introduction/safer-leverage/ape-token-basics.md)
