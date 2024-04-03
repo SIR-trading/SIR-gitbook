@@ -1,5 +1,5 @@
 ---
-description: The Balance Between Gentlemen and Apes
+description: The Mechanics of Constant Leverage
 ---
 
 # Liquidity and Leverage
@@ -20,13 +20,15 @@ $$
 A'=A\left(\frac{p'}{p}\right)^{l−1},
 $$
 
-where $$A'$$ is the new value of the apes' reserve, $$p'$$ is the new price, $$p$$ is the original price, and $$l$$ is the leverage.
+where $$A'$$ is the new value of the apes' reserve, $$p'$$ is the new price, $$p$$ is the original price, and $$l$$ is the leverage. This is the optimal regime we want to operate in, but obviously from the formula it is not sustainable for any price because $$A'$$ goes to infinity.
 
-&#x20;The system transitions between two operational zones based on $$p$$ and the saturation price, $$p_\textrm{sat}$$, which is fixed by the vault's state. The Power Zone, where the system ideally functions, is characterized by constant leverage and is in effect when $$p<p_\textrm{sat}$$.  Conversely, the Saturation Zone takes over when $$p\geq p_\textrm{sat}$$, where the leverage of the APE token decreases as price moves up, like in a traditional margin long. The saturation price, $$p_\textrm{sat}$$, is not static; it adjusts in response to the ratio of $$G/A$$—the gentlemen's liquidity to the apes' positions. Specifically, $$p_\textrm{sat}$$ rises when gentlemen add liquidity or apes reduce their leveraged positions.
-
-The system operates into two distinct operational zones based on the current collateral (COL) price with respect to the debt token (DBT): the Power Zone and the Saturation Zone. The Power Zone, where SIR ideally operates, follows the principle that the apes' reserve, $$�A$$, adapts based on the power-law function $$�′=(�′/�)(�−1)�A′=(p′/p)(l−1)A$$, where $$�′A′$$ is the new value of the apes' reserve, $$�′p′$$ is the new price, $$�p$$ is the original price, and $$�l$$ is the leverage. This ensures the leverage remains constant, enhancing the benefits for the apes. Conversely.
+In order to sustain the leverage ratio $$l$$, there must be $$l-1$$ units of extra liquidity. The saturation price, $$p_\textrm{sat}$$, is defined as the price where all liquidity is exhausted, i.e.,  $$G=(l-1)A$$. The vault can sustain any price fluctuation within the range $$[0,p_\textrm{sat}]$$without the constant leverage breaking down. The saturation price, $$p_\textrm{sat}$$, is not static; it adjusts in response to the ratio of $$G/A$$—the gentlemen's liquidity to the apes' positions. Specifically, $$p_\textrm{sat}$$ rises when gentlemen add liquidity or apes reduce their leveraged positions, and vice versa.
 
 ## The Saturation Zone
+
+The system transitions between two operational zones based on $$p$$ and the saturation price, $$p_\textrm{sat}$$, which is fixed by the vault's state. The Power Zone, where the system ideally functions, is characterized by constant leverage and is in effect when $$p<p_\textrm{sat}$$.  Conversely, the Saturation Zone takes over when $$p\geq p_\textrm{sat}$$, where the leverage of the APE token decreases as price moves up, like in a traditional margin long.&#x20;
+
+The system operates into two distinct operational zones based on the current collateral (COL) price with respect to the debt token (DBT): the Power Zone and the Saturation Zone. The Power Zone, where SIR ideally operates, follows the principle that the apes' reserve, $$�A$$, adapts based on the power-law function $$�′=(�′/�)(�−1)�A′=(p′/p)(l−1)A$$, where $$�′A′$$ is the new value of the apes' reserve, $$�′p′$$ is the new price, $$�p$$ is the original price, and $$�l$$ is the leverage. This ensures the leverage remains constant, enhancing the benefits for the apes. Conversely.
 
 The Saturation Zone is reached when prices escalate beyond the saturation point, leading to a shift where the gentlemen's reserves, represented by $$�G$$, are recalculated as $$����=(�−1)/�×�Gsat​=(l−1)/l×R$$ in terms of the total reserve $$�R$$, adjusting the distribution between the gentlemen and apes.
 
