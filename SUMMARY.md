@@ -3,7 +3,7 @@
 ## Protocol Overview
 
 * [Introducing SIR](README.md)
-* [Gentlemen vs. Apes](protocol-overview/gentlemen-vs.-apes.md)
+* [Liquidity and Leverage](protocol-overview/liquidity-and-leverage.md)
 
 ## Introduction
 
