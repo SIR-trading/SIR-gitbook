@@ -22,7 +22,7 @@ $$
 
 where $$A'$$ is the new value of the apes' reserve, $$p'$$ is the new price, $$p$$ is the original price, and $$l$$ is the leverage. This is the optimal regime we want to operate in, but obviously from the formula it is not sustainable for any price because $$A'$$ goes to infinity.
 
-In order to sustain the leverage ratio $$l$$, there must be $$l-1$$ units of extra liquidity. The saturation price, $$p_\textrm{sat}$$, is defined as the price where all liquidity is exhausted, i.e.,  $$G=(l-1)A$$. The vault can sustain any price fluctuation within the range $$[0,p_\textrm{sat}]$$without the constant leverage breaking down. The saturation price, $$p_\textrm{sat}$$, is not static; it adjusts in response to the ratio of $$G/A$$—the gentlemen's liquidity to the apes' positions. Specifically, $$p_\textrm{sat}$$ rises when gentlemen add liquidity or apes reduce their leveraged positions, and vice versa.
+In order to sustain the leverage ratio $$l$$, there must be $$l-1$$ units of extra liquidity per $$1$$ unit owned by the apes. The saturation price, $$p_\textrm{sat}$$, is defined as the price where all liquidity is exhausted, i.e., $$G=(l-1)A$$. The vault can sustain any price fluctuation within the range $$[0,p_\textrm{sat}]$$without the constant leverage breaking down. The saturation price, $$p_\textrm{sat}$$, is not static; it adjusts in response to the ratio of $$G/A$$—the gentlemen's liquidity to the apes' positions. Specifically, $$p_\textrm{sat}$$ rises when gentlemen add liquidity or apes reduce their leveraged positions, and vice versa.
 
 ## The Saturation Zone
 
