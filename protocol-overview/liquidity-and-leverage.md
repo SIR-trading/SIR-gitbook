@@ -1,5 +1,5 @@
 ---
-description: Striking the Balance Between Gentlemen and Apes
+description: The Balance Between Gentlemen and Apes
 ---
 
 # Liquidity and Leverage
@@ -14,7 +14,7 @@ At any time a gentlemen can claim their part of $$G$$ proportionally to their TE
 
 ## Two Zones of Operation
 
-Let's define $$p$$ as the current price of the collateral (COL) in terms of the debt token (DBT) units. For instance, if the COL = ETH and DBT = USDC, then on April 4, 2024, $$p$$ equals 3,355 USDC/ETH. The system transitions between two operational zones based on $$p$$ and the saturation price, $$p_\textrm{sat}$$. The Power Zone, where the system ideally functions, is characterized by constant leverage and is in effect when $$p<p_\textrm{sat}$$.  Conversely, the Saturation Zone takes over when $$p\geq p_\textrm{sat}$$. The saturation price, $$p_\textrm{sat}$$, is not static; it adjusts in response to the ratio of $$G/A$$—the gentlemen's liquidity to the apes' positions. Specifically, $$p_\textrm{sat}$$ rises when gentlemen add liquidity or apes reduce their leveraged positions.
+Let's define $$p$$ as the current price of the collateral (COL) in terms of the debt token (DBT) units. For instance, if the COL = ETH and DBT = USDC, then on April 4, 2024, $$p$$ equals 3,355 USDC/ETH. The system transitions between two operational zones based on $$p$$ and the saturation price, $$p_\textrm{sat}$$, which is fixed by the vault's state. The Power Zone, where the system ideally functions, is characterized by constant leverage and is in effect when $$p<p_\textrm{sat}$$.  Conversely, the Saturation Zone takes over when $$p\geq p_\textrm{sat}$$, where the leverage of the APE token decreases as price moves up, like in a traditional margin long. The saturation price, $$p_\textrm{sat}$$, is not static; it adjusts in response to the ratio of $$G/A$$—the gentlemen's liquidity to the apes' positions. Specifically, $$p_\textrm{sat}$$ rises when gentlemen add liquidity or apes reduce their leveraged positions.
 
 ## The Power Zone
 
