@@ -27,7 +27,7 @@ In order to sustain the leverage ratio $$l$$, there must be $$l-1$$ units of ext
 ## The Saturation Zone
 
 \
-The saturation zone is initiated when the market price exceeds the defined saturation price, $$p_\textrm{sat}​$$. This transition marks a shift from the ideal state of constant leverage to a scenario where the vault is constrained by the available liquidity, $$G<(l-1)A$$. As the price crosses the saturation price, the gentlemen's are owed a fixed amount in debt token (DBT): $$D=G_\textrm{sat}p_\textrm{sat}$$, and therefore their part of the reserve is
+The saturation zone is initiated when the market price exceeds the defined saturation price, $$p_\textrm{sat}​$$. This transition marks a shift from the ideal state of constant leverage to a scenario where the vault is constrained by the available liquidity, $$G<(l-1)A$$. As the price crosses the saturation price, the gentlemen's are owed a fixed amount in debt token (DBT): $$D=G_\textrm{sat}p_\textrm{sat}$$, and therefore their part of the reserve becomes
 
 $$
 G'=\frac{D}{p'}=\frac{p}{p'}G.
