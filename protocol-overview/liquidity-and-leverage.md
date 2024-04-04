@@ -14,10 +14,10 @@ At any time a gentlemen can claim their part of $$G$$ proportionally to their TE
 
 ## The Limits of Constant Leverage
 
-Let's define $$p$$ as the current price of the collateral (COL) in terms of the debt token (DBT) units. For instance, if the COL = ETH and DBT = USDC, then on April 4, 2024, $$p$$ equals 3,355 USDC/ETH. Ideally, the apes' claim on the reserve, $$A$$, adapts based on the power-law function of constant-leverage:
+Let's define $$p$$ as the current price of the collateral (COL) in terms of the debt token (DBT) units. For instance, if COL = ETH and DBT = USDC, then on April 4, 2024, $$p$$ equals 3,355 USDC/ETH. Ideally, the apes' claim on the reserve, $$A$$, adapts based on the power-law function of constant-leverage:
 
 $$
-A'=A\left(\frac{p'}{p}\right)^{l−1},
+A'=\left(\frac{p'}{p}\right)^{l−1}A,
 $$
 
 where $$A'$$ is the new value of the apes' reserve, $$p'$$ is the new price, $$p$$ is the original price, and $$l$$ is the leverage. This is the optimal regime we want to operate in, but obviously from the formula it is not sustainable for any price because $$A'$$ goes to infinity.
@@ -27,7 +27,13 @@ In order to sustain the leverage ratio $$l$$, there must be $$l-1$$ units of ext
 ## The Saturation Zone
 
 \
-The saturation zone is initiated when the market price exceeds the defined saturation price, $$p_\textrm{sat}​$$. This transition marks a shift from the ideal state of constant leverage to a scenario where the vault is constrained by the available liquidity. Just like opening a margin long in a centralized exchange, the apes' leverage ratio decreases as the price increases beyond $$p_\textrm{sat}​$$. The gentlemen sold all their COL for DBT, so if $$G_\textrm{sat}$$ was the gentlemen's liquidity at $$p_\textrm{sat}$$ worth $$D_\textrm{sat}=G_\textrm{sat}p_\textrm{sat}$$ in units of DBT
+The saturation zone is initiated when the market price exceeds the defined saturation price, $$p_\textrm{sat}​$$. This transition marks a shift from the ideal state of constant leverage to a scenario where the vault is constrained by the available liquidity, $$G<(l-1)A$$. As the price crosses the saturation price, the gentlemen's are owed a fixed amount in debt token (DBT): $$D=G_\textrm{sat}p_\textrm{sat}$$, and therefore their part of the reserve is
+
+$$
+G'=\frac{D}{p'}=\frac{p}{p'}G.
+$$
+
+For instance, if COL = ETH and DBT = USDC, then the gentlemen are owed a fixed amount in USDC and the apes capture the profit of the ETH bought with USDC appreciating. Essentially, it boils down to a traditional margin long position with initial leverage $$l$$. Just like in a margin long, as the price increases, the apes' leverage ratio decreases&#x20;
 
 &#x20;&#x20;
 
