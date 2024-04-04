@@ -38,7 +38,3 @@ G'=\frac{D}{p'}=\frac{p}{p'}G.
 $$
 
 In practical terms, if COL = ETH and DBT = USDC, in this regime the gentlemen's reserve value is calculated in USDC, while the apes benefit from the appreciation of ETH versus USDC. This mirrors a conventional margin long position with the initial leverage $$l$$. Similar to traditional margin trading, as the price continues to climb, the effective leverage ratio experienced by the apes diminishes.
-
-&#x20;&#x20;
-
-IT IS PERHAPS MISSING THE PART WHERE GENTLEMEN GET QUITE A NICE CUT OF FEES UPON MINTING/BURNING OF APE, THE HIGHER THE LEVERAGE THE HIGHER THE FEES PAID UPFRONT AND WHEN EXITING BY THE APES. THIS FEES ARE HIGHER THAN NORMAL BUT IT IS THE PRICE TO PAY BY THE APES TO REMAIN FEE-FREE WHILE HOLDING THEIR APE. THE FEES FOR MINTING/BURNING APE ARE A SIMILAR ORDER OF MAGNITUDE TO HOLDING A MARGIN POSITION FOR 1 YEAR.
