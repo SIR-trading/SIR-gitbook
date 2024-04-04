@@ -4,13 +4,17 @@ description: The Mechanics of Constant Leverage
 
 # Liquidity and Leverage
 
-SIR enables the permissionless and trustless creation of vaults, inviting participation from liquidity providers (LPers) and traders. Within these vaults, TEA and APE tokens are minted by depositing collateral. TEA tokens are issued to the gentlemen (LPers) for their liquidity contributions, and APE tokens, an ERC-20 leveraged token, are issued to traders who wish to long COL/DBT (apes). The reserve of collateral, $$R$$, is always split between the gentlemen and the apes
+Vault creation in SIR is open to anyone and is defined by three key parameters: the collateral token (COL), the debt token (DBT), and the leverage ratio ($$l$$). There are two types of users: gentlemen  (liquidity providers or LPers) and the apes (traders). Gentlemen mint TEA tokens by depositing collateral, earning substantial fees generated from the trading activities of the apes. Similarly, apes mint APE tokens, a leveraged COL/DBT token, by also depositing collateral. TEA tokens are ERC-1155, and APE tokens are ERC-20. The reserve of collateral in the vault, $$R$$, is always split between the gentlemen and the apes
 
 $$
 R=G+A.
 $$
 
 At any time a gentlemen can claim their part of $$G$$ proportionally to their TEA balance, and similarly the apes can claim their part of $$A$$.&#x20;
+
+### Fees
+
+Vaults feature a fee system that rewards the gentlemen with significant fees from the minting and burning of APE tokens. These fees vary by vault, increasing with the vault's leverage ratio. Although these fees are substantial, they allow apes to hold APE tokens without incurring any maintenance fees, regardless of the holding period. The fees for minting or burning APE tokens are on par with the costs of holding a margin position for approximately one year, striking a balance between potential returns and upfront costs. This structure aims to benefit liquidity providers and encourage long-term traders, while short-term traders may not see their speculative positions fully materialize, essentially contributing more to the ecosystem's finances through these initial fees.
 
 ## The Limits of Constant Leverage
 
@@ -37,4 +41,4 @@ In practical terms, if COL = ETH and DBT = USDC, in this regime the gentlemen's 
 
 &#x20;&#x20;
 
-IT IS PERHAPS MISSING THE PART WHERE GENTLEMEN GET QUITE A NICE CUT OF FEES UPON MINTING/BURNING OF APE, THE HIGHER THE LEVERAGE THE HIGHER THE FEES PAID UPFRONT AND WHEN EXITING BY THE APES. THIS FEES ARE HIGHER THAN NORMAL BUT IT IS THE PRICE TO PAY BY THE APES TO REMAIN FEE-FREE WHILE HOLDING THEIR APE.&#x20;
+IT IS PERHAPS MISSING THE PART WHERE GENTLEMEN GET QUITE A NICE CUT OF FEES UPON MINTING/BURNING OF APE, THE HIGHER THE LEVERAGE THE HIGHER THE FEES PAID UPFRONT AND WHEN EXITING BY THE APES. THIS FEES ARE HIGHER THAN NORMAL BUT IT IS THE PRICE TO PAY BY THE APES TO REMAIN FEE-FREE WHILE HOLDING THEIR APE. THE FEES FOR MINTING/BURNING APE ARE A SIMILAR ORDER OF MAGNITUDE TO HOLDING A MARGIN POSITION FOR 1 YEAR.
