@@ -18,7 +18,7 @@ Vaults feature a fee system that rewards the gentlemen with significant fees fro
 
 ## The Limits of Constant Leverage
 
-Let's define $$p$$ as the current price of the collateral (COL) in terms of the debt token (DBT) units. For instance, if COL = ETH and DBT = USDC, then on April 4, 2024, $$p$$ equals 3,355 USDC/ETH. Ideally, the apes' claim on the reserve, $$A$$, adapts based on the power-law function of constant-leverage:
+Let's define $$p$$ as the current price of the collateral (COL) in terms of the debt token (DBT). For instance, if COL = ETH and DBT = USDC, then on April 4, 2024, $$p$$ equals 3,355 USDC/ETH. Ideally, the apes' claim on the reserve, $$A$$, adapts based on the power-law function of constant-leverage:
 
 $$
 A'=\left(\frac{p'}{p}\right)^{l−1}A,
