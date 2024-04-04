@@ -2,7 +2,7 @@
 description: A New DeFi Protocol for Safer Leverage
 ---
 
-# Introducing SIR
+# 👋 Introducing SIR
 
 SIR is a DeFi protocol designed to address the key challenges of leveraged trading, such as volatility decay and liquidation risks, making it safer for long-term investing. Here's how SIR stands out:
 

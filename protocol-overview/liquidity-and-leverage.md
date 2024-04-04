@@ -2,7 +2,7 @@
 description: The Mechanics of Constant Leverage
 ---
 
-# Liquidity and Leverage
+# 🫗 Liquidity and Leverage
 
 Vault creation in SIR is open to anyone and is defined by three key parameters: the collateral token (COL), the debt token (DBT), and the leverage ratio ($$l$$). There are two types of users: gentlemen  (liquidity providers or LPers) and the apes (traders). Gentlemen mint TEA tokens by depositing collateral, earning substantial fees generated from the trading activities of the apes. Similarly, apes mint APE tokens, a leveraged COL/DBT token, by also depositing collateral. TEA tokens are ERC-1155, and APE tokens are ERC-20. The reserve of collateral in the vault, $$R$$, is always split between the gentlemen and the apes
 

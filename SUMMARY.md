@@ -2,12 +2,12 @@
 
 ## Protocol Overview
 
-* [Introducing SIR](README.md)
-* [Liquidity and Leverage](protocol-overview/liquidity-and-leverage.md)
+* [👋 Introducing SIR](README.md)
+* [🫗 Liquidity and Leverage](protocol-overview/liquidity-and-leverage.md)
+* [🔮 Price Oracle](protocol-overview/trustless-oracle.md)
 
 ## The Protocol
 
-* [🔮 Trustless Oracle](the-protocol/trustless-oracle.md)
 * [🧾 Fee Structure](the-protocol/fee-structure.md)
 * [🎩 SIR Token](the-protocol/sir-token.md)
   * [⛏️ Automated Liquidity Mining](the-protocol/sir-token/sir-token.md)

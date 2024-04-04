@@ -1,4 +1,8 @@
-# 🔮 Trustless Oracle
+---
+description: Maximally Trustless Prices
+---
+
+# 🔮 Price Oracle
 
 As stated [by Chainlink](https://chain.link/education/blockchain-oracles),
 
