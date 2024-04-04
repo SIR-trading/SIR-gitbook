@@ -27,13 +27,13 @@ To maintain the leverage ratio $$l$$, an additional $$l-1$$ units of liquidity a
 ## The Saturation Zone
 
 \
-The saturation zone is initiated when the market price exceeds the defined saturation price, $$p_\textrm{sat}​$$. This transition marks a shift from the ideal state of constant leverage to a scenario where the vault is constrained by the available liquidity, $$G<(l-1)A$$. As the price crosses the saturation price, the gentlemen's are owed a fixed amount in debt token (DBT): $$D=G_\textrm{sat}p_\textrm{sat}$$, and therefore their part of the reserve becomes
+The saturation zone is initiated when the market price surpasses $$p_\textrm{sat}​$$, shifting away from the ideal constant leverage scenario to a liquidity-constrained state, where $$G<(l-1)A$$. Beyond $$p_\textrm{sat}​$$, the amount owed to the gentlemen denominated in debt token (DBT) becomes fixed:: $$D=G_\textrm{sat}p_\textrm{sat}$$, thereby fixing their reserve portion to
 
 $$
 G'=\frac{D}{p'}=\frac{p}{p'}G.
 $$
 
-For instance, if COL = ETH and DBT = USDC, then the gentlemen are owed a fixed amount in USDC and the apes capture the profit of the ETH bought with USDC appreciating. Essentially, it boils down to a traditional margin long position with initial leverage $$l$$. Just like in a margin long, as the price increases, the apes' leverage ratio decreases&#x20;
+In practical terms, if COL = ETH and DBT = USDC, in this regime the gentlemen's reserve value is calculated in USDC, while the apes benefit from the appreciation of ETH versus USDC. This mirrors a conventional margin long position with the initial leverage $$l$$. Similar to traditional margin trading, as the price continues to climb, the effective leverage ratio experienced by the apes diminishes.
 
 &#x20;&#x20;
 
