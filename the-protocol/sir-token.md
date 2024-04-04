@@ -25,7 +25,7 @@ The DAO is in charge of selecting the pools receiving the SIR tokens. The select
 100% of SIR token emissions go to LPers&#x20;
 {% endhint %}
 
-The term "liquidity mining" usually refers to the concept that LPers are rewarded with some internal token in exchange for their liquidity. The main idea is that liquidity in the protocol can be further boosted by adding extra rewards in addition to the collected fees. This helps boost the following **positive feedback loop**: (1) As LP liquidity increases, [the pool's leverage ratio becomes more stable](leverage-rebalancing/price-stability-range.md), which attracts mores users in search for safe leverage and trustless stablecoins. More usage increases the collected fees, which subsequently attracts more LPers, increasing LP liquidity, etcetera.
+The term "liquidity mining" usually refers to the concept that LPers are rewarded with some internal token in exchange for their liquidity. The main idea is that liquidity in the protocol can be further boosted by adding extra rewards in addition to the collected fees. This helps boost the following **positive feedback loop**: (1) As LP liquidity increases, [the pool's leverage ratio becomes more stable](broken-reference), which attracts mores users in search for safe leverage and trustless stablecoins. More usage increases the collected fees, which subsequently attracts more LPers, increasing LP liquidity, etcetera.
 
 <img src="../.gitbook/assets/file.drawing (3).svg" alt="The fees&#x27; positive feedback loop" class="gitbook-drawing">
 
