@@ -4,7 +4,7 @@ description: Maximally Trustless Prices
 
 # 🔮 Price Oracle
 
-As stated [by Chainlink](https://chain.link/education/blockchain-oracles),
+According to [Chainlink](https://chain.link/education/blockchain-oracles),
 
 > Blockchain oracles are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based upon inputs and outputs from the real world.
 
