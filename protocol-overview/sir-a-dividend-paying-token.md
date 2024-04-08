@@ -36,7 +36,7 @@ Here, "contributors" broadly includes coders, testers, advisors, etc. After this
 
 ## Vault Selection Process
 
-The protocol incorporates a singular aspect that necessitates human decision-making: vault selection. Given the diversity of tokens used as collateral across vaults, accurately evaluating which vaults are the most economically significant (e.g., generating the highest fees or volume) via smart contract is challenging. This complexity arises partly because not all token pairs have corresponding Uniswap v3 pools to facilitate straightforward valuation.
+The protocol incorporates a singular aspect that necessitates human decision-making: vault selection. Given the diversity of tokens used as collateral across vaults, accurately evaluating which vaults are the most economically significant (e.g., generating the highest fees or volume) via smart contract is challenging. This complexity arises partly because Uniswap v3, which serves as our price oracle, does not feature pools for every token pair, complicating the direct valuation of vaults.
 
 To address this, the protocol empowers SIR token holders to vote on which vaults should be awarded SIR token rewards and determine their specific allocations. This decision-making process is facilitated through the SIR DAO, utilizing economic incentives to align the interests of SIR token holders, ensuring that the rewards distribution reflects the economic contribution of each vault.
 
