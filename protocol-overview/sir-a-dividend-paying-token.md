@@ -10,6 +10,10 @@ SIR is not only the protocol but also its native token and it plays a multifacet
 * **Liquidity Mining Embedded in the Protocol:** SIR tokens are distributed to liquidity providers (LPers) as an incentive to enhance liquidity within key, selected vaults, starting from the protocol's launch and continuing indefinitely. While the allocation of rewards across vaults can be adjusted, this mechanism is integrated into the protocol's core contracts, ensuring its permanence and ongoing support for liquidity.
 * **Governance and Reward Allocation:** The SIR DAO, powered by SIR holders, has the unique role of deciding which vaults are rewarded with SIR issuance in exchange for a portion of their fees. This setup aligns the interests of SIR holders with the protocol's success, as best vaults to allocated rewards are also those that generate the highest fees.
 
+## Staking
+
+SIR enables holders to earn a portion of the fees collected by the protocol. To access these fees, holders must stake their SIR tokens, temporarily removing them from circulation. Staking, unstaking, and claiming dividends can be done at any time. Since the protocol accumulates fees in various tokens, an [auction system](token-auctions.md) is in place to convert all fees into WETH, ensuring dividends are paid out in WETH for the convenience of stakers.
+
 ## **Liquidity Mining as a Core Feature**
 
 The concept of "liquidity mining" gained prominence during the [DeFi summer of 2020](https://medium.com/@lily\_trangpham/the-formation-of-defi-summer-2020-conditions-for-a-new-defi-summer-a419d53d0d31), offering an innovative way to boost protocol liquidity by rewarding LPers with protocol tokens. Unlike temporary initiatives, SIR integrates liquidity mining as a permanent feature within its core contracts, ensuring its ongoing operation without an end date.
