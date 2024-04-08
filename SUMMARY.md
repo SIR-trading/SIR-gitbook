@@ -7,14 +7,14 @@
   * [🌱 Protocol Owned Liquidity](protocol-overview/liquidity-and-leverage/protocol-owned-liquidity.md)
 * [🔮 Price Oracle](protocol-overview/trustless-oracle.md)
 * [🎩 SIR: A Dividend-Paying Token](protocol-overview/sir-a-dividend-paying-token.md)
-* [🔨 Token Auctions](protocol-overview/token-auctions.md)
+* [🏷️ Token Auctions](protocol-overview/token-auctions.md)
+* [🧪 Beta Period](protocol-overview/beta-period.md)
 
 ## The Protocol
 
 * [🧾 Fee Structure](the-protocol/fee-structure.md)
 * [🎩 SIR Token](the-protocol/sir-token.md)
   * [⛏️ Automated Liquidity Mining](the-protocol/sir-token/sir-token.md)
-* [🧪 Beta Period](the-protocol/beta-period.md)
 
 ## Links
 
