@@ -12,13 +12,19 @@ SIR is not only the protocol but also its native token and it plays a multifacet
 
 ## **Liquidity Mining as a Core Feature**
 
+The concept of "liquidity mining" gained prominence during the [DeFi summer of 2020](https://medium.com/@lily\_trangpham/the-formation-of-defi-summer-2020-conditions-for-a-new-defi-summer-a419d53d0d31), offering an innovative way to boost protocol liquidity by rewarding liquidity providers (LPers) with protocol tokens. Unlike temporary initiatives, SIR integrates liquidity mining as a permanent feature within its core contracts, ensuring its ongoing operation without an end date.
+
+In SIR, select vaults are chosen to receive token emissions. LPers in these vaults earn SIR tokens in return for sacrificing a portion of their fees to SIR stakers, capped at 10% of the vault's total fees. The compensation in SIR tokens is directly proportional to the percentage of fees relinquished. For instance, a vault forfeiting 10% of its fees receives twice as much SIR compared to one forfeiting 5%. As a result, the total fees redistributed as dividends by the protocol do not exceed 10% of the collected fees, aiming to make this arrangement beneficial for LPers.
+
 ### Constant Issuance Rate
 
 Many protocol tokens opt for a limited supply to enhance their appeal among buyers, a trend influenced by Bitcoin's model. However, structuring a token with high initial emissions followed by reduced or negligible emissions over time can ultimately hinder the protocol's long-term viability as Fiskantes explains:
 
 {% embed url="https://twitter.com/Fiskantes/status/1426906528276271106" %}
 
-SIR's issuance will start as soon as the protocol launches, with its functions and mechanisms locked in. The token is emitted at a constant rate of **2015 million SIR per year** _ad infinitum_. Early holders benefit from generous rewards in a nascent ecosystem and the potential token appreciation. Later entrants benefit from the steady emission rate and higher valuation. To mitigate dilution gentlemen can keep their liquidity in the protocol.
+SIR's issuance will start as soon as the protocol launches, with its functions and mechanisms locked in. The token is emitted at a constant rate of **2015 million SIR per year** _ad infinitum_. Early holders benefit from generous rewards in a nascent ecosystem and the potential token appreciation. Later entrants benefit from the steady emission rate and higher valuation. To mitigate dilution LPers can keep their liquidity in the protocol.
+
+### First 3 Years
 
 ***
 
