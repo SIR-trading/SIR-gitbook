@@ -14,11 +14,11 @@ SIR is not only the protocol but also its native token and it plays a multifacet
 
 ### Constant Issuance Rate
 
-Many protocol tokens opt for a limited supply to enhance their appeal among buyers, a trend influenced by Bitcoin's model. However, structuring a token with high initial emissions followed by reduced or negligible emissions over time can ultimately hinder the protocol's long-term viability, or as Fiskantes puts it:
+Many protocol tokens opt for a limited supply to enhance their appeal among buyers, a trend influenced by Bitcoin's model. However, structuring a token with high initial emissions followed by reduced or negligible emissions over time can ultimately hinder the protocol's long-term viability as Fiskantes explains:
 
 {% embed url="https://twitter.com/Fiskantes/status/1426906528276271106" %}
 
-SIR's issuance will start as soon as the protocol launches, with its functions and mechanisms locked in. The token is emitted at a constant rate of **2015 million SIR per year** _ad infinitum_. This means that to avoid dilution, participants must consistently contribute liquidity to the protocol.
+SIR's issuance will start as soon as the protocol launches, with its functions and mechanisms locked in. The token is emitted at a constant rate of **2015 million SIR per year** _ad infinitum_. Early holders benefit from generous rewards in a nascent ecosystem and the potential token appreciation. Later entrants benefit from the steady emission rate and higher valuation. To mitigate dilution gentlemen can keep their liquidity in the protocol.
 
 ***
 
