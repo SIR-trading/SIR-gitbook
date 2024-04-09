@@ -10,12 +10,6 @@
 * [🏷️ Token Auctions](protocol-overview/token-auctions.md)
 * [🧪 Beta Period](protocol-overview/beta-period.md)
 
-## The Protocol
-
-* [🧾 Fee Structure](the-protocol/fee-structure.md)
-* [🎩 SIR Token](the-protocol/sir-token.md)
-  * [⛏️ Automated Liquidity Mining](the-protocol/sir-token/sir-token.md)
-
 ## Links
 
 * [Twitter](https://twitter.com/SIRdotTrading)

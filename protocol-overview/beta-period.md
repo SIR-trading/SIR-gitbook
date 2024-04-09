@@ -1,9 +1,14 @@
+---
+description: Towards a Secure and Immutable Protocol
+---
+
 # 🧪 Beta Period
 
-After launch, SIR will remain in beta for several months. During this period a multisig formed by developers and advisors will have a few admin rights for the safety of the protocol.
+For the safety of its users, the protocol will launch in beta. The protocol has 4 distinct states:
 
-:cold\_face: <mark style="background-color:blue;">Permission to freeze minting.</mark> So that in case of a critical bug users can be stopped from minting and depositing more capital. On the other hand, withdrawals will never be halted even during the beta period.
+1. <mark style="background-color:green;">**Unstoppable:**</mark> The ultimate state, marking the end of the beta period. Here, all parameters are fixed, leaving no room for adjustments. Transitioning to this state signifies that the protocol is fully operational and irreversible, with any persisting issues becoming permanent fixtures. This state is achieved exclusively from the Training Wheels state.
+2. <mark style="background-color:blue;">**Training Wheels:**</mark> The initial state during beta, where protocol fees can be modified. This flexibility is crucial for optimizing the fee structure based on real-world data and feedback. The protocol can revert to this state from Emergency but aims to advance to Unstoppable.
+3. <mark style="background-color:orange;">**Emergency:**</mark> Activated in response to detected bugs or exploits, this state allows for the suspension of new deposits (minting of TEA or APE) while permitting withdrawals (burning of TEA or APE). It's a containment measure designed to mitigate damage, accessible only from Training Wheels.
+4. <mark style="background-color:red;">**Shutdown:**</mark> The final measure if issues identified in the Emergency state remain unresolved after 20 days. In Shutdown, the protocol enables the withdrawal of any funds left by the owner of the contract, safeguarding user assets. The 20-day waiting period is a safety net against potential misuse by the owner.
 
-:control\_knobs: <mark style="background-color:green;">Permission to adjust the</mark> [<mark style="background-color:green;">base fee</mark>](../the-protocol/fee-structure.md#fee-mechanism)<mark style="background-color:green;">.</mark> Fees are a critical part of any money lego. For instance, [Uniswap v3 only overtook Curve as primary DEX for stablecoin trading once it enable it's 0.01% fee tier](https://twitter.com/RyanWatkins\_/status/1483640421502885888). That is because LPers barely suffer from [impermanent loss](https://medium.com/coinmonks/understanding-impermanent-loss-9ac6795e5baa) in stablecoin-to-stablecoin pairs, and so they can accept much smaller trading commissions for their liquidity. However, it is clear that a 0% fee tier would not work because LPers would have no incentives. Choosing the right fee structure is a sensitive choice for any project. On the one hand, too large fees may discourage users, and on the other hand, too little fees may discourage LPers. So to finely adjust the fee value charged to users, the base fee value ($$f_\text{base}$$) will be tuned during the beta testing of SIR.
-
-:hourglass\_flowing\_sand: <mark style="background-color:orange;">Permission to tune TWAP period.</mark> It is unclear&#x20;
+<figure><img src="../.gitbook/assets/pdfresizer.com-pdf-crop (1) (4).svg" alt=""><figcaption><p>SIR protocol state transition diagram</p></figcaption></figure>
