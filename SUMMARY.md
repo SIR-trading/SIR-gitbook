@@ -14,3 +14,7 @@
 
 * [Discord](https://t.co/jFXfWEf9Rv)
 * [GitHub](https://github.com/SIR-trading)
+
+***
+
+* [Twitter](https://x.com/leveragesir)
