@@ -42,7 +42,7 @@ Assume an initial investment $$x=\$1000$$ in the pair `(ETH/USD)^1.5`, and the f
 
 #### **Critical Considerations**
 
-1. **Liquidity Limits**: APE operates within predefined liquidity bounds. Extreme price movements beyond these limits may trigger automatic position closure.
+1. **Liquidity Limits**: APE operates within predefined liquidity bounds. Price movements beyond these limits will make the gains path dependent, and introduce our own version of _volatility decay_.
 2. **Fee Structure**: The initial fee necessitates a minimum price recovery to breakeven. For example, to offset the 24% fee, the price must rise by \~32%.
 
 ### **Conclusion**
