@@ -1,8 +1,8 @@
-# 📈 A Leverage Token Without Recurrent Fees
+# 📈 Take on Leverage and Forget
 
 APE is SIR's leveraged token designed to magnify returns through directional price exposure, operating within predefined liquidity boundaries. Unlike conventional leveraged products that erode returns with time-based fees (e.g., daily funding costs or volatility decay), APE decouples profitability from holding duration. Gains and losses are determined exclusively by two factors: the ratio between entry and exit prices, and a single upfront fee.
 
-Unlike traditional leveraged products, APE eliminates time-based penalties (e.g., funding fees or decay), ensuring your gains or losses depend solely on price action and a one-time fee. This chapter breaks down the mechanics of APE’s profit potential using a clear mathematical model.
+This chapter breaks down the mechanics of APE’s profit potential using a clear mathematical model.
 
 ### **The Formula**
 

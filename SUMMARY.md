@@ -3,7 +3,7 @@
 ## Protocol Overview
 
 * [👋 Introducing SIR](README.md)
-  * [📈 Leverage and Sleep](protocol-overview/introducing-sir/leverage-and-sleep.md)
+  * [📈 Take on Leverage and Forget](protocol-overview/introducing-sir/take-on-leverage-and-forget.md)
 * [🫗 Liquidity and Leverage](protocol-overview/liquidity-and-leverage/README.md)
   * [🌱 Protocol Owned Liquidity](protocol-overview/liquidity-and-leverage/protocol-owned-liquidity.md)
 * [🔮 Price Oracle](protocol-overview/trustless-oracle.md)
