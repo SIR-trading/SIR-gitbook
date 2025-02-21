@@ -3,7 +3,7 @@
 ## Protocol Overview
 
 * [👋 Introducing SIR](README.md)
-  * [📈 Profit Potential](protocol-overview/introducing-sir/profit-potential.md)
+  * [📈 A Leverage Token Without Recurrent Fees](protocol-overview/introducing-sir/a-leverage-token-without-recurrent-fees.md)
 * [🫗 Liquidity and Leverage](protocol-overview/liquidity-and-leverage/README.md)
   * [🌱 Protocol Owned Liquidity](protocol-overview/liquidity-and-leverage/protocol-owned-liquidity.md)
 * [🔮 Price Oracle](protocol-overview/trustless-oracle.md)
