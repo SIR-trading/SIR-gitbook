@@ -4,7 +4,7 @@ description: 'Streamlining Conversion: From Diverse Tokens to WETH'
 
 # 🏷️ Token Auctions
 
-SIR accrues fees in various tokens, making direct distributions to [stakers](sir-a-dividend-paying-token.md#staking) both gas-intensive and administratively complex. To streamline this, SIR utilizes an efficient auction system for converting all tokens into WETH seamlessly.
+SIR accrues fees in various tokens, making direct distributions to [stakers](sir-a-dividend-paying-token/#staking) both gas-intensive and administratively complex. To streamline this, SIR utilizes an efficient auction system for converting all tokens into WETH seamlessly.
 
 ### Auction Mechanics
 
