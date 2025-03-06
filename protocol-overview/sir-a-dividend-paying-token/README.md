@@ -14,6 +14,10 @@ SIR is not only the protocol but also its native token and it plays a multifacet
 
 SIR enables holders to earn a portion of the fees collected by the protocol. To access these fees, holders must stake their SIR tokens, temporarily removing them from circulation. Staking, unstaking, and claiming dividends can be done at any time. Since the protocol accumulates fees in various tokens, an [auction system](../token-auctions.md) is in place to convert all fees into WETH, ensuring dividends are paid out in WETH for the convenience of stakers.
 
+### Locking Mechanism
+
+To prevent exploitation via flash loans or temporary staking/unstaking around dividend distributions, staked SIR tokens are subject to a progressive unlocking mechanism. Upon staking, tokens are locked entirely. Over time, a portion unlocks continuously every second, following an exponential decay model with a half-life of 30 days. Specifically, after 30 days, 50% of the initially staked amount becomes unlocked. Subsequently, every 30 days, half of the remaining locked balance is unlocked (e.g., 25% of the original stake after 60 days, 12.5% after 90 days, etc.). This ensures that even if tokens are staked temporarily, a significant portion remains locked for extended periods, disincentivizing short-term manipulation while allowing gradual access to staked assets.
+
 ## **Liquidity Mining as a Core Feature**
 
 The concept of "liquidity mining" gained prominence during the [DeFi summer of 2020](https://medium.com/@lily_trangpham/the-formation-of-defi-summer-2020-conditions-for-a-new-defi-summer-a419d53d0d31), offering an innovative way to boost protocol liquidity by rewarding LPers with protocol tokens. Unlike temporary initiatives, SIR integrates liquidity mining as a permanent feature within its core contracts, ensuring its ongoing operation without an end date.
@@ -27,16 +31,6 @@ Many protocol tokens opt for a limited supply to enhance their appeal among buye
 {% embed url="https://twitter.com/Fiskantes/status/1426906528276271106" %}
 
 SIR's issuance will start as soon as the protocol launches, with its functions and mechanisms locked in. The token is emitted at a constant rate of **2015 million SIR per year** _ad infinitum_. Early holders benefit from generous rewards in a nascent ecosystem and the potential token appreciation. Later entrants benefit from the steady emission rate and higher valuation. To mitigate dilution LPers can keep their liquidity in the protocol.
-
-### First 3 Years
-
-During the first three years, 30% of SIR token emissions are diverted as follows:&#x20;
-
-* <mark style="background-color:blue;">10% to</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**pre-mainnet contributors**</mark>,
-* <mark style="background-color:green;">10% reserved in a treasury for</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**post-mainnet contributors**</mark>, and
-* <mark style="background-color:red;">10% to</mark> <mark style="background-color:red;"></mark><mark style="background-color:red;">**investors**</mark>
-
-Here, "contributors" broadly includes coders, testers, advisors, etc. After this period, all subsequent token emissions are directed to LPers.
 
 ## Vault Selection Process
 
