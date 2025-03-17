@@ -5,7 +5,7 @@ description: A Minimalistic Emergency Immutable Website
 # 🪂 Alternative Frontend (IPFS)
 
 The main SIR frontend is available at [https://app.sir.trading](https://app.sir.trading). If it’s down or inaccessible, you can use our alternative frontend hosted on IPFS. This minimalistic site lets you connect your wallet, withdraw balances, unstake unlocked SIR, and claim rewards or dividends—all with simple button clicks. It’s available at:\
-<mark style="color:orange;background-color:purple;">ipfs://bafybeibsyc7jejntuehvf364t6hk2ehravlojcdfthuuouhoinojl4q6ru</mark>
+<mark style="color:yellow;background-color:blue;">ipfs://bafybeibsyc7jejntuehvf364t6hk2ehravlojcdfthuuouhoinojl4q6ru</mark>
 
 ## How to Access the IPFS Frontend
 
@@ -15,7 +15,7 @@ Since most browsers do not support IPFS by default, here’s how to access it:
    * Download and install IPFS Desktop from [ipfs.io](https://docs.ipfs.tech/install/ipfs-desktop/) (Windows, macOS, or Linux).
    * Open the app—it runs in the background.
 2. **Load the Frontend**
-   * Copy the IPFS link above (<mark style="color:orange;background-color:purple;">ipfs://bafybeibsyc7jejntuehvf364t6hk2ehravlojcdfthuuouhoinojl4q6ru</mark>).
+   * Copy the IPFS link above (<mark style="color:yellow;background-color:blue;">ipfs://bafybeibsyc7jejntuehvf364t6hk2ehravlojcdfthuuouhoinojl4q6ru</mark>).
    * Paste it into the IPFS Desktop app’s search bar.
    * The page will load, showing a "Connect Wallet" button and your available actions.
 
