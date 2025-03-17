@@ -38,6 +38,6 @@ Once loaded, you’ll see your TEA, APE, and SIR positions listed with buttons f
 * **Connect Your Wallet**: Click "Connect Wallet" and approve it in your wallet (e.g., [Rabby](https://www.google.com/search?q=rabby+wallet\&oq=rabby+wallet\&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEIMjg2MWowajGoAgCwAgA\&sourceid=chrome\&ie=UTF-8)).
 * **Withdraw Balances**: Under "TEA Positions" or "APE Positions," click a "Burn" button to withdraw specific amounts (e.g., "Burn 5229688.795889721302289506 TEA-1").
 * **Unstake SIR**: Under "SIR Positions," click "Unstake" to release unlocked SIR (e.g., "Unstake 3832.913093288862 Unlocked SIR").
-* **Claim Rewards**: Click buttons like "Withdraw 0.000153250495601057 ETH dividends" or "Claim 651522.88854038238 SIR from Vault-1" to collect dividends or vault rewards.
+* **Claim Rewards**: Click buttons like "Withdraw 1.000153250495601057 ETH dividends" or "Claim 651522.88854038238 SIR from Vault-1" to collect dividends or vault rewards.
 
 Each button triggers a transaction—approve it in your wallet, and you’re done.
