@@ -4,8 +4,6 @@ description: 'The Fine Print: What Could Go Wrong?'
 
 # ⚠️ User Risks
 
-The SIR protocol enables leveraged trading and liquidity provision, but users should be aware of inherent risks. Bugs or exploits in SIR's smart contracts could result in loss of funds. While the protocol leverages battle-tested Uniswap V3 infrastructure, no system is entirely immune to undiscovered flaws.
-
 The SIR protocol empowers leveraged trading and liquidity provision, but it’s not without risks. While built on robust foundations, potential vulnerabilities might remain:
 
 * **Smart Contract Bugs**: Despite our [thorough audit with Egis Security](https://github.com/Egis-Security/audits/blob/main/reports/SIR-Trading.pdf), undiscovered bugs or exploits in SIR’s smart contracts could lead to fund losses. These might stem from complex logic in vault mechanics or leverage calculations that audits failed to catch, exposing users to rare but critical failures.
