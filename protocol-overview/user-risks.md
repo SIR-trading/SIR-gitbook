@@ -14,7 +14,7 @@ The SIR protocol empowers leveraged trading and liquidity provision, but it’s 
 This risk is mitigated by [our beta period and gradual transition to a fully decentralized protocol](beta-period.md), during which we can activate Emergency Mode or initiate a Shutdown to protect users if issues arise.
 {% endhint %}
 
-* **Third-Party Dependencies**: SIR relies on Uniswap V3, a battle-tested infrastructure, for core functionality. However, flaws in Uniswap V3’s contracts, oracles feeding price data, or other external integrations could cascade into SIR, disrupting operations or compromising funds—though such risks are minimized by Uniswap’s proven track record.
+* **Third-Party Dependencies**: SIR relies solely on the battle-tested Uniswap V3 for accurate and secure price data. While Uniswap V3’s established reliability minimizes concerns, any new found vulnerability in its smart contract could theoretically propagate to SIR, potentially disrupting operations or jeopardizing user funds. Though such risk is considered extremely low given Uniswap’s proven stability and track record in the DeFi ecosystem.
 
 Below, we outline risks specific to leverage users ("Apes") and liquidity providers ("LPers").
 
