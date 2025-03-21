@@ -4,15 +4,15 @@ description: 'The Fine Print: What Could Go Wrong?'
 
 # ⚠️ User Risks
 
-The SIR protocol empowers leveraged trading and liquidity provision, but it’s not without risks. While built on robust foundations, potential vulnerabilities might remain:
+The SIR protocol empowers leveraged trading and liquidity provision, but it's not without risks. While built on robust foundations, potential vulnerabilities might remain:
 
-* **Smart Contract Bugs**: Despite our [thorough audit with Egis Security](https://github.com/Egis-Security/audits/blob/main/reports/SIR-Trading.pdf), undiscovered bugs or exploits in SIR’s smart contracts could lead to fund losses. These might stem from complex logic in vault mechanics or leverage calculations that audits failed to catch, exposing users to rare but critical failures.
+* **Smart Contract Bugs**: Despite our [thorough audit with Egis Security](https://github.com/Egis-Security/audits/blob/main/reports/SIR-Trading.pdf), undiscovered bugs or exploits in SIR's smart contracts could lead to fund losses. These might stem from complex logic in vault mechanics or leverage calculations that audits failed to catch, exposing users to rare but critical failures.
 
 {% hint style="info" %}
 This risk is mitigated by [our beta period and gradual transition to a fully decentralized protocol](beta-period.md), during which we can activate Emergency Mode or initiate a Shutdown to protect users if issues arise.
 {% endhint %}
 
-* **Third-Party Dependencies**: SIR relies solely on the battle-tested Uniswap V3 for accurate and secure price data. While Uniswap V3’s established reliability minimizes concerns, any new found vulnerability in its smart contract could theoretically propagate to SIR, potentially disrupting operations or jeopardizing user funds. Though such risk is considered extremely low given Uniswap’s proven stability and track record in the DeFi ecosystem.
+* **Third-Party Dependencies**: SIR relies solely on the battle-tested Uniswap V3 for accurate and secure price data. While Uniswap V3's established reliability minimizes concerns, any new found vulnerability in its smart contract could theoretically propagate to SIR, potentially disrupting operations or jeopardizing user funds. Though such risk is considered extremely low given Uniswap's proven stability and track record in the DeFi ecosystem.
 
 Below, we outline risks specific to leverage users ("Apes") and liquidity providers ("LPers").
 
