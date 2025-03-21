@@ -12,10 +12,7 @@
 * [🏷️ Token Auctions](protocol-overview/token-auctions.md)
 * [🧪 Beta Period](protocol-overview/beta-period.md)
 * [📜 Contract Addresses](protocol-overview/contract-addresses.md)
-
-***
-
-* [🪂 Alternative Frontend (IPFS)](alternative-frontend-ipfs.md)
+* [🪂 Alternative Frontend (IPFS)](protocol-overview/alternative-frontend-ipfs.md)
 
 ## Links
 
