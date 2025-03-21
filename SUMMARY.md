@@ -4,7 +4,7 @@
 
 * [👋 Introducing SIR](README.md)
   * [📈 Take on Leverage and Forget](protocol-overview/introducing-sir/take-on-leverage-and-forget.md)
-  * [🏫 Whiteboard Video](protocol-overview/introducing-sir/whiteboard-video.md)
+  * [✏️ Whiteboard Video](protocol-overview/introducing-sir/whiteboard-video.md)
 * [🫗 Liquidity and Leverage](protocol-overview/liquidity-and-leverage/README.md)
   * [🌱 Protocol Owned Liquidity](protocol-overview/liquidity-and-leverage/protocol-owned-liquidity.md)
 * [🔮 Price Oracle](protocol-overview/trustless-oracle.md)

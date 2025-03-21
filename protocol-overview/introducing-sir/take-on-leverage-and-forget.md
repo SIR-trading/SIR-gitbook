@@ -1,3 +1,7 @@
+---
+description: 'APE: Leveraged Exposure Without the Time Trap'
+---
+
 # 📈 Take on Leverage and Forget
 
 APE is SIR's leveraged token designed to magnify returns through directional price exposure, operating within predefined liquidity boundaries. Unlike conventional leveraged products that erode returns with time-based fees (e.g., daily funding costs or volatility decay), APE decouples profitability from holding duration. Gains and losses are determined exclusively by two factors: the ratio between entry and exit prices, and a single upfront fee.
