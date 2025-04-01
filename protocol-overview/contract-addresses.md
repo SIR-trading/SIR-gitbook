@@ -2,6 +2,10 @@
 
 Below you’ll find the verified Ethereum Mainnet contract addresses for our protocol’s core components. Names link directly to the contracts' code in Github and addresses link to Etherscan.
 
+{% hint style="danger" %}
+Do not operate with these smart contracts. The Vault contract had a critical bug and was hacked for its entire TVL.
+{% endhint %}
+
 <table><thead><tr><th width="233">Contract Name</th><th>Ethereum Mainnet Address</th></tr></thead><tbody><tr><td><a href="https://github.com/SIR-trading/Core/blob/master/src/Vault.sol">Vault.sol</a></td><td><a href="https://etherscan.io/address/0xb91ae2c8365fd45030aba84a4666c4db074e53e7">0xb91ae2c8365fd45030aba84a4666c4db074e53e7</a></td></tr><tr><td><a href="https://github.com/SIR-trading/Core/blob/master/src/SIR.sol">SIR.sol</a></td><td><a href="https://etherscan.io/address/0x1278b112943abc025a0df081ee42369414c3a834">0x1278b112943abc025a0df081ee42369414c3a834</a></td></tr><tr><td><a href="https://github.com/SIR-trading/Core/blob/master/src/APE.sol">APE.sol</a></td><td><a href="https://etherscan.io/address/0x8E3a5ec5a8B23Fd169F38C9788B19e72aEd97b5A">0x8E3a5ec5a8B23Fd169F38C9788B19e72aEd97b5A</a></td></tr><tr><td><a href="https://github.com/SIR-trading/Core/blob/master/src/Oracle.sol">Oracle.sol</a></td><td><a href="https://etherscan.io/address/0x3CDCCFA37c1B2BEe3d810eC9dAddbB205048bB29">0x3CDCCFA37c1B2BEe3d810eC9dAddbB205048bB29</a></td></tr><tr><td><a href="https://github.com/SIR-trading/Core/blob/master/src/libraries/VaultExternal.sol">VaultExternal.sol</a></td><td><a href="https://etherscan.io/address/0x80f18B12A6dBD515C5Ad01A2006abF30C5972158">0x80f18B12A6dBD515C5Ad01A2006abF30C5972158</a></td></tr><tr><td><a href="https://github.com/SIR-trading/Core/blob/master/src/SystemControl.sol">SystemControl.sol</a></td><td><a href="https://etherscan.io/address/0x8d694D1b369BdE5B274Ad643fEdD74f836E88543">0x8d694D1b369BdE5B274Ad643fEdD74f836E88543</a></td></tr></tbody></table>
 
 The following contracts are not part of the core protocol but provide additional functionality.
