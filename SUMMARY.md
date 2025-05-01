@@ -15,7 +15,7 @@
 * [⚠️ User Risks](protocol-overview/user-risks.md)
 * [📜 Contract Addresses](protocol-overview/contract-addresses.md)
 * [🪂 Alternative Frontend (IPFS)](protocol-overview/alternative-frontend-ipfs.md)
-* [💊 Exploit & Relaunch](protocol-overview/exploit-and-relaunch.md)
+* [💥 Exploit & Relaunch](protocol-overview/exploit-and-relaunch.md)
 
 ## Links
 
