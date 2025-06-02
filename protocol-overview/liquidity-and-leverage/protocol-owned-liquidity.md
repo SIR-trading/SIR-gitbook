@@ -4,4 +4,8 @@ description: Enhancing Vault Stability
 
 # 🌱 Protocol Owned Liquidity
 
-Fees from apes are distributed to all LPers which includes gentlemen and Protocol-Owned Liquidity (POL). Additionally, 9% of every gentleman's initial deposit is allocated to POL, which then acts as a permanent, ever-growing LPer. Since POL itself is an LPer, it earns ongoing fees alongside other providers while never exiting the vault. POL offers a distinct advantage over traditional liquidity provisioning: POL is permanent and will never withdraw. Over time, as the vault matures, POL has the potential to grow, thereby bolstering the vault's stability.
+Fees collected from apes are distributed to all LPers, including both individual participants (gentlemen) and Protocol-Owned Liquidity (POL). In addition to these earnings, 9% of every gentleman's initial deposit is allocated directly to POL.
+
+POL functions as a permanent LPer within the vault. Unlike individual providers, it never withdraws and continues to grow over time. As it earns fees alongside other LPers, POL steadily accumulates value, deepens available liquidity, and reinforces the vault's long-term stability.
+
+By design, POL provides a unique advantage over traditional liquidity provisioning. Its permanence ensures that a portion of the vault's liquidity base is always present and compounding, making the system more resilient as it matures.

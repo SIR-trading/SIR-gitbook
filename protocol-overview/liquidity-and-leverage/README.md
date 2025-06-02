@@ -12,9 +12,15 @@ $$
 
 At any time a gentlemen can claim their part of $$G$$ proportionally to their TEA balance, and similarly the apes can claim their part of $$A$$.&#x20;
 
-### Fees
+### Fees from Apes
 
 Vaults feature a fee system that rewards the gentlemen with significant fees from the minting and burning of APE tokens. These fees vary by vault, increasing with the vault's leverage ratio. Although these fees are substantial, they allow apes to hold APE tokens without incurring any maintenance fees, regardless of the holding period. The fees for minting or burning APE tokens are on par with the costs of holding a margin position for approximately one year, striking a balance between potential returns and upfront costs. This structure aims to benefit liquidity providers and encourage long-term traders, while short-term traders may not see their speculative positions fully materialize, essentially contributing more to the ecosystem's finances through these initial fees.
+
+### Fees from LPers
+
+To prevent certain economic exploits, LPers are charged a fee when minting TEA. Without this fee, an actor could mint TEA, collect a share of protocol fees, and then immediately burn the TEA, extracting value without taking on meaningful risk. The minting fee introduces a cost to this behavior, aligning LP incentives with the long-term health and stability of the protocol.
+
+This fee is allocated to [Protocol-Owned Liquidity (POL)](protocol-owned-liquidity.md), which participates in the vault as a permanent LPer. POL continues to accumulate rewards and deepens liquidity over time, contributing to the overall resilience of the system.
 
 ## The Limits of Constant Leverage
 
