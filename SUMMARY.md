@@ -13,6 +13,7 @@
 * [🏷️ Token Auctions](protocol-overview/token-auctions.md)
 * [🧪 Beta Period](protocol-overview/beta-period.md)
 * [⚠️ User Risks](protocol-overview/user-risks.md)
+* [🐛 Bug Bounty](protocol-overview/bug-bounty.md)
 * [📜 Contract Addresses](protocol-overview/contract-addresses.md)
 * [🪂 Alternative Frontend (IPFS)](protocol-overview/alternative-frontend-ipfs.md)
 * [💥 Exploit & Relaunch](protocol-overview/exploit-and-relaunch.md)
