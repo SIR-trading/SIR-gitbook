@@ -6,9 +6,11 @@ SIR is committed to the security of our protocol and users' funds. We invite sec
 
 ## Scope
 
-The bug bounty program covers **high and critical severity vulnerabilities** in the SIR core contracts deployed at:
+The bug bounty program covers **high and critical severity vulnerabilities** in the SIR core contracts. All verified contract addresses can be found in the [Contract Addresses](../contract-addresses.md) section.
 
-**Contract Address:** [`0x589F8D40370C9B5904f83B9C17815DDdB3eb6af9`](https://etherscan.io/address/0x589F8D40370C9B5904f83B9C17815DDdB3eb6af9)
+**Bug Bounty Reward Address:** [`0x589F8D40370C9B5904f83B9C17815DDdB3eb6af9`](https://etherscan.io/address/0x589F8D40370C9B5904f83B9C17815DDdB3eb6af9)
+
+This address holds the SIR tokens allocated for bug bounty rewards, visible on-chain for transparency.
 
 ### In Scope
 - Core protocol contracts
