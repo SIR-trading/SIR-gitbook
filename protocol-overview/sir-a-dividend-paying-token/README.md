@@ -1,55 +1,104 @@
 ---
-description: An Immutable Token with Real Utility
+description: The Core Value-Capturing Token of the SIR Protocol
 ---
 
 # 🎩 SIR: A Dividend-Paying Token
 
-SIR is not only the protocol but also its native token and it plays a multifaceted role:
+The SIR token serves as the protocol's value-capture mechanism and governance backbone, designed with sustainable economics and aligned incentives at its core.
 
-* **A Speculative Vehicle:** The SIR token offers holders a claim on the protocol's fees, establishing strong fundamentals for the token and positioning it as a prime vehicle for speculation on the protocol's success.
-* **Liquidity Mining Embedded in the Protocol:** SIR tokens are distributed to liquidity providers (LPers) as an incentive to enhance liquidity within key, selected vaults, starting from the protocol's launch and continuing indefinitely. While the allocation of rewards across vaults can be adjusted, this mechanism is integrated into the protocol's core contracts, ensuring its permanence and ongoing support for liquidity.
-* **Governance and Reward Allocation:** One the SIR DAO is established, it will decide which vaults are rewarded with SIR issuance in exchange for a portion of their fees. This setup aligns the interests of SIR holders with the protocol's success, as best vaults to allocated rewards are also those that generate the highest fees.
+## Core Functions
 
-## Staking
+### 1. Dividend Distribution
+SIR holders can stake their tokens to earn a share of protocol fees. All fees are converted to WETH through an [auction system](../token-auctions.md) and distributed to stakers, providing a direct claim on the protocol's revenue.
 
-SIR enables holders to earn a portion of the fees collected by the protocol. To access these fees, holders must stake their SIR tokens, temporarily removing them from circulation. Staking, unstaking, and claiming dividends can be done at any time. Since the protocol accumulates fees in various tokens, an [auction system](../token-auctions.md) is in place to convert all fees into WETH, ensuring dividends are paid out in WETH for the convenience of stakers.
+### 2. Perpetual Liquidity Incentives
+Unlike temporary liquidity mining programs, SIR embeds token distribution directly into the protocol's immutable contracts. This ensures continuous, predictable rewards for liquidity providers without arbitrary end dates or governance votes.
 
-### Locking Mechanism
+### 3. Future Governance
+Once the SIR DAO is established, token holders will govern:
+- Vault selection for SIR rewards
+- Reward allocation across vaults
+- Treasury management
+- Protocol parameters
 
-To prevent exploitation via flash loans or temporary staking/unstaking around dividend distributions, staked SIR tokens are subject to a progressive unlocking mechanism. Upon staking, tokens are locked entirely. Over time, a portion unlocks continuously every second, following an exponential decay model with a half-life of 30 days. Specifically, after 30 days, 50% of the initially staked amount becomes unlocked. Subsequently, every 30 days, half of the remaining locked balance is unlocked (e.g., 25% of the original stake after 60 days, 12.5% after 90 days, etc.). This ensures that even if tokens are staked temporarily, a significant portion remains locked for extended periods, disincentivizing short-term manipulation while allowing gradual access to staked assets.
+This creates a direct alignment: vaults generating the highest fees receive optimal reward allocation, maximizing value for all stakeholders.
 
-## **Liquidity Mining as a Core Feature**
+## Staking Mechanics
 
-The concept of "liquidity mining" gained prominence during the [DeFi summer of 2020](https://medium.com/@lily_trangpham/the-formation-of-defi-summer-2020-conditions-for-a-new-defi-summer-a419d53d0d31), offering an innovative way to boost protocol liquidity by rewarding LPers with protocol tokens. Unlike temporary initiatives, SIR integrates liquidity mining as a permanent feature within its core contracts, ensuring its ongoing operation without an end date.
+### How Staking Works
+To earn protocol dividends, SIR holders must stake their tokens, temporarily removing them from circulation. Key features:
+- **Flexible Operations:** Stake, unstake, and claim dividends at any time
+- **WETH Dividends:** All protocol fees are converted to WETH via [auctions](../token-auctions.md) for consistent payouts
+- **Pro-rata Distribution:** Rewards proportional to your staked share
 
-In SIR, select vaults are chosen to receive token emissions. LPers in these vaults earn SIR tokens in return for sacrificing a portion of their fees to SIR stakers, capped at 10% of the vault's total fees. For fairness, the compensation in SIR tokens is directly proportional to the percentage of fees relinquished. For instance, a vault forfeiting 10% of its fees receives twice as much SIR compared to one forfeiting 5%. As a result, the total fees redistributed as dividends by the protocol do not exceed 10% of the collected fees, aiming to make this arrangement beneficial for LPers.
+### Anti-Exploitation Locking
+Staked SIR follows a progressive unlocking mechanism to prevent flash loan attacks:
+- **Initial Lock:** 100% locked upon staking
+- **Exponential Decay:** 30-day half-life unlocking schedule
+  - Day 30: 50% unlocked
+  - Day 60: 75% unlocked  
+  - Day 90: 87.5% unlocked
+- **Continuous Process:** Unlocking occurs every second, not in discrete steps
 
-### Constant Issuance Rate
+This design prevents short-term manipulation while maintaining long-term flexibility for genuine stakers.
 
-Many protocol tokens opt for a limited supply to enhance their appeal among buyers, a trend influenced by Bitcoin's model. However, structuring a token with high initial emissions followed by reduced or negligible emissions over time can ultimately hinder the protocol's long-term viability as Fiskantes explains:
+## Token Issuance Model
+
+### Constant Emission Rate
+SIR tokens are emitted at a fixed rate of **2.015 billion per year**, starting from zero supply at launch. This predictable, linear issuance continues indefinitely.
+
+### Why Not Capped Supply?
+Many protocols follow Bitcoin's model with limited supply and decreasing emissions. However, as Fiskantes explains, front-loaded emissions create unsustainable dynamics:
 
 {% embed url="https://twitter.com/Fiskantes/status/1426906528276271106" %}
 
-SIR's issuance will start as soon as the protocol launches, with its functions and mechanisms locked in. The token is emitted at a constant rate of **2015 million SIR per year** _ad infinitum_. Early holders benefit from generous rewards in a nascent ecosystem and the potential token appreciation. Later entrants benefit from the steady emission rate and higher valuation. To mitigate dilution LPers can keep their liquidity in the protocol.
+Our constant issuance model ensures:
+- **Early Participants:** Benefit from easier accumulation when liquidity is low
+- **Future Participants:** Still receive meaningful rewards when TVL is higher
+- **Sustainable Growth:** Avoid the "death spiral" of diminishing rewards
+- **Mitigation Strategy:** LPers can retain positions to offset dilution through rewards
 
-## Vault Selection Process
+## Liquidity Mining Framework
 
-The protocol incorporates a singular aspect that necessitates human decision-making: vault selection for SIR rewards. Given the diversity of tokens used as collateral across vaults, accurately evaluating which vaults are the most economically significant (e.g., generating the highest fees or volume) via smart contract is challenging. This complexity arises partly because Uniswap v3, which serves as our price oracle, does not feature pools for every token pair, complicating the direct valuation of vaults.
+### Permanent Integration
+Unlike temporary "liquidity mining" campaigns from DeFi Summer 2020, SIR embeds rewards directly into immutable smart contracts. This creates:
+- **Predictable Incentives:** No arbitrary end dates or governance votes
+- **Long-term Commitment:** Permanent support for protocol liquidity
+- **Fair Distribution:** Rewards proportional to economic contribution
 
-To address this, the protocol empowers SIR token holders to vote on which vaults should be awarded SIR token rewards and determine their specific allocations. This decision-making process is facilitated through the SIR DAO, utilizing economic incentives to align the interests of SIR token holders, ensuring that the rewards distribution reflects the economic contribution of each vault.
+### Vault Reward Mechanism
+Selected vaults receive SIR emissions in exchange for sharing fees with stakers:
+- **Fee Sharing Cap:** Maximum 10% of vault fees to SIR stakers
+- **Proportional Rewards:** 10% fee share earns 2x the SIR of 5% share
+- **Aligned Incentives:** Most productive vaults receive optimal rewards
 
-Mathematically, the reward for vault $$i$$, denoted as $$r_i​$$, is set to be proportional to the fees it contributes, denoted as $$f_i​$$, according to the formula:
+## Governance & Vault Selection
 
-$$
-r_i=\alpha f_i
-$$
+### The Human Element
+While most protocol functions are automated, vault selection requires human judgment due to:
+- **Token Diversity:** Various collateral types across vaults
+- **Oracle Limitations:** Not all token pairs have Uniswap v3 pools
+- **Economic Complexity:** Difficulty measuring true vault productivity on-chain
 
-Here $$\alpha$$ is a constant, $$r_i$$ is measured in $$[\textrm{SIR/s}]$$, and $$f_i$$ is a percentage $$[\textrm{%}]$$. The aim is for vaults to receive SIR tokens in direct proportion to their fee contributions. For instance, if we have only two vaults where vault 1 generates $1M in fees and vault 2 generates $4M, they would receive rewards of 403M SIR/year and 1612M SIR/year, respectively, under an ideal allocation.
+### DAO-Driven Optimization
+The SIR DAO will manage vault rewards through mathematical optimization:
 
-By implementing the constraint:
+**Reward Formula:**
+$$r_i = \alpha f_i$$
 
-$$
-\sqrt{\sum f_i^2} \leq 10\textrm{ [%]}
-$$
+Where:
+- $$r_i$$ = Vault reward rate [SIR/s]
+- $$f_i$$ = Fee contribution [%]
+- $$\alpha$$ = Proportionality constant
 
-it's mathematically demonstrable that the optimal economic allocation of SIR, as overseen by the SIR DAO, follows the proposed model. This strategy ensures that token distribution effectively matches the economic input of vaults, maximizing the protocol's overall efficiency and fairness.
+**Optimization Constraint:**
+$$\sqrt{\sum f_i^2} \leq 10\%$$
+
+This ensures rewards match economic contribution while maintaining system sustainability.
+
+### Example Allocation
+Two-vault scenario:
+- Vault 1: $1M fees → 403M SIR/year (20%)
+- Vault 2: $4M fees → 1,612M SIR/year (80%)
+
+The mathematical framework guarantees fair, efficient capital allocation across all protocol vaults.

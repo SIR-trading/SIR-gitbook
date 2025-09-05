@@ -9,6 +9,7 @@
   * [🌱 Protocol Owned Liquidity](protocol-overview/liquidity-and-leverage/protocol-owned-liquidity.md)
 * [🔮 Price Oracle](protocol-overview/trustless-oracle.md)
 * [🎩 SIR: A Dividend-Paying Token](protocol-overview/sir-a-dividend-paying-token/README.md)
+  * [💰 Tokenomics Model](protocol-overview/sir-a-dividend-paying-token/tokenomics-model.md)
   * [🍰 Token Distribution](protocol-overview/sir-a-dividend-paying-token/token-distribution.md)
 * [🏷️ Token Auctions](protocol-overview/token-auctions.md)
 * [⚠️ User Risks](protocol-overview/security-and-risks/user-risks.md)

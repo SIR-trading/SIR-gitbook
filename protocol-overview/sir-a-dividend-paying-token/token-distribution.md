@@ -1,29 +1,71 @@
 ---
-description: Allocations of SIR Emissions
+description: Emission Schedule and Allocation Strategy
 ---
 
 # 🍰 Token Distribution
 
-The SIR token is emitted continuously at a fixed rate of 2.015 billion SIR per year, starting from zero supply at launch. Emissions occur every second, ensuring a predictable and linear increase in circulation over time. After the first three years, <mark style="background-color:yellow;">100% of emissions will be directed to liquidity providers</mark>.
+## Emission Schedule
 
-**During the initial 3-year phase**, however, a portion is allocated to those who contributed to making SIR a reality, as detailed below:
+### Constant Rate Model
+- **Annual Emission:** 2.015 billion SIR per year
+- **Starting Supply:** Zero at launch
+- **Distribution Frequency:** Continuous (every second)
+- **Duration:** Perpetual (no end date)
 
-## Current Allocation (Post-Hack Relaunch)
+### Phased Allocation Strategy
 
-Following the protocol redesign and upcoming relaunch, the new token emission breakdown for the first 3 years is as follows:
+#### Years 1-3: Bootstrap Phase
+During the initial three years, emissions support both protocol development and liquidity growth through diversified allocation.
 
-* <mark style="background-color:blue;">13.65 % to</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**team & contributors**</mark>,
-* <mark style="background-color:green;">10 % reserved in a</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**treasury**</mark>
-* <mark style="background-color:red;">8.22 % to</mark> <mark style="background-color:red;"></mark><mark style="background-color:red;">**presale investors**</mark>
-* <mark style="background-color:orange;">4.17 % to public</mark> <mark style="background-color:orange;"></mark><mark style="background-color:orange;">**sale investors**</mark>,
-* <mark style="background-color:purple;">12 % to a compensation fund</mark> for [**victims of the hack**](../exploit-and-relaunch.md), and
-* <mark style="background-color:yellow;">51.31 % will be directed to</mark>  <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**liquidity providers**</mark>
+#### Year 4+: Full Liquidity Focus
+After year three, <mark style="background-color:yellow;">**100% of emissions flow to liquidity providers**</mark>, ensuring sustainable long-term incentives.
+
+## Current Allocation Structure
+
+### Post-Hack Relaunch (Years 1-3)
+
+Following the protocol redesign, the emission breakdown for the first three years is:
+
+| Recipient | Allocation | Purpose |
+|-----------|------------|---------|
+| <mark style="background-color:yellow;">**Liquidity Providers**</mark> | 51.31% | Protocol liquidity incentives |
+| <mark style="background-color:blue;">**Team & Contributors**</mark> | 13.65% | Development and operations |
+| <mark style="background-color:purple;">**Hack Victims Fund**</mark> | 12.00% | [Compensation for losses](../exploit-and-relaunch.md) |
+| <mark style="background-color:green;">**Protocol Treasury**</mark> | 10.00% | Strategic reserves & development |
+| <mark style="background-color:red;">**Presale Investors**</mark> | 8.22% | Early funding supporters |
+| <mark style="background-color:orange;">**Public Sale**</mark> | 4.17% | Community distribution |
+| **Unallocated** | 0.65% | Reserve for future needs |
+
+**Total Annual Emissions (Years 1-3):** 2.015 billion SIR
 
 ### Original Allocation (Pre-Hack)
 
-In the original version of the protocol, emissions for the initial 3-year period were distributed as follows:
+The initial protocol design allocated first three years' emissions as:
 
-* <mark style="background-color:blue;">13.65 % to</mark> <mark style="background-color:blue;"></mark><mark style="background-color:blue;">**team & contributors**</mark>,
-* <mark style="background-color:green;">10 % reserved in a</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**treasury**</mark>
-* <mark style="background-color:red;">8.22 % to</mark> <mark style="background-color:red;"></mark><mark style="background-color:red;">**investors**</mark>, and
-* <mark style="background-color:yellow;">68.13 % will be directed to</mark>  <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">**liquidity providers**</mark>
+| Recipient | Allocation | 
+|-----------|------------|
+| <mark style="background-color:yellow;">**Liquidity Providers**</mark> | 68.13% |
+| <mark style="background-color:blue;">**Team & Contributors**</mark> | 13.65% |
+| <mark style="background-color:green;">**Protocol Treasury**</mark> | 10.00% |
+| <mark style="background-color:red;">**Investors**</mark> | 8.22% |
+
+## Strategic Rationale
+
+### Why This Distribution?
+
+**Liquidity First:** Even during bootstrap phase, majority (51.31%) flows to LPers, ensuring deep liquidity from day one.
+
+**Aligned Incentives:** Team allocation ensures long-term commitment while treasury reserves enable strategic flexibility.
+
+**Fair Compensation:** Hack victims receive meaningful restitution without compromising protocol viability.
+
+**Sustainable Transition:** Gradual shift to 100% LP rewards creates predictable, long-term incentives.
+
+### Long-Term Vision
+
+After year three, the protocol transitions to a pure liquidity incentive model:
+- **100% to LPers:** All emissions support protocol liquidity
+- **Self-Sustaining:** Protocol fees fund operations via SIR staking dividends
+- **Market-Driven:** Success depends entirely on protocol utility and adoption
+
+This structure ensures SIR evolves from a bootstrap token to a mature, utility-driven asset with permanent liquidity incentives.
