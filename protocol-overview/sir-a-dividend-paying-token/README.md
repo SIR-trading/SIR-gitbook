@@ -26,14 +26,6 @@ Explore the three-token ecosystem from a business perspective. Understand how AP
 ### [🍰 Token Distribution](token-distribution.md)
 Detailed breakdown of how SIR tokens are allocated during the bootstrap phase (years 1-3) and the transition to 100% liquidity provider rewards thereafter.
 
-## Key Innovations
-
-**Protocol-Owned Liquidity:** Every TEA deposit contributes 9% to permanent protocol reserves, building an unshakeable foundation that compounds over time.
-
-**Aligned Incentives:** Whether you're seeking leverage (APE), providing liquidity (TEA), or staking for dividends (SIR), the protocol ensures all participants benefit from its growth.
-
-**Sustainable Economics:** Unlike protocols that "rent" liquidity through unsustainable emissions, SIR creates permanent value through its unique tokenomics design.
-
 ## Getting Started
 
 New to SIR? Start with the [Economic Model](economic-model.md) to understand the big picture, then explore [SIR Token Mechanics](sir-token-mechanics.md) for technical details on staking and rewards.
