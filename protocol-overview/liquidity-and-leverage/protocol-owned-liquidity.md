@@ -10,7 +10,7 @@ Protocol-Owned Liquidity (POL) represents a paradigm shift in DeFi liquidity man
 
 ## The 9% Mechanism
 
-### How It Works
+**How It Works**
 When liquidity providers (gentlemen) deposit assets to mint TEA tokens:
 1. **91% becomes active liquidity** controlled by the depositor
 2. **9% is permanently allocated to POL** as a one-time contribution
@@ -18,7 +18,7 @@ When liquidity providers (gentlemen) deposit assets to mint TEA tokens:
 
 This 9% is not a traditional fee, it is a strategic investment in protocol sustainability that benefits all participants.
 
-### Why 9%?
+**Why 9%?**
 The 9% rate balances several considerations:
 - **Meaningful Accumulation:** High enough to build substantial POL over time
 - **LPer Profitability:** Low enough to maintain attractive returns for liquidity providers
@@ -27,14 +27,14 @@ The 9% rate balances several considerations:
 
 ## POL as a Permanent Participant
 
-### Never Withdraws, Always Compounds
+**Never Withdraws, Always Compounds**
 Protocol-Owned Liquidity functions as the ideal liquidity provider:
 - **Permanent Presence:** Never withdraws during market volatility
 - **Continuous Growth:** Earns and compounds fees alongside other LPers
 - **Zero Maintenance:** No incentives needed to retain this liquidity
 - **Market Stabilizer:** Provides consistent depth during all market conditions
 
-### Growing Share Over Time
+**Growing Share Over Time**
 As the protocol matures, POL's share naturally increases through:
 1. **New Deposits:** Each TEA mint adds to the permanent base
 2. **Fee Accumulation:** POL earns its proportional share of all trading fees
@@ -43,19 +43,19 @@ As the protocol matures, POL's share naturally increases through:
 
 ## Strategic Advantages
 
-### For the Protocol
+**For the Protocol:**
 - **Reduced Incentive Costs:** Less reliance on SIR emissions over time
 - **Enhanced Stability:** Permanent liquidity floor that can't be withdrawn
 - **Revenue Generation:** POL's fee earnings can support protocol development
 - **Long-term Viability:** Self-sustaining model that improves with scale
 
-### For Liquidity Providers
+**For Liquidity Providers:**
 - **Deeper Markets:** POL enhances overall liquidity depth
 - **Reduced Volatility:** Permanent base dampens liquidity shocks
 - **Better Fee Distribution:** More stable liquidity means more consistent fees
 - **Aligned Incentives:** Protocol success directly benefits all participants
 
-### For Leverage Traders (APEs)
+**For Leverage Traders (APEs):**
 - **Reliable Liquidity:** Always available capacity for leverage positions
 - **Tighter Spreads:** Deeper liquidity enables better pricing
 - **Reduced Slippage:** More liquidity means less price impact
@@ -63,37 +63,23 @@ As the protocol matures, POL's share naturally increases through:
 
 ## Comparison to Traditional Models
 
-### Traditional Liquidity Mining
+**Traditional Liquidity Mining**
 **Problem:** Protocols must continuously pay for temporary liquidity
 - High ongoing costs
 - Mercenary capital that leaves when rewards decrease
 - Unsustainable token inflation
 - No permanent value capture
 
-### SIR's POL Model
+**SIR's POL Model**
 **Solution:** One-time contribution creates permanent value
 - Zero ongoing costs for POL portion
 - Liquidity that never leaves
 - Sustainable token economics
 - Continuous value accumulation
 
-## Mathematical Impact
+## Long-term Projections
 
-### Liquidity Growth Formula
-Total Protocol Liquidity = User Deposits + POL
-
-Where POL grows according to:
-```
-POL(t) = POL₀ + 0.09 × NewDeposits(t) + Fees_earned(t)
-```
-
-### Long-term Projection
-Assuming steady deposit growth and fee generation:
-- **Year 1:** POL represents ~9% of total liquidity
-- **Year 3:** POL could represent 15-20% through fee accumulation
-- **Year 5:** POL potentially exceeds 25% of total protocol liquidity
-
-This creates a self-reinforcing cycle where protocol success breeds greater stability.
+While exact growth depends on the dynamic split between APE traders and TEA providers, POL's share inevitably increases over time. Starting at ~9% of total liquidity, POL could reach 15-20% by year 3 and potentially exceed 25% by year 5 through continuous fee accumulation. The beauty lies in its predictable growth—every deposit adds to the permanent base, every fee compounds the effect.
 
 ## The Virtuous Cycle
 

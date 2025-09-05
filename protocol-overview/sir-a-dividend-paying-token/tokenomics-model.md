@@ -8,25 +8,24 @@ description: The Economic Design and Business Model of SIR
 
 The SIR protocol operates through a synergistic three-token model, each serving distinct but interconnected roles:
 
-### SIR Token: Governance & Value Capture
+**SIR Token: Governance & Value Capture**
 - **Dividend Distribution:** Stake SIR to earn a share of protocol fees paid in WETH
 - **Continuous Issuance:** 2.015 billion SIR per year, creating sustainable liquidity incentives
 - **Future Governance:** Control treasury and direct reward allocations across vaults
 
-### TEA Token: Liquidity Provision
+**TEA Token: Liquidity Provision**
 - **Liquidity Representation:** Mint TEA by depositing assets; burn to withdraw
 - **Fee Structure:** 9% upfront deposit fee (retained as protocol-owned liquidity)
 - **Revenue Streams:**
   - Primary: Trading fees from APE leverage positions
   - Secondary: SIR token rewards for selected vaults
 
-### APE Token: Leverage Positions
+**APE Token: Leverage Positions**
 - **Position Management:** Minted when opening leverage, burned when closing
+- **Fee Structure:** Substantial minting fee paid to LPers, scaling with leverage ratio (higher leverage = higher fee)
 - **Revenue Generation:** Trading activity drives protocol fees distributed to stakeholders
 
 ## Business Model Architecture
-
-### From a Business Perspective
 
 The protocol's economic model can be understood through traditional business roles:
 
@@ -36,7 +35,7 @@ The protocol's economic model can be understood through traditional business rol
 
 **Stakeholders:** SIR holders capture value through dividends and governance rights, aligning their interests with protocol growth.
 
-### Revenue Flow
+**Revenue Flow**
 1. APE holders generate fees through leverage trading
 2. Fees flow to TEA holders (90%) and SIR stakers (up to 10%)
 3. SIR emissions incentivize TEA liquidity provision
@@ -44,7 +43,7 @@ The protocol's economic model can be understood through traditional business rol
 
 ## Sustainable Tokenomics Design
 
-### Why Constant Issuance?
+**Why Constant Issuance?**
 
 Unlike projects with capped supplies that front-load emissions, SIR maintains constant issuance for several strategic reasons:
 
@@ -54,35 +53,22 @@ Unlike projects with capped supplies that front-load emissions, SIR maintains co
 
 **Transparent Predictability:** Instead of teams selling tokens unpredictably to fund operations, SIR embeds liquidity incentives directly into the protocol in a transparent, permanent manner.
 
-### The Best of Both Worlds
+**The Best of Both Worlds**
 
 For participants seeking to optimize their position:
 - **Stake SIR:** Earn ETH dividends from protocol fees
 - **Provide Liquidity:** Earn SIR rewards to offset dilution
 - **Do Both:** LP and stake earned SIR for maximum benefit (no dilution + ETH dividends)
 
-## Protocol-Owned Liquidity Strategy
+## Protocol-Owned Liquidity
 
-The SIR protocol implements a unique approach to liquidity sustainability through its [Protocol-Owned Liquidity (POL) mechanism](../../liquidity-and-leverage/protocol-owned-liquidity.md).
+SIR implements a groundbreaking approach where 9% of every TEA deposit becomes permanent protocol-owned liquidity (POL). This POL never withdraws and continuously earns fees, creating a growing foundation that reduces reliance on temporary incentives over time.
 
-### Key Innovation: The 9% Capture
-
-Every liquidity deposit (TEA minting) contributes 9% directly to permanent protocol reserves. This transforms the traditional liquidity paradigm:
-
-**Traditional Approach:** Protocols temporarily "rent" liquidity through incentives that must be continuously paid
-**SIR Approach:** Immediate partial acquisition of liquidity that compounds forever
-
-### Strategic Impact
-- **Permanent Base:** POL never withdraws, providing unshakeable foundation liquidity
-- **Compound Growth:** POL earns fees alongside other LPers, continuously growing
-- **Reduced Mercenary Risk:** Less dependence on temporary liquidity providers
-- **Long-term Alignment:** Creates a self-reinforcing system where success breeds stability
-
-For detailed mechanics and benefits, see the dedicated [Protocol-Owned Liquidity section](../../liquidity-and-leverage/protocol-owned-liquidity.md).
+For detailed mechanics, benefits, and projections, see the dedicated [Protocol-Owned Liquidity section](../../liquidity-and-leverage/protocol-owned-liquidity.md).
 
 ## Economic Alignment
 
-### Incentive Structure
+**Incentive Structure**
 
 The protocol aligns all participant incentives toward sustainable growth:
 
@@ -91,7 +77,7 @@ The protocol aligns all participant incentives toward sustainable growth:
 3. **SIR Holders:** Capture protocol value through dividends and price appreciation
 4. **Protocol Treasury:** Accumulates permanent liquidity for long-term resilience
 
-### Mathematical Optimization
+**Mathematical Optimization**
 
 Reward distribution follows economic contribution:
 - Vaults receive SIR proportional to fees generated
