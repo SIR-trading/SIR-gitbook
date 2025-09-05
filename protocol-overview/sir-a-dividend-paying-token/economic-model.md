@@ -1,8 +1,8 @@
 ---
-description: The Economic Design and Business Model of SIR
+description: The Three-Token Economy and Business Model
 ---
 
-# 💰 Tokenomics Model
+# 💰 Economic Model
 
 ## The Three-Token Ecosystem
 
