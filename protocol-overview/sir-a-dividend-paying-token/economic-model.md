@@ -9,21 +9,24 @@ description: The Three-Token Economy and Business Model
 The SIR protocol operates through a synergistic three-token model, each serving distinct but interconnected roles:
 
 **SIR Token: Governance & Value Capture**
-- **Dividend Distribution:** Stake SIR to earn a share of protocol fees paid in WETH
-- **Continuous Issuance:** 2.015 billion SIR per year, creating sustainable liquidity incentives
-- **Future Governance:** Control treasury and direct reward allocations across vaults
+
+* **Dividend Distribution:** Stake SIR to earn a share of protocol fees paid in WETH
+* **Continuous Issuance:** 2.015 billion SIR per year, creating sustainable liquidity incentives
+* **Future Governance:** Control treasury and direct reward allocations across vaults
 
 **TEA Token: Liquidity Provision**
-- **Liquidity Representation:** Mint TEA by depositing assets; burn to withdraw
-- **Fee Structure:** 9% upfront deposit fee (retained as protocol-owned liquidity)
-- **Revenue Streams:**
-  - Primary: Trading fees from APE leverage positions
-  - Secondary: SIR token rewards for selected vaults
+
+* **Liquidity Representation:** Mint TEA by depositing assets; burn to withdraw
+* **Fee Structure:** 9% upfront deposit fee (retained as protocol-owned liquidity)
+* **Revenue Streams:**
+  * Primary: Trading fees from APE leverage positions
+  * Secondary: SIR token rewards for selected vaults
 
 **APE Token: Leverage Positions**
-- **Position Management:** Minted when opening leverage, burned when closing
-- **Fee Structure:** Substantial minting fee paid to LPers, scaling with leverage ratio (higher leverage = higher fee)
-- **Revenue Generation:** Trading activity drives protocol fees distributed to stakeholders
+
+* **Position Management:** Minted when opening leverage, burned when closing
+* **Fee Structure:** Substantial minting fee paid to LPers, scaling with leverage ratio (higher leverage = higher fee)
+* **Revenue Generation:** Trading activity drives protocol fees distributed to stakeholders
 
 ## Business Model Architecture
 
@@ -36,6 +39,7 @@ The protocol's economic model can be understood through traditional business rol
 **Stakeholders:** SIR holders capture value through dividends and governance rights, aligning their interests with protocol growth.
 
 **Revenue Flow**
+
 1. APE holders generate fees through leverage trading
 2. Fees flow to TEA holders (90%) and SIR stakers (up to 10%)
 3. SIR emissions incentivize TEA liquidity provision
@@ -56,15 +60,16 @@ Unlike projects with capped supplies that front-load emissions, SIR maintains co
 **The Best of Both Worlds**
 
 For participants seeking to optimize their position:
-- **Stake SIR:** Earn ETH dividends from protocol fees
-- **Provide Liquidity:** Earn SIR rewards to offset dilution
-- **Do Both:** LP and stake earned SIR for maximum benefit (no dilution + ETH dividends)
+
+* **Stake SIR:** Earn ETH dividends from protocol fees
+* **Provide Liquidity:** Earn SIR rewards to offset dilution
+* **Do Both:** LP and stake earned SIR for maximum benefit (no dilution + ETH dividends)
 
 ## Protocol-Owned Liquidity
 
 SIR implements a groundbreaking approach where 9% of every TEA deposit becomes permanent protocol-owned liquidity (POL). This POL never withdraws and continuously earns fees, creating a growing foundation that reduces reliance on temporary incentives over time.
 
-For detailed mechanics, benefits, and projections, see the dedicated [Protocol-Owned Liquidity section](../../liquidity-and-leverage/protocol-owned-liquidity.md).
+For detailed mechanics, benefits, and projections, see the dedicated [protocol-owned-liquidity.md](../liquidity-and-leverage/protocol-owned-liquidity.md "mention").
 
 ## Economic Alignment
 
@@ -80,8 +85,9 @@ The protocol aligns all participant incentives toward sustainable growth:
 **Mathematical Optimization**
 
 Reward distribution follows economic contribution:
-- Vaults receive SIR proportional to fees generated
-- Maximum 10% fee redistribution ensures LPer profitability
-- Quadratic constraint (√Σfi² ≤ 10%) optimizes allocation efficiency
+
+* Vaults receive SIR proportional to fees generated
+* Maximum 10% fee redistribution ensures LPer profitability
+* Quadratic constraint (√Σfi² ≤ 10%) optimizes allocation efficiency
 
 This creates a self-balancing system where the most productive vaults naturally attract appropriate incentives, maximizing capital efficiency across the protocol.
