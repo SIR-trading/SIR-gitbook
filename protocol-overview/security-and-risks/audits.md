@@ -2,28 +2,28 @@
 
 SIR has been audited by multiple independent security firms. After the [March 2025 exploit](../exploit-and-relaunch.md), the protocol was rebuilt and subjected to four comprehensive audits before relaunching.
 
-## Post-Relaunch Audits
+## MegaETH Launch Audit
+
+| Auditor | Scope | Report |
+|---------|-------|--------|
+| [**Egis Security**](https://www.sir.trading/audits/egis-megaeth) | MegaETH deployment review | [View Report](https://www.sir.trading/audits/egis-megaeth) |
+
+## Post-Relaunch Audits (Ethereum)
 
 These four audits were completed on the rewritten codebase before the protocol went live again:
 
-| Auditor | Scope |
-|---------|-------|
-| **Custodia Security** | Full protocol review |
-| **Egis Security** | Full protocol review |
-| **Syzygy** | Full protocol review |
-| **Guild Audits** | Full protocol review |
-
-## MegaETH Launch Audit
-
-| Auditor | Scope |
-|---------|-------|
-| **Egis Security** | MegaETH deployment review |
+| Auditor | Scope | Report |
+|---------|-------|--------|
+| [**Custodia Security**](https://www.sir.trading/audits/custodia) | Full protocol review | [View Report](https://www.sir.trading/audits/custodia) |
+| [**Egis Security**](https://www.sir.trading/audits/egis) | Full protocol review | [View Report](https://www.sir.trading/audits/egis) |
+| [**Syzygy**](https://www.sir.trading/audits/syzygy) | Full protocol review | [View Report](https://www.sir.trading/audits/syzygy) |
+| [**Guild Audits**](https://www.sir.trading/audits/guild) | Full protocol review | [View Report](https://www.sir.trading/audits/guild) |
 
 ## Pre-Exploit Audit (Historical)
 
-| Auditor | Scope |
-|---------|-------|
-| **Egis Security** | Original protocol audit (pre-March 2025) |
+| Auditor | Scope | Report |
+|---------|-------|--------|
+| [**Egis Security**](https://www.sir.trading/audits/egis-pre-exploit) | Original protocol audit (pre-March 2025) | [View Report](https://www.sir.trading/audits/egis-pre-exploit) |
 
 {% hint style="info" %}
 All audit reports are available at [sir.trading/audits](https://www.sir.trading/audits).

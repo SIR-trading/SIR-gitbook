@@ -8,7 +8,7 @@ description: The Three-Token Economy and Business Model
 
 The SIR protocol operates through a synergistic three-token model, each serving distinct but interconnected roles:
 
-**SIR Token: Governance & Value Capture**
+**SIR Token: Value Capture & Governance**
 
 * **Dividend Distribution:** Stake SIR to earn a share of protocol fees (WETH on Ethereum, WHYPE on HyperEVM, WETH on MegaETH)
 * **Continuous Issuance:** 2.015 billion SIR per year, creating sustainable liquidity incentives
@@ -17,7 +17,7 @@ The SIR protocol operates through a synergistic three-token model, each serving 
 **TEA Token: Liquidity Provision**
 
 * **Liquidity Representation:** Mint TEA by depositing assets; burn to withdraw
-* **Fee Structure:** 9% upfront deposit fee (retained as protocol-owned liquidity)
+* **Fee Structure:** 4.9% upfront deposit fee (retained as protocol-owned liquidity)
 * **Revenue Streams:**
   * Primary: Trading fees from APE leverage positions
   * Secondary: SIR token rewards for selected vaults
@@ -25,7 +25,7 @@ The SIR protocol operates through a synergistic three-token model, each serving 
 **APE Token: Leverage Positions**
 
 * **Position Management:** Minted when opening leverage, burned when closing
-* **Fee Structure:** Substantial minting fee paid to LPers, scaling with leverage ratio (higher leverage = higher fee)
+* **Fee Structure:** One-time minting fee paid to LPers, scaling with leverage ratio (~9% for ^1.5, ~17% for ^2)
 * **Revenue Generation:** Trading activity drives protocol fees distributed to stakeholders
 
 ## Business Model Architecture
@@ -41,7 +41,7 @@ The protocol's economic model can be understood through traditional business rol
 **Revenue Flow**
 
 1. APE holders generate fees through leverage trading
-2. Fees flow to TEA holders (90%) and SIR stakers (up to 10%)
+2. Fees flow to TEA holders and SIR stakers (up to 50% can be directed to stakers)
 3. SIR emissions incentivize TEA liquidity provision
 4. Increased liquidity attracts more APE users, creating a growth flywheel
 
@@ -67,9 +67,9 @@ For participants seeking to optimize their position:
 
 ## Protocol-Owned Liquidity
 
-SIR implements a groundbreaking approach where 9% of every TEA deposit becomes permanent protocol-owned liquidity (POL). This POL never withdraws and continuously earns fees, creating a growing foundation that reduces reliance on temporary incentives over time.
+On Ethereum and HyperEVM, 4.9% of every TEA deposit becomes permanent protocol-owned liquidity (POL). This POL never withdraws and continuously earns fees, creating a growing foundation that reduces reliance on temporary incentives over time. On MegaETH, POL is optional — LPs can opt out of the fee by locking their deposit for a period of time instead.
 
-For detailed mechanics, benefits, and projections, see the dedicated [protocol-owned-liquidity.md](../liquidity-and-leverage/protocol-owned-liquidity.md "mention").
+For detailed mechanics, see [Protocol Owned Liquidity](../liquidity-and-leverage/protocol-owned-liquidity.md).
 
 ## Economic Alignment
 
@@ -87,7 +87,7 @@ The protocol aligns all participant incentives toward sustainable growth:
 Reward distribution follows economic contribution:
 
 * Vaults receive SIR proportional to fees generated
-* Maximum 10% fee redistribution ensures LPer profitability
-* Quadratic constraint (√Σfi² ≤ 10%) optimizes allocation efficiency
+* Maximum 50% fee redistribution to SIR stakers
+* Quadratic constraint ($$\sqrt{\sum f_i^2} \leq 50\%$$) optimizes allocation efficiency
 
 This creates a self-balancing system where the most productive vaults naturally attract appropriate incentives, maximizing capital efficiency across the protocol.

@@ -27,13 +27,11 @@ At its core, SIR solves a fundamental DeFi challenge: how to sustainably incenti
 
 ### [💰 Economic Model](economic-model.md)
 
-
-
 Explore the three-token ecosystem from a business perspective. Understand how APE traders, TEA providers, and SIR holders interact to create value, and why constant issuance beats traditional capped supply models.
 
 ### [🍰 Token Distribution](token-distribution.md)
 
-Detailed breakdown of how SIR tokens are allocated during the bootstrap phase (years 1-3) and the transition to 100% liquidity provider rewards thereafter.
+Detailed breakdown of how SIR tokens are allocated during the bootstrap phase (years 1-3) across Ethereum, HyperEVM, and MegaETH, and the transition to 100% liquidity provider rewards thereafter.
 
 ## Getting Started
 

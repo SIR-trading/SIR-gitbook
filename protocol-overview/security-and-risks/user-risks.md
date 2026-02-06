@@ -22,11 +22,11 @@ Apes use SIR to take leveraged positions via vaults. These come with the followi
 
 1. **Leverage Peg Breakdown**\
    If vaults reach [saturation](liquidity-and-leverage/) —where demand for leverage exceeds available liquidity— the target leverage ratio (e.g., `^2`) may falter. This can lead to reduced returns, and/or volatility decay.
-2. **Volatility Amplification**\
-   Like any leveraged product, SIR amplifies both gains and losses in volatile markets, increasing the chance of liquidation or collateral erosion.&#x20;
+2. **Volatility Decay in Saturation**\
+   SIR eliminates volatility decay on a best-effort basis by maintaining constant leverage within the [convex zone](liquidity-and-leverage/#the-limits-of-constant-leverage). However, when a vault enters the [saturation zone](liquidity-and-leverage/#the-saturation-zone) — where LP liquidity is insufficient to maintain constant leverage — the same buy-high-sell-low rebalancing dynamic seen in traditional leveraged tokens can occur. The deeper into saturation, the more pronounced the decay. This risk is mitigated by the protocol's [self-balancing convexity loop](../introducing-sir/why-sir-matters.md#self-balancing-convexity), which incentivizes LP liquidity to keep the convex zone wide.
 
 {% hint style="info" %}
-However, SIR's convex payout structure means apes gain more on the upside and lose less on the downside compared to traditional perpetuals (_aka_ perps) or margin leverage.
+SIR's convex payout structure means apes gain more on the upside and lose less on the downside compared to traditional perpetuals (_aka_ perps) or margin leverage — provided the vault operates within the convex zone.
 {% endhint %}
 
 ## Risks for Liquidity Providers (LPers)

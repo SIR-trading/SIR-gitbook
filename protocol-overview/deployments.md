@@ -1,6 +1,6 @@
 # 🌐 Deployments
 
-SIR is deployed on three chains. The core protocol contracts are identical across all deployments — the same Vault, Oracle, and token mechanics — configured for each chain's native DEX and tokens.
+SIR is deployed on three chains. The core protocol contracts are identical across all deployments — the same Vault, Oracle, and token mechanics — configured for each chain's native price oracle and tokens.
 
 ---
 
@@ -11,8 +11,7 @@ SIR is deployed on three chains. The core protocol contracts are identical acros
 | **Chain ID** | 1 |
 | **Native Token** | ETH |
 | **SIR Token** | SIR |
-| **DEX** | Uniswap V3 |
-| **Block Explorer** | [etherscan.io](https://etherscan.io) |
+| **Price Oracle** | Uniswap V3 |
 
 | Contract | Address |
 |----------|---------|
@@ -34,8 +33,7 @@ SIR is deployed on three chains. The core protocol contracts are identical acros
 | **Chain ID** | 999 |
 | **Native Token** | HYPE |
 | **SIR Token** | HyperSIR |
-| **DEX** | HyperSwap |
-| **Block Explorer** | [hyperevmscan.io](https://hyperevmscan.io) |
+| **Price Oracle** | HyperSwap |
 
 | Contract | Address |
 |----------|---------|
@@ -57,8 +55,7 @@ SIR is deployed on three chains. The core protocol contracts are identical acros
 | **Chain ID** | 4326 |
 | **Native Token** | ETH |
 | **SIR Token** | MegaSIR |
-| **DEX** | Kumbaya |
-| **Block Explorer** | [megaeth.blockscout.com](https://megaeth.blockscout.com) |
+| **Price Oracle** | Kumbaya |
 
 | Contract | Address |
 |----------|---------|

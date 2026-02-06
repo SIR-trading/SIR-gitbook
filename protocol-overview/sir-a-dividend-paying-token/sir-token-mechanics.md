@@ -70,8 +70,8 @@ Unlike temporary "liquidity mining" campaigns from DeFi Summer 2020, SIR embeds 
 
 **Vault Reward Mechanism**
 Selected vaults receive SIR emissions in exchange for sharing fees with stakers:
-- **Fee Sharing Cap:** Maximum 10% of vault fees to SIR stakers
-- **Proportional Rewards:** 10% fee share earns 2x the SIR of 5% share
+- **Fee Sharing Cap:** Maximum 50% of vault fees to SIR stakers
+- **Proportional Rewards:** Higher fee share earns proportionally more SIR
 - **Aligned Incentives:** Most productive vaults receive optimal rewards
 
 ## Governance & Vault Selection
@@ -94,7 +94,7 @@ Where:
 - $$\alpha$$ = Proportionality constant
 
 **Optimization Constraint:**
-$$\sqrt{\sum f_i^2} \leq 10\%$$
+$$\sqrt{\sum f_i^2} \leq 50\%$$
 
 This ensures rewards match economic contribution while maintaining system sustainability.
 

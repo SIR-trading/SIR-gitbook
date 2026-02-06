@@ -7,7 +7,7 @@ description: Emission Schedule and Allocation Strategy
 ## Emission Schedule
 
 **Constant Rate Model**
-- **Annual Emission:** 2.015 billion SIR per year
+- **Annual Emission:** 2.015 billion SIR per year (per chain)
 - **Starting Supply:** Zero at launch
 - **Distribution Frequency:** Continuous (every second)
 - **Duration:** Perpetual (no end date)
@@ -20,11 +20,9 @@ During the initial three years, emissions support both protocol development and 
 Year 4+: Full Liquidity Focus
 After year three, <mark style="background-color:yellow;">**100% of emissions flow to liquidity providers**</mark>, ensuring sustainable long-term incentives.
 
-## Current Allocation Structure
+## Ethereum Allocation (Years 1-3)
 
-**Post-Hack Relaunch (Years 1-3)**
-
-Following the protocol redesign, the emission breakdown for the first three years is:
+Following the protocol redesign after the March 2025 exploit, the emission breakdown for Ethereum is:
 
 | Recipient | Allocation | Purpose |
 |-----------|------------|---------|
@@ -34,13 +32,25 @@ Following the protocol redesign, the emission breakdown for the first three year
 | <mark style="background-color:green;">**Protocol Treasury**</mark> | 10.00% | Strategic reserves & development |
 | <mark style="background-color:red;">**Presale Investors**</mark> | 8.22% | Early funding supporters |
 
-**Total Annual Emissions (Years 1-3):** 2.015 billion SIR
+## HyperEVM Allocation (Years 1-3)
 
-**Original Allocation (Pre-Hack)**
+| Recipient | Allocation |
+|-----------|------------|
+| <mark style="background-color:yellow;">**Liquidity Providers**</mark> | 70% |
+| <mark style="background-color:orange;">**Previous SIR Holders, Users & Contributors**</mark> | 30% |
+
+## MegaETH Allocation (Years 1-3)
+
+| Recipient | Allocation |
+|-----------|------------|
+| <mark style="background-color:yellow;">**Liquidity Providers**</mark> | 69% |
+| <mark style="background-color:orange;">**Previous SIR Holders, Users & Contributors**</mark> | 31% |
+
+## Original Ethereum Allocation (Pre-Exploit)
 
 The initial protocol design allocated first three years' emissions as:
 
-| Recipient | Allocation | 
+| Recipient | Allocation |
 |-----------|------------|
 | <mark style="background-color:yellow;">**Liquidity Providers**</mark> | 68.13% |
 | <mark style="background-color:blue;">**Team & Contributors**</mark> | 13.65% |
@@ -49,21 +59,10 @@ The initial protocol design allocated first three years' emissions as:
 
 ## Strategic Rationale
 
-**Why This Distribution?**
+**Liquidity First:** On every chain, the majority of emissions flows to LPers, ensuring deep liquidity from day one.
 
-**Liquidity First:** Even during bootstrap phase, majority (56.13%) flows to LPers, ensuring deep liquidity from day one.
+**Aligned Incentives:** Team and contributor allocations ensure long-term commitment while treasury reserves enable strategic flexibility.
 
-**Aligned Incentives:** Team allocation ensures long-term commitment while treasury reserves enable strategic flexibility.
+**Fair Compensation:** On Ethereum, hack victims receive meaningful restitution without compromising protocol viability.
 
-**Fair Compensation:** Hack victims receive meaningful restitution without compromising protocol viability.
-
-**Sustainable Transition:** Gradual shift to 100% LP rewards creates predictable, long-term incentives.
-
-**Long-Term Vision**
-
-After year three, the protocol transitions to a pure liquidity incentive model:
-- **100% to LPers:** All emissions support protocol liquidity
-- **Self-Sustaining:** Protocol fees fund operations via SIR staking dividends
-- **Market-Driven:** Success depends entirely on protocol utility and adoption
-
-This structure ensures SIR evolves from a bootstrap token to a mature, utility-driven asset with permanent liquidity incentives.
+**Sustainable Transition:** After year three, all chains transition to 100% LP rewards, creating predictable long-term incentives. Protocol fees fund operations via SIR staking dividends.

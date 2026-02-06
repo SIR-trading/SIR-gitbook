@@ -1,102 +1,33 @@
 ---
-description: Building Permanent Liquidity Through Aligned Incentives
+description: Permanent Liquidity That Compounds Over Time
 ---
 
 # 🌱 Protocol Owned Liquidity
 
-## Overview
+## How It Works
 
-Protocol-Owned Liquidity (POL) represents a paradigm shift in DeFi liquidity management. Rather than perpetually renting liquidity through unsustainable incentives, SIR acquires permanent liquidity that compounds over time, creating an unshakeable foundation for the protocol.
+When liquidity providers (gentlemen) deposit assets to mint TEA tokens, a 4.9% fee is charged. This fee is permanently allocated to Protocol-Owned Liquidity (POL), which participates in the vault as a permanent LPer. Both the depositor's 95.1% and the POL's 4.9% earn trading fees from APE leverage positions.
 
-## The 9% Mechanism
+POL never withdraws. It earns and compounds fees alongside other LPers, creating a growing liquidity floor that benefits everyone:
 
-**How It Works**
-When liquidity providers (gentlemen) deposit assets to mint TEA tokens:
-1. **91% becomes active liquidity** controlled by the depositor
-2. **9% is permanently allocated to POL** as a one-time contribution
-3. Both portions earn trading fees from APE leverage positions
+- **For traders:** Reliable liquidity depth that keeps the [convex zone](../liquidity-and-leverage/#the-limits-of-constant-leverage) wide
+- **For LPers:** A stable base that dampens liquidity shocks
+- **For the protocol:** Reduced reliance on inflationary incentives over time
 
-This 9% is not a traditional fee, it is a strategic investment in protocol sustainability that benefits all participants.
+## The Growth Cycle
 
-**Why 9%?**
-The 9% rate balances several considerations:
-- **Meaningful Accumulation:** High enough to build substantial POL over time
-- **LPer Profitability:** Low enough to maintain attractive returns for liquidity providers
-- **Market Competitiveness:** Comparable to or better than withdrawal fees in other protocols
-- **No Lock-ups Required:** Unlike competitors, SIR has no mandatory lock periods
+1. Users deposit liquidity → 4.9% goes to POL
+2. POL earns fees → its share grows
+3. Deeper liquidity → better trading experience (wider convex zone)
+4. More traders → higher fee generation
+5. Higher yields → attracts more liquidity
 
-## POL as a Permanent Participant
-
-**Never Withdraws, Always Compounds**
-Protocol-Owned Liquidity functions as the ideal liquidity provider:
-- **Permanent Presence:** Never withdraws during market volatility
-- **Continuous Growth:** Earns and compounds fees alongside other LPers
-- **Zero Maintenance:** No incentives needed to retain this liquidity
-- **Market Stabilizer:** Provides consistent depth during all market conditions
-
-**Growing Share Over Time**
-As the protocol matures, POL's share naturally increases through:
-1. **New Deposits:** Each TEA mint adds to the permanent base
-2. **Fee Accumulation:** POL earns its proportional share of all trading fees
-3. **Compound Effect:** Earned fees increase POL's earning power
-4. **No Dilution:** POL never sells or withdraws its position
-
-## Strategic Advantages
-
-**For the Protocol:**
-- **Reduced Incentive Costs:** Less reliance on SIR emissions over time
-- **Enhanced Stability:** Permanent liquidity floor that can't be withdrawn
-- **Revenue Generation:** POL's fee earnings can support protocol development
-- **Long-term Viability:** Self-sustaining model that improves with scale
-
-**For Liquidity Providers:**
-- **Deeper Markets:** POL enhances overall liquidity depth
-- **Reduced Volatility:** Permanent base dampens liquidity shocks
-- **Better Fee Distribution:** More stable liquidity means more consistent fees
-- **Aligned Incentives:** Protocol success directly benefits all participants
-
-**For Leverage Traders (APEs):**
-- **Reliable Liquidity:** Always available capacity for leverage positions
-- **Tighter Spreads:** Deeper liquidity enables better pricing
-- **Reduced Slippage:** More liquidity means less price impact
-- **Protocol Confidence:** Growing POL signals long-term sustainability
+As POL compounds over time, it becomes the bedrock of the protocol — a permanent, growing foundation that ensures perpetual operation regardless of market conditions.
 
 ## Comparison to Traditional Models
 
-**Traditional Liquidity Mining**
-**Problem:** Protocols must continuously pay for temporary liquidity
-- High ongoing costs
-- Mercenary capital that leaves when rewards decrease
-- Unsustainable token inflation
-- No permanent value capture
+Traditional liquidity mining pays protocols to rent temporary liquidity — high ongoing costs, mercenary capital that leaves when rewards decrease, and unsustainable token inflation. SIR's POL model flips this: a one-time contribution creates permanent value with zero ongoing costs.
 
-**SIR's POL Model**
-**Solution:** One-time contribution creates permanent value
-- Zero ongoing costs for POL portion
-- Liquidity that never leaves
-- Sustainable token economics
-- Continuous value accumulation
-
-## Long-term Projections
-
-While exact growth depends on the dynamic split between APE traders and TEA providers, POL's share inevitably increases over time. Starting at ~9% of total liquidity, POL could reach 15-20% by year 3 and potentially exceed 25% by year 5 through continuous fee accumulation. The beauty lies in its predictable growth—every deposit adds to the permanent base, every fee compounds the effect.
-
-## The Virtuous Cycle
-
-1. **Users deposit liquidity** → 9% goes to POL
-2. **POL earns fees** → POL share grows
-3. **Deeper liquidity** → Better trading experience
-4. **More traders** → Higher fee generation
-5. **Higher yields** → Attracts more liquidity
-6. **Return to step 1** with larger base
-
-## Why This Matters
-
-Protocol-Owned Liquidity transforms SIR from a protocol that needs liquidity to one that owns it. This fundamental shift creates:
-
-**Antifragility:** The protocol becomes stronger during stress, not weaker
-**True Decentralization:** Less reliance on individual liquidity providers
-**Sustainable Economics:** Reduced need for inflationary incentives
-**Long-term Alignment:** Every participant benefits from POL growth
-
-As POL compounds over time, it becomes the bedrock upon which the entire SIR ecosystem thrives—a permanent, growing foundation that ensures the protocol's perpetual operation regardless of market conditions.
+{% hint style="info" %}
+**MegaETH:** On MegaETH, Protocol-Owned Liquidity is optional. LPs can opt out of the POL fee by locking their deposit for a period of time instead. This gives LPs flexibility — pay the fee for immediate withdrawability, or lock up and keep 100% of their deposit.
+{% endhint %}
