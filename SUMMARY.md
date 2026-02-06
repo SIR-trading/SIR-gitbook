@@ -3,6 +3,7 @@
 ## Protocol Overview
 
 * [👋 Introducing SIR](README.md)
+  * [💡 Why SIR Matters](protocol-overview/introducing-sir/why-sir-matters.md)
   * [📈 Take on Leverage and Forget](protocol-overview/introducing-sir/take-on-leverage-and-forget.md)
   * [✏️ Whiteboard Video](protocol-overview/introducing-sir/whiteboard-video.md)
 * [🫗 Liquidity and Leverage](protocol-overview/liquidity-and-leverage/README.md)
@@ -13,16 +14,18 @@
   * [💰 Economic Model](protocol-overview/sir-a-dividend-paying-token/economic-model.md)
   * [🍰 Token Distribution](protocol-overview/sir-a-dividend-paying-token/token-distribution.md)
 * [🏷️ Token Auctions](protocol-overview/token-auctions.md)
-* [⚠️ User Risks](protocol-overview/security-and-risks/user-risks.md)
+* [🌐 Deployments](protocol-overview/deployments.md)
+* [⚠️ Security](protocol-overview/security-and-risks/user-risks.md)
+  * [🔒 Audits](protocol-overview/security-and-risks/audits.md)
   * [🧪 Beta Period](protocol-overview/security-and-risks/beta-period.md)
   * [🐛 Bug Bounty](protocol-overview/security-and-risks/bug-bounty.md)
-* [📜 Contract Addresses](protocol-overview/contract-addresses.md)
-* [🪂 Alternative Frontend (IPFS)](protocol-overview/alternative-frontend-ipfs.md)
-* [💥 Exploit & Relaunch](protocol-overview/exploit-and-relaunch.md)
+  * [💥 Exploit & Relaunch](protocol-overview/exploit-and-relaunch.md)
 
 ## Links
 
+* [App](https://app.sir.trading)
+* [Audits](https://www.sir.trading/audits)
+* [Dune Dashboard](https://dune.com/xatarrer/sir-trading)
 * [Discord](https://t.co/jFXfWEf9Rv)
 * [GitHub](https://github.com/SIR-trading)
 * [X / Twitter](https://x.com/leveragesir)
-* [Protocol Audit](https://github.com/Egis-Security/audits/blob/main/reports/SIR-Trading.pdf)

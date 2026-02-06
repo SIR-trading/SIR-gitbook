@@ -2,18 +2,18 @@
 
 ## Overview
 
-SIR is committed to the security of our protocol and users' funds. We invite security researchers to help identify vulnerabilities in our core smart contracts through our bug bounty program.
+SIR is committed to the security of our protocol and users' funds. Following the March 2025 exploit and successful relaunch with four independent security audits, we continue to invite security researchers to help identify vulnerabilities in our core smart contracts through our bug bounty program.
 
 ## Scope
 
-The bug bounty program covers **high and critical severity vulnerabilities** in the SIR core contracts. All verified contract addresses can be found in the [Contract Addresses](../contract-addresses.md) section.
+The bug bounty program covers **high and critical severity vulnerabilities** in the SIR core contracts across all deployed chains (Ethereum, HyperEVM, and MegaETH). All verified contract addresses can be found in the [Deployments](../deployments.md) section.
 
 **Bug Bounty Reward Address:** [`0x589F8D40370C9B5904f83B9C17815DDdB3eb6af9`](https://etherscan.io/address/0x589F8D40370C9B5904f83B9C17815DDdB3eb6af9)
 
 This address holds the SIR tokens allocated for bug bounty rewards, visible on-chain for transparency.
 
 ### In Scope
-- Core protocol contracts
+- Core protocol contracts on all chains
 - Critical vulnerabilities that could lead to:
   - Loss of user funds
   - Protocol insolvency
@@ -35,7 +35,7 @@ The bug bounty address initially holds **20,000,000 SIR tokens**, with plans to 
 ### High/Critical Severity
 Eligible vulnerabilities include:
 - Direct theft of user funds
-- Permanent or temporary freezing of funds  
+- Permanent or temporary freezing of funds
 - Protocol insolvency
 - Theft of yield
 - Significant protocol manipulation
@@ -82,4 +82,4 @@ For questions about the bug bounty program or to submit findings:
 
 ---
 
-*This bug bounty program may be updated at any time. Last updated: January 2025*
+*This bug bounty program may be updated at any time. Last updated: February 2026*

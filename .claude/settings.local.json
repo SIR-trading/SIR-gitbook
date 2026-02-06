@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:app.sir.trading)",
+      "WebFetch(domain:sir.trading)",
+      "WebFetch(domain:hyperevmscan.io)",
+      "WebFetch(domain:megaeth.blockscout.com)",
+      "WebSearch",
+      "WebFetch(domain:docs.sir.trading)",
+      "WebFetch(domain:tokenbrice.xyz)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(C:\\\\Users\\\\nilga\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe:*)",
+      "Bash(ls:*)",
+      "Bash(powershell -Command \"Add-Type -AssemblyName DocumentFormat.OpenXml; [System.Reflection.Assembly]::LoadFrom\\(''C:\\\\Users\\\\nilga\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\lib\\\\site-packages\\\\docx\\\\*''\\); echo ''test''\")",
+      "WebFetch(domain:thecryptoanalyst.medium.com)",
+      "WebFetch(domain:www.sir.trading)",
+      "WebFetch(domain:webcache.googleusercontent.com)",
+      "WebFetch(domain:freedium.cfd)"
+    ]
+  }
+}

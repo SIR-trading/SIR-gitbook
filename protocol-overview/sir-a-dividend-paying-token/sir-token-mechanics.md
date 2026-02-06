@@ -6,10 +6,14 @@ description: How the SIR Token Works - Staking, Dividends, and Governance
 
 The SIR token serves as the protocol's value-capture mechanism and governance backbone, designed with sustainable economics and aligned incentives at its core.
 
+{% hint style="info" %}
+SIR is deployed on three chains, each with its own token: **SIR** on Ethereum, **HyperSIR** on HyperEVM, and **MegaSIR** on MegaETH. Each chain has independent staking and emission — tokens are not bridged between chains.
+{% endhint %}
+
 ## Core Functions
 
 **1. Dividend Distribution**
-SIR holders can stake their tokens to earn a share of protocol fees. All fees are converted to WETH through an [auction system](../token-auctions.md) and distributed to stakers, providing a direct claim on the protocol's revenue.
+SIR holders can stake their tokens to earn a share of protocol fees. Fees are converted through an [auction system](../token-auctions.md) and distributed to stakers, providing a direct claim on the protocol's revenue. On Ethereum dividends are paid in WETH, on HyperEVM in WHYPE, and on MegaETH in WETH.
 
 **2. Perpetual Liquidity Incentives**
 Unlike temporary liquidity mining programs, SIR embeds token distribution directly into the protocol's immutable contracts. This ensures continuous, predictable rewards for liquidity providers without arbitrary end dates or governance votes.
@@ -26,7 +30,7 @@ This creates a direct alignment: vaults generating the highest fees receive opti
 **How Staking Works**
 To earn protocol dividends, SIR holders must stake their tokens, temporarily removing them from circulation. Key features:
 - **Flexible Operations:** Stake, unstake, and claim dividends at any time
-- **WETH Dividends:** All protocol fees are converted to WETH via [auctions](../token-auctions.md) for consistent payouts
+- **Dividend Payouts:** WETH on Ethereum, WHYPE on HyperEVM, WETH on MegaETH — all converted via [auctions](../token-auctions.md)
 - **Pro-rata Distribution:** Rewards proportional to your staked share
 
 **Anti-Exploitation Locking**
@@ -34,7 +38,7 @@ Staked SIR follows a progressive unlocking mechanism to prevent flash loan attac
 - **Initial Lock:** 100% locked upon staking
 - **Exponential Decay:** 30-day half-life unlocking schedule
   - Day 30: 50% unlocked
-  - Day 60: 75% unlocked  
+  - Day 60: 75% unlocked
   - Day 90: 87.5% unlocked
 - **Continuous Process:** Unlocking occurs every second, not in discrete steps
 
@@ -43,7 +47,7 @@ This design prevents short-term manipulation while maintaining long-term flexibi
 ## Token Issuance Model
 
 **Constant Emission Rate**
-SIR tokens are emitted at a fixed rate of **2.015 billion per year**, starting from zero supply at launch. This predictable, linear issuance continues indefinitely.
+SIR tokens are emitted at a fixed rate of **2.015 billion per year**, starting from zero supply at launch. This predictable, linear issuance continues indefinitely. Each chain emits independently at this rate.
 
 **Why Not Capped Supply?**
 Many protocols follow Bitcoin's model with limited supply and decreasing emissions. However, as Fiskantes explains, front-loaded emissions create unsustainable dynamics:
@@ -75,7 +79,7 @@ Selected vaults receive SIR emissions in exchange for sharing fees with stakers:
 **The Human Element**
 While most protocol functions are automated, vault selection requires human judgment due to:
 - **Token Diversity:** Various collateral types across vaults
-- **Oracle Limitations:** Not all token pairs have Uniswap v3 pools
+- **Oracle Limitations:** Not all token pairs have suitable DEX pools
 - **Economic Complexity:** Difficulty measuring true vault productivity on-chain
 
 **DAO-Driven Optimization**

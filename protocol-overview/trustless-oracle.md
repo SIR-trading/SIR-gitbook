@@ -24,5 +24,11 @@ SIR's hypothesis is that **any protocol can only be as trustless as its underlyi
 * [x] Permissionless. Similar to a blockchain, a key part is that anyone can arbitrage the price between Uniswap v3 and any exchange.
 * [x] Largest liquidity. Uniswap v3 is [the most liquid DEX](https://www.coingecko.com/en/dex) and among the top most liquid exchanges.
 
+### Oracle on Other Chains
 
+SIR applies the same oracle principles on every chain it deploys to. The Oracle contract is configured per-chain with the appropriate DEX factory:
 
+- **HyperEVM** — uses **HyperSwap** pools for TWAP price data. HyperSwap follows the Uniswap V3 design, so the same fee-tier selection, TWAP management, and multi-block manipulation defenses apply.
+- **MegaETH** — uses **Kumbaya** pools for TWAP price data, again following the same Uniswap V3 oracle interface.
+
+The core mechanism is identical: SIR selects the most liquid fee tier, autonomously manages the TWAP window, and applies price truncation to defend against manipulation. Only the DEX factory address differs between chains. See [Deployments](deployments.md) for the specific factory addresses.
