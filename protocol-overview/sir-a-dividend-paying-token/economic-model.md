@@ -10,7 +10,7 @@ The SIR protocol operates through a synergistic three-token model, each serving 
 
 **SIR Token: Governance & Value Capture**
 
-* **Dividend Distribution:** Stake SIR to earn a share of protocol fees paid in WETH
+* **Dividend Distribution:** Stake SIR to earn a share of protocol fees (WETH on Ethereum, WHYPE on HyperEVM, WETH on MegaETH)
 * **Continuous Issuance:** 2.015 billion SIR per year, creating sustainable liquidity incentives
 * **Future Governance:** Control treasury and direct reward allocations across vaults
 
@@ -61,9 +61,9 @@ Unlike projects with capped supplies that front-load emissions, SIR maintains co
 
 For participants seeking to optimize their position:
 
-* **Stake SIR:** Earn ETH dividends from protocol fees
+* **Stake SIR:** Earn dividends from protocol fees
 * **Provide Liquidity:** Earn SIR rewards to offset dilution
-* **Do Both:** LP and stake earned SIR for maximum benefit (no dilution + ETH dividends)
+* **Do Both:** LP and stake earned SIR for maximum benefit (no dilution + dividends)
 
 ## Protocol-Owned Liquidity
 

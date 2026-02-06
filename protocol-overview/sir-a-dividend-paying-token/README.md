@@ -4,7 +4,7 @@ description: The Core Value-Capturing Token of the SIR Protocol
 
 # 💎 Tokenomics
 
-SIR holders can stake their tokens to earn a share of protocol fees. All fees are converted to ETH through an [auction system](../token-auctions.md) and distributed to stakers, providing a direct claim on the protocol's revenue.
+SIR holders can stake their tokens to earn a share of protocol fees. All fees are converted to the chain's native wrapped token (WETH on Ethereum, WHYPE on HyperEVM, WETH on MegaETH) through an [auction system](../token-auctions.md) and distributed to stakers, providing a direct claim on the protocol's revenue.
 
 The SIR protocol features a carefully designed token economy that aligns incentives across all participants while ensuring long-term sustainability. This section explores how the three-token system works together to create a self-reinforcing ecosystem.
 
@@ -22,7 +22,7 @@ At its core, SIR solves a fundamental DeFi challenge: how to sustainably incenti
 ### [🎩 SIR Token Mechanics](sir-token-mechanics.md)
 
 * **Flexible Operations:** Stake, unstake, and claim dividends at any time
-* **ETH Dividends:** All protocol fees are converted to ETH via [auctions](../token-auctions.md) for consistent payouts
+* **Dividends:** All protocol fees are converted to the chain's native wrapped token via [auctions](../token-auctions.md) for consistent payouts
 * **Pro-rata Distribution:** Rewards proportional to your staked share
 
 ### [💰 Economic Model](economic-model.md)
