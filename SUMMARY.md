@@ -14,7 +14,7 @@
   * [🍰 Token Distribution](protocol-overview/sir-a-dividend-paying-token/token-distribution.md)
 * [🏷️ Token Auctions](protocol-overview/token-auctions.md)
 * [🌐 Deployments](protocol-overview/deployments.md)
-* [🔧 Smart Contract Interfaces](protocol-overview/smart-contract-interfaces/README.md)
+* [🔧 Contract Interfaces](protocol-overview/smart-contract-interfaces/README.md)
   * [Vault](protocol-overview/smart-contract-interfaces/vault.md)
   * [SIR & Staking](protocol-overview/smart-contract-interfaces/sir-and-staking.md)
   * [Price Oracle](protocol-overview/smart-contract-interfaces/oracle.md)

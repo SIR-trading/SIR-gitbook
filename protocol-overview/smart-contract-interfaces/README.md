@@ -2,7 +2,7 @@
 description: Function-level reference for integrating with SIR Protocol contracts.
 ---
 
-# Smart Contract Interfaces
+# Contract Interfaces
 
 This section documents the public and external functions of SIR Protocol's core contracts. It is intended for developers building on top of the protocol — bots, aggregators, frontends, and other integrations.
 
@@ -12,7 +12,7 @@ For deployed contract addresses, see [Deployments](../deployments.md).
 The core contracts are deployed on **Ethereum**, **HyperEVM**, and **MegaETH**. Function signatures are nearly identical across chains, but there are meaningful differences noted on each page. Always verify against the deployment you are targeting.
 {% endhint %}
 
-## Contract Architecture
+<!-- ## Contract Architecture
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -43,7 +43,7 @@ The core contracts are deployed on **Ethereum**, **HyperEVM**, and **MegaETH**. 
 │  TWAP price feed backed by Uniswap V3 /         │
 │  HyperSwap / Kumbaya pools                      │
 └─────────────────────────────────────────────────┘
-```
+``` -->
 
 ## Contract Pages
 
@@ -66,7 +66,7 @@ Identifies a specific vault. Used as input to most Vault functions.
 struct VaultParameters {
     address debtToken;
     address collateralToken;
-    int8 leverageTier;       // Range: -3 to +3
+    int8 leverageTier;       // Range: -2 to +2
 }
 ```
 

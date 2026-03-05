@@ -228,7 +228,7 @@ Returns the leverage tier for this APE token (stored as an immutable argument in
 function leverageTier() public pure returns (int8)
 ```
 
-**Returns:** `int8` — leverage tier from `-3` to `+3`.
+**Returns:** `int8` — leverage tier from `-2` to `+2`.
 
 ---
 
