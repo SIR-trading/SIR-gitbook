@@ -62,7 +62,7 @@ SIR is deployed on three chains. The core protocol contracts are identical acros
 | [Vault.sol](https://github.com/SIR-trading/Core/blob/master/src/Vault.sol) | [`0x8d694D1b369BdE5B274Ad643fEdD74f836E88543`](https://megaeth.blockscout.com/address/0x8d694D1b369BdE5B274Ad643fEdD74f836E88543) |
 | [SIR.sol](https://github.com/SIR-trading/Core/blob/master/src/SIR.sol) (MegaSIR) | [`0x9367A0c482703d8d9bda995B03f8E71056a72500`](https://megaeth.blockscout.com/address/0x9367A0c482703d8d9bda995B03f8E71056a72500) |
 | [Oracle.sol](https://github.com/SIR-trading/Core/blob/master/src/Oracle.sol) | [`0x4edF071a7dEe52fBE663DF7873994725ba91Cdc7`](https://megaeth.blockscout.com/address/0x4edF071a7dEe52fBE663DF7873994725ba91Cdc7) |
-| [SystemControl.sol](https://github.com/SIR-trading/Core/blob/master/src/SystemControl.sol) | [`0x549618c8E4b74f9eB319e459698b2CaF53dA0453`](https://megaeth.blockscout.com/address/0x549618c8E4b74f9eB319e459698b2CaF53dA0453) |
+| [SystemControl.sol](https://github.com/SIR-trading/Core/blob/master/src/SystemControl.sol) | [`0x549618c8E4b74f9eB519e459698b2CaF53dA0453`](https://megaeth.blockscout.com/address/0x549618c8E4b74f9eB519e459698b2CaF53dA0453) |
 | [Contributors.sol](https://github.com/SIR-trading/Core/blob/master/src/Contributors.sol) | [`0x686748764c5C7Aa06FEc784E60D14b650bF79129`](https://megaeth.blockscout.com/address/0x686748764c5C7Aa06FEc784E60D14b650bF79129) |
 | [Assistant.sol](https://github.com/SIR-trading/Periphery/blob/main/src/Assistant.sol) | [`0xB91AE2c8365FD45030abA84a4666C4dB074E53E7`](https://megaeth.blockscout.com/address/0xB91AE2c8365FD45030abA84a4666C4dB074E53E7) |
 
