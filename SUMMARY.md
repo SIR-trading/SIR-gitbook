@@ -22,7 +22,6 @@
 * [⚠️ Security](protocol-overview/security-and-risks/user-risks.md)
   * [🔒 Audits](protocol-overview/security-and-risks/audits.md)
   * [🧪 Beta Period](protocol-overview/security-and-risks/beta-period.md)
-  * [🐛 Bug Bounty](protocol-overview/security-and-risks/bug-bounty.md)
   * [💥 Exploit & Relaunch](protocol-overview/exploit-and-relaunch.md)
 
 ## Links

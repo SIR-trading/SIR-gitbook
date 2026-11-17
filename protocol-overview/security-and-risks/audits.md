@@ -33,6 +33,5 @@ All audit reports are available at [sir.trading/audits](https://www.sir.trading/
 
 Security is an ongoing commitment. In addition to audits, SIR maintains:
 
-- A [Bug Bounty](bug-bounty.md) program rewarding high and critical vulnerability disclosures
 - A [Beta Period](beta-period.md) with protocol state controls (Emergency Mode, Shutdown) as safety guardrails
 - Immutable, non-upgradable core contracts — once deployed, the code cannot be changed
